@@ -1,7 +1,7 @@
 <?php
 include_once("/var/www/html/subctr.popularliving.com/subctr/functions.php");
 include_once("../../../includes/paths.php");
-mysql_select_db('newsletter_templates');
+mysql_select_db('newsletter_templates_stage');
 
 iconv_set_encoding("input_encoding", "UTF-8");
 iconv_set_encoding("internal_encoding", "UTF-8");

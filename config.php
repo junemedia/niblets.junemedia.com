@@ -1,5 +1,7 @@
 <?php
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
 
 //echo 'exit';
 //exit;
@@ -30,33 +32,33 @@ $host = "64.132.70.150"; //2nd slave
 
 //Legacy host/user/pass
 
-$host = "8ec3cdb8845732ea5bbc2a32fa2a87d52453102e.rackspaceclouddb.com";
-$dbase = "nibbles" ;
-$user = "jingshi" ;
-$pass = "kendeji12306!" ;
+$host = "a525a02442eb32ce6698509dc480168c11ae2a4f.rackspaceclouddb.com";
+$dbase = "nibbles_stage" ;
+$user = "nibbles_stage" ;
+$pass = "gSMrxr94NY6Kox}" ;
 
 // only select privileges user:lees passwd:ls!28#di
 
 
 //Legacy reporting host/user/pass
-$reportingHost = "8ec3cdb8845732ea5bbc2a32fa2a87d52453102e.rackspaceclouddb.com";
-$reportingDbase = "nibbles";
-$reportingUser = "jingshi";
-$reportingPass = "kendeji12306!";
+$reportingHost = "a525a02442eb32ce6698509dc480168c11ae2a4f.rackspaceclouddb.com";
+$reportingDbase = "nibbles_stage";
+$reportingUser = "nibbles_stage";
+$reportingPass = "gSMrxr94NY6Kox}";
 //mysql_connect ($reportingHost, $reportingUser, $reportingPass);
 
 
 //New host/user/pass
-define('newHost', "8ec3cdb8845732ea5bbc2a32fa2a87d52453102e.rackspaceclouddb.com");
-define('newdbase', "nibbles");
-define('newUser', "jingshi");
-define('newPass', "kendeji12306!");
+define('newHost', "a525a02442eb32ce6698509dc480168c11ae2a4f.rackspaceclouddb.com");
+define('newdbase', "nibbles_stage");
+define('newUser', "nibbles_stage");
+define('newPass', "gSMrxr94NY6Kox}");
 
 //New reporting host/user/pass
-define('newReportingHost', "8ec3cdb8845732ea5bbc2a32fa2a87d52453102e.rackspaceclouddb.com");
-define('newReportingDbase', "nibbles");
-define('newReportingUser', "jingshi");
-define('newReportingPass',"kendeji12306!");
+define('newReportingHost', "a525a02442eb32ce6698509dc480168c11ae2a4f.rackspaceclouddb.com");
+define('newReportingDbase', "nibbles_stage");
+define('newReportingUser', "nibbles_stage");
+define('newReportingPass',"gSMrxr94NY6Kox}");
 
 
 

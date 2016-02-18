@@ -2,7 +2,7 @@
 
 include_once("../../../includes/paths.php");
 include_once("/var/www/html/subctr.popularliving.com/subctr/functions.php");
-mysql_select_db('newsletter_templates');
+mysql_select_db('newsletter_templates_stage');
 require_once("template_class.php");
 
 if ($iId == '' || !ctype_digit($iId)) {

@@ -24,8 +24,8 @@ date_default_timezone_set('America/Chicago');
 
 // Initialize the DB connection
 global $db_link;
-$db_link = mysql_connect ("8ec3cdb8845732ea5bbc2a32fa2a87d52453102e.rackspaceclouddb.com", "jingshi", "kendeji12306!");
-mysql_select_db('arcamax',$db_link);
+$db_link = mysql_connect ("a525a02442eb32ce6698509dc480168c11ae2a4f.rackspaceclouddb.com", "nibbles_stage", "gSMrxr94NY6Kox}");
+mysql_select_db('arcamax_stage',$db_link);
 
 
 ?>

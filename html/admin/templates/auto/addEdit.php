@@ -1,7 +1,7 @@
 <?php
 
 include_once("../../../includes/paths.php");
-mysql_select_db('newsletter_templates');
+mysql_select_db('newsletter_templates_stage');
 
 $refresh = '';
 $error = '';
