@@ -1,6 +1,6 @@
 <?php
 
-ini_set('display_errors', 1);
+//ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
 //echo 'exit';
@@ -162,7 +162,7 @@ reset($aGblSiteNames);
 $sGblImageServerSiteRoot = "http://images.popularliving.com";
 
 //$nbSiteRoot = $siteRoot."/nibbles";
-$sGblAdminSiteRoot = "http://admin.popularliving.com/admin";
+$sGblAdminSiteRoot = "http://stage.popularliving.com/admin";
 
 $sGblExportReportUrl = "http://admin.popularliving.com";
 /*************    NOTE    ********************/
