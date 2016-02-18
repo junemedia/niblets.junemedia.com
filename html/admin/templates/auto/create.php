@@ -93,6 +93,7 @@ if ($initSubmit == 'Get Sweeps') {
 <html>
 <head>
 <title>Generate Newsletter</title>
+<link rel="stylesheet" href="<?php echo $sGblAdminSiteRoot;?>/styles.css" type="text/css" >
 <style>
 * {
 	font-family: verdana;
@@ -131,7 +132,7 @@ to push updates and replace jobid tag from template with campaignId.  this is im
 */ ?>
 <iframe src="push_campaign.php?iId=<?php echo $iId; ?>" id="iframe2" frameborder="0" scrolling="No" width="1" height="1"></iframe>
 <?php } ?>
-<table align="center" cellpadding="5" cellspacing="5" style="border:1px solid #383838;">
+<table align="center" cellpadding="5" cellspacing="5" style="border:1px solid #383838;background-color: #fff">
 <tr>
 	<td valign="top">
 		<table cellpadding="5" cellspacing="5" style="border: 1px solid #383838;">
