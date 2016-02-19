@@ -33,7 +33,7 @@ include this file in a script
 	$sLoginLink = "<a href='$sGblAdminSiteRoot/login.php'>Login</a>";	
 }*/
 
-$sLogoutLink = "Logged In : ".$_SERVER['PHP_AUTH_USER'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='phpinfo.php' target='_blank'>PHP Info</a>";
+$sLogoutLink = "Logged In : ".$_SERVER['PHP_AUTH_USER'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='$sGblAdminSiteRoot/phpinfo.php' target='_blank'>PHP Info</a>";
 
 if ($iParentMenuId) {
 	// Get the folder of parent menu
