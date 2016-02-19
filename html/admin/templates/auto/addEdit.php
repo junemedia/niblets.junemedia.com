@@ -5,7 +5,7 @@ mysql_select_db('newsletter_templates_stage');
 
 $refresh = '';
 $error = '';
-if ($submit == 'Add/Update') {
+if (isset($submit) && $submit == 'Add/Update') {
 	// process only if there are no errors
 	if ($error == '') {
 		if ($iId == '') {	// INSERT
@@ -70,7 +70,7 @@ if ($submit == 'Add/Update') {
 }
 
 
-if ($iId != '') {
+if (isset($iID) && $iId != '') {
 	// PULL DATA FROM DB AND FILL BELOW FORM
 	$get_data_result = mysql_query("SELECT * FROM automated WHERE id = \"$iId\"");
 	while ($data_row = mysql_fetch_object($get_data_result)) {
@@ -98,7 +98,7 @@ $template_options = "";
 if ($handle = opendir('templates')) {
     while (false !== ($entry = readdir($handle))) {
         if ($entry != "." && $entry != "..") {
-        	if (strtolower($entry) == $template) { $selected = 'selected'; } else { $selected = ''; }
+        	if (isset($template) && strtolower($entry) == $template) { $selected = 'selected'; } else { $selected = ''; }
             $template_options .= "<option value='$entry' $selected>$entry</option>";
         }
     }
@@ -230,15 +230,15 @@ function populateFromName(val) {
 <font color="red"><?php echo $error; ?></font>
 </center>
 <form name='form1' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-<input type="hidden" value="<?php echo $iId; ?>" name="iId">
+<input type="hidden" value="<?php echo @$iId; ?>" name="iId">
 <table cellpadding="5" cellspacing="5" align="center">
 	<tr>
 		<td><b>Newsletter Subject Line</b>:</td>
-		<td><input type="text" maxlength="255" size="50" name="subject" id="subject" value="<?php echo $subject; ?>"></td>
+		<td><input type="text" maxlength="255" size="50" name="subject" id="subject" value="<?php echo @$subject; ?>"></td>
 	</tr>
 	<tr>
 		<td><b>Mailing Date</b>:</td>
-		<td><input type="text" maxlength="10" size="50" name="mailing_date" id="mailing_date" value="<?php echo $mailing_date; ?>"> (YYYY-MM-DD)</td>
+		<td><input type="text" maxlength="10" size="50" name="mailing_date" id="mailing_date" value="<?php echo @$mailing_date; ?>"> (YYYY-MM-DD)</td>
 	</tr>
 	<tr>
 		<td><b>Template</b>:</td>
@@ -255,31 +255,31 @@ function populateFromName(val) {
 	</tr>
 	<tr>
 		<td><b>Campaign Name</b>:</td>
-		<td><input type="text" maxlength="255" size="50" name="campaign_name" id="campaign_name" value="<?php echo $campaign_name; ?>"></td>
+		<td><input type="text" maxlength="255" size="50" name="campaign_name" id="campaign_name" value="<?php echo @$campaign_name; ?>"></td>
 	</tr>
 	<tr>
 		<td><b>From Name</b>:</td>
-		<td><input type="text" maxlength="255" size="50" name="from_name" id="from_name" value="<?php echo $from_name; ?>"></td>
+		<td><input type="text" maxlength="255" size="50" name="from_name" id="from_name" value="<?php echo @$from_name; ?>"></td>
 	</tr>
 	<tr>
 		<td><b>From Email</b>:</td>
 		<td><!-- from_email_id value must be obtained from Campaigner -->
 			<select name="from_email_id" id="from_email_id">
-				<option value="5080120" <?php if ($from_email_id == '5080120') { echo 'selected'; } ?>>R4L@recipe4living-recipes.com</option>
-				<option value="5080118" <?php if ($from_email_id == '5080118') { echo 'selected'; } ?>>email@workitmom-newsletter.com</option>
-				<option value="5080119" <?php if ($from_email_id == '5080119') { echo 'selected'; } ?>>email@fitandfabliving-newsletter.com</option>
-                                <option value="5169791" <?php if ($from_email_id == '5169791') { echo 'selected'; } ?>>betterrecipes@email.betterrecipes.com</option>
-			</select>
+				<option value="5080120" <?php if (@$from_email_id == '5080120') { echo 'selected'; } ?>>R4L@recipe4living-recipes.com</option>
+				<option value="5080118" <?php if (@$from_email_id == '5080118') { echo 'selected'; } ?>>email@workitmom-newsletter.com</option>
+				<option value="5080119" <?php if (@$from_email_id == '5080119') { echo 'selected'; } ?>>email@fitandfabliving-newsletter.com</option>
+        <option value="5169791" <?php if (@$from_email_id == '5169791') { echo 'selected'; } ?>>betterrecipes@email.betterrecipes.com</option>
+    </select>
 		</td>
 	</tr>
 	<tr>
 		<td><b>Reply Email</b>:</td>
 		<td><!-- reply_email_id value must be obtained from Campaigner -->
 			<select name="reply_email_id" id="reply_email_id">
-				<option value="5080120" <?php if ($reply_email_id == '5080120') { echo 'selected'; } ?>>R4L@recipe4living-recipes.com</option>
-				<option value="5080118" <?php if ($reply_email_id == '5080118') { echo 'selected'; } ?>>email@workitmom-newsletter.com</option>
-				<option value="5080119" <?php if ($reply_email_id == '5080119') { echo 'selected'; } ?>>email@fitandfabliving-newsletter.com</option>
-                                <option value="5173458" <?php if ($reply_email_id == '5173458') { echo 'selected'; } ?>>betterrecipes@junemedia.com</option>
+				<option value="5080120" <?php if (@$reply_email_id == '5080120') { echo 'selected'; } ?>>R4L@recipe4living-recipes.com</option>
+				<option value="5080118" <?php if (@$reply_email_id == '5080118') { echo 'selected'; } ?>>email@workitmom-newsletter.com</option>
+				<option value="5080119" <?php if (@$reply_email_id == '5080119') { echo 'selected'; } ?>>email@fitandfabliving-newsletter.com</option>
+        <option value="5173458" <?php if (@$reply_email_id == '5173458') { echo 'selected'; } ?>>betterrecipes@junemedia.com</option>
 			</select>
 		</td>
 	</tr>
@@ -294,16 +294,16 @@ function populateFromName(val) {
 				</tr>
 				<tr>
 					<td><b>Add To Newsletter Archive System:</b>:</td>
-					<td><input type="radio" name="enable" id="enableY" value="Y" <?php if ($enable == 'Y') { echo 'checked'; }?>> Yes
-					<input type="radio" name="enable" id="enableN" value="N" <?php if ($enable == '' || $enable == 'N') { echo 'checked'; }?>> No</td>
+					<td><input type="radio" name="enable" id="enableY" value="Y" <?php if (@$enable == 'Y') { echo 'checked'; }?>> Yes
+					<input type="radio" name="enable" id="enableN" value="N" <?php if (@$enable == '' || $enable == 'N') { echo 'checked'; }?>> No</td>
 				</tr>
 				<tr>
 					<td><b>Meta Keywords</b>:</td>
-					<td><input type="text" maxlength="255" size="50" name="meta_keywords" id="meta_keywords" value="<?php echo $meta_keywords; ?>"></td>
+					<td><input type="text" maxlength="255" size="50" name="meta_keywords" id="meta_keywords" value="<?php echo @$meta_keywords; ?>"></td>
 				</tr>
 				<tr>
 					<td><b>Meta Desc</b>:</td>
-					<td><input type="text" maxlength="255" size="50" name="meta_desc" id="meta_desc" value="<?php echo $meta_desc; ?>"></td>
+					<td><input type="text" maxlength="255" size="50" name="meta_desc" id="meta_desc" value="<?php echo @$meta_desc; ?>"></td>
 				</tr>
 			</table>
 		</td>

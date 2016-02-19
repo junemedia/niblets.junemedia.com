@@ -31,7 +31,7 @@ $rMenuResult = dbQuery($sMenuQuery);
 
 $iNum = 0;
 while ($oMenuRow = dbFetchObject($rMenuResult)) {
-  if ($oMenuRow->category != $sOldCategory || $sOldCategory == '') {
+  if (isset($sOldCategory) && ($oMenuRow->category != $sOldCategory || $sOldCategory == '')) {
     if ($iNum%2 != 0)
     $sMenuList .= "<td bgcolor = \"eeeeee\">&nbsp;</tD>";
     $sMenuList .= "</tr><tr>

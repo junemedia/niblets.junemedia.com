@@ -1,11 +1,13 @@
 <?php
 include_once("/var/www/html/subctr.popularliving.com/subctr/functions.php");
 include_once("../../../includes/paths.php");
+
 mysql_select_db('newsletter_templates_stage');
 
 iconv_set_encoding("input_encoding", "UTF-8");
 iconv_set_encoding("internal_encoding", "UTF-8");
 iconv_set_encoding("output_encoding", "UTF-8");
+
 function generateImgUrl($url)
 {
 	if (!strstr($url,'media.campaigner.com')) {
@@ -22,8 +24,14 @@ function generateImgUrl($url)
 		}
 	}
 }
+
+// initialize default value
 $CreateUpdateCampaign = false;
-if ($submit == 'Generate') {
+
+// if "Generate" button was pushed, update the
+// `newsletter_templates`.`automated_map` table
+// with new/updated field values
+if (isset($submit) && $submit == 'Generate') {
 	$fields_name = explode(',',$fields_name);
 	foreach ($fields_name as $field) {
 		$val = addslashes($$field);
@@ -58,7 +66,7 @@ while ($oRow = mysql_fetch_object($rSelectResult)) {
         $NL_mailDate = $oRow->mailing_date;
 }
 
-if ($initSubmit == 'Get Sweeps') {
+if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
 	$rawPrizes = file_get_contents("http://win.betterrecipes.com/api/getPrize/$NL_mailDate");
 	$prizes = json_decode($rawPrizes); 
 	$sweepBaseUrl = 'http://win.betterrecipes.com/';

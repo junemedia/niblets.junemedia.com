@@ -7,7 +7,7 @@ session_start();
 $sList = '';
 
 $query_filter = "";
-if ($submit == 'Search...') {
+if (isset($submit) && $submit == 'Search...') {
 	if ($template != '') {
 		$query_filter .= " AND template = \"$template\"";
 	}
@@ -16,6 +16,7 @@ if ($submit == 'Search...') {
 
 $sSelectQuery = "SELECT * FROM automated WHERE 1=1 $query_filter ORDER BY id DESC LIMIT 50";
 $rSelectResult = dbQuery($sSelectQuery);
+$sBgcolorClass = 'EVEN';
 while ($oRow = dbFetchObject($rSelectResult)) {
 	if ($sBgcolorClass == "ODD") { 	$sBgcolorClass = "EVEN"; } else { 	$sBgcolorClass = "ODD";  }
 
@@ -38,18 +39,22 @@ include_once("../../../includes/adminHeader.php");
 
 $template_options = "<option></option>";
 if ($handle = opendir('templates')) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry != "." && $entry != "..") {
-        	if (strtolower($entry) == $template) { $selected = 'selected'; } else { $selected = ''; }
-            $template_options .= "<option value='$entry' $selected>$entry</option>";
-        }
+  while (false !== ($entry = readdir($handle))) {
+    if ($entry != "." && $entry != "..") {
+      if (isset($template) && $template == strtolower($entry)) {
+        $selected = 'selected';
+      } else {
+        $selected = '';
+      }
+      $template_options .= "<option value='$entry' $selected>$entry</option>";
     }
-    closedir($handle);
+  }
+  closedir($handle);
 }
 ?>
 
 <form name=form1 action='<?php echo $_SERVER['PHP_SELF'];?>' method="POST">
-<?php echo $sHidden;?>
+<?php echo @$sHidden;?>
 <table cellpadding='10' cellspacing='10' bgcolor=c9c9c9 width=75% align=center border="0">
 	<tr>
 		<td>Template: <select name="template" id="template"><?php echo $template_options; ?></select></td>

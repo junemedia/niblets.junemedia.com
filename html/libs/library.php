@@ -6,7 +6,9 @@
 // Using this $_SERVER['PHP_SELF'] in any link, the link will become bigger and bigger everytime you click it
 // So, use following variable instead of $_SERVER['PHP_SELF'] in the scripts with search engine friendly URLs
 
-$path = strpos($_SERVER['PHP_SELF'], $PATH_INFO);
+// jshearer 02/19/2016: $PATH_INFO doesn't seem to end up actually
+// doing anything, or ever get used anywhere, but leaving for now
+$path = strpos($_SERVER['PHP_SELF'], @$PATH_INFO);
 $NEW_PHP_SELF = substr($_SERVER['PHP_SELF'], 0, $path);
 
 // If $_SERVER['PHP_SELF'] does not contain any parameters, NEW_PHP_SELF will be null
