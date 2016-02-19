@@ -2,7 +2,7 @@
 
 include("../../includes/paths.php");
 session_start();
-mysql_select_db('newsletter_templates');
+mysql_select_db('newsletter_templates_stage');
 $user = $_SERVER['PHP_AUTH_USER'];
 
 
@@ -28,5 +28,3 @@ while ($recent_row = dbFetchObject($recent_result)) {
 	$recent_links .= "<a href='http://admin.popularliving.com/admin/templates/preview.php?id=".$recent_row->id."' target=_blank>$recent_row->id ($recent_row->dateTimeAdded, by $recent_row->username)</a><br>";
 }
 echo $recent_links;
-
-?>

@@ -5,7 +5,7 @@ include("../../../includes/paths.php");
 session_start();
 $sList = '';
 
-mysql_select_db('newsletter_templates');
+mysql_select_db('newsletter_templates_stage');
 
 $sSelectQuery = "SELECT * FROM slots ORDER BY id DESC LIMIT 300";
 $rSelectResult = dbQuery($sSelectQuery);

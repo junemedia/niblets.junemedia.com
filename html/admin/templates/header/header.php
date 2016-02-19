@@ -8,7 +8,7 @@ $sPageTitle = "Header Templates";
 
 session_start();
 
-mysql_select_db('newsletter_templates');
+mysql_select_db('newsletter_templates_stage');
 
 
 

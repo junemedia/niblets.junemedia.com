@@ -4,7 +4,7 @@ include("../../includes/paths.php");
 
 session_start();
 
-mysql_select_db('newsletter_templates');
+mysql_select_db('newsletter_templates_stage');
 
 if (!ctype_digit($id)) {
 	$id = '';
@@ -18,5 +18,3 @@ while ($oRow = dbFetchObject($rSelectResult)) {
 	echo $html_code;
 	exit;
 }
-
-?>
