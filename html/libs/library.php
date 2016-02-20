@@ -50,7 +50,7 @@ while (list($key,$val) = each($_POST)) {
 	//if ($val != '') {
 //		$sPage2QueryString .= "$key=".urlencode($val)."&";
 	//} else {
-		$sPage2QueryString .= "$key=$val&";
+		@$sPage2QueryString .= "$key=$val&";
 	//}
 	//}
 }
