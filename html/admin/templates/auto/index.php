@@ -65,7 +65,7 @@ if ($handle = opendir('templates')) {
 <table cellpadding='10' cellspacing='10' bgcolor=c9c9c9 width=75% align=center border="0">
 <tr>
 	<td colspan='4' align="right">
-		<a href='image.php' onclick="javascript:void window.open('image.php','add','width=800,height=600,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=50,top=50');return false;">Upload Image to Campaigner/Cloud/Akamai</a>
+		<!--a href='image.php' onclick="javascript:void window.open('image.php','add','width=800,height=600,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=50,top=50');return false;">Upload Image to Campaigner/Cloud/Akamai</a-->
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href='addEdit.php' onclick="javascript:void window.open('addEdit.php','add','width=700,height=700,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=50,top=50');return false;">Create New Newsletter</a>
 	</td>
