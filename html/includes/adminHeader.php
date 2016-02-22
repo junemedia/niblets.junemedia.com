@@ -64,7 +64,7 @@ if (@$iParentMenuId) {
 
 <td align ="center">
 
-<!--img src = "<?php echo $sGblAdminSiteRoot;?>/nibbles_header.gif"-->
+<img src="<?php echo $sGblAdminSiteRoot;?>/niblets-header.png" style="width:120px">
 
 </td>
 
