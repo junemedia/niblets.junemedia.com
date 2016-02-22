@@ -266,7 +266,7 @@ if ($handle = opendir('templates')) {
     }
   </script>
 </head>
-<body>
+<body style="background-color: #db6;">
   <center>
   <h3>Create Newsletter</h3>
   <font color="red"><?php echo $error; ?></font>
