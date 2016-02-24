@@ -1,6 +1,6 @@
 <?php
 
-include_once("/var/www/html/subctr.popularliving.com/subctr/functions.php");
+include_once("/var/www/html/admin.popularliving.com/subctr/functions.php");
 include_once("../../../includes/paths.php");
 
 mysql_select_db('newsletter_templates_stage');
@@ -150,7 +150,8 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
    * important so keep this hidden iframe. it will not harm.
    */
   if ($CreateUpdateCampaign == true) { ?>
-  <iframe src="push_campaign.php?iId=<?php echo $iId; ?>" id="iframe2" frameborder="0" scrolling="No" width="1" height="1"></iframe>
+  <!--iframe src="push_campaign.php?iId=<?php echo $iId; ?>" id="iframe2" frameborder="0" scrolling="No" width="1" height="1"></iframe-->
+  <iframe src="push_campaign.php?iId=<?php echo $iId; ?>" id="iframe2" frameborder="0"></iframe>
   <?php } ?>
 
   <table align="center" cellpadding="5" cellspacing="5" style="border:1px solid #383838;background-color: #fff">
