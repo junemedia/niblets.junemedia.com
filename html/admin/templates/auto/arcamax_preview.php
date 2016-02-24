@@ -3,7 +3,7 @@
 include_once("../../../includes/paths.php");
 
 
-mysql_select_db('newsletter_templates_stage');
+mysql_select_db('maropost');
 
 require_once("template_class.php");
 

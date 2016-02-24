@@ -6,7 +6,7 @@ session_start();
 
 $sPageTitle = "Slots Templates";
 
-mysql_select_db('newsletter_templates_stage');
+mysql_select_db('maropost');
 
 if ($sSave1 || $sSave2 || $sSave3 || $sSave4 || $sSave5 || $sSave6 || $sSave7 || $sSave8) {
 	if ($title == '' || $name == '') {
