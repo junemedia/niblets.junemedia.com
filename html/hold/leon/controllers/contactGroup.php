@@ -9,7 +9,7 @@ function CampaignListContactGroups(){
                            'compression'=> SOAP_COMPRESSION_ACCEPT | SOAP_COMPRESSION_GZIP,'soap_version'=> 'SOAP_1_1','trace' => true,'connection_timeout' => 300));
     $response = $client->ListContactGroups(
                                         Array(
-                                            'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>'zhijiage209H@0')
+                                            'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>'')
                                         )
                                 );
     return $client->__getLastResponse();

@@ -35,7 +35,7 @@ function CreateUpdateCampaign ($data_array) {
     Array(
       'authentication' => array(
         'Username' => 'api@junemedia.dom',
-        'Password' => 'zhijiage209H@0'
+        'Password' => ''
       ),
       'campaignData' => Array(
         'Id' => $campaign_id,
@@ -66,7 +66,7 @@ function CreateUpdateCampaign ($data_array) {
   $tt = Array(
     'authentication' => array(
       'Username' => 'api@junemedia.dom',
-      'Password' => 'zhijiage209H@0'
+      'Password' => ''
     ),
     'campaignData' => Array(
       'Id' => $campaign_id,
@@ -113,7 +113,7 @@ function ListMediaFilesCampaigner() {
   $client = new SoapClient('https://ws.campaigner.com/2013/01/contentmanagement.asmx?WSDL',  array('exceptions' => false,
                'compression'=> SOAP_COMPRESSION_ACCEPT | SOAP_COMPRESSION_GZIP,'soap_version'=> 'SOAP_1_1','trace' => true,'connection_timeout' => 300));
   $response = $client->ListMediaFiles(Array(
-      'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>'zhijiage209H@0'),
+      'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>''),
       ));
   return $client->__getLastResponse();
 }
@@ -141,7 +141,7 @@ function UploadMediaFileCampaigner($image) {
     Array(
       'authentication' => array(
         "Username"=>'api@junemedia.dom',
-        "Password"=>'zhijiage209H@0'
+        "Password"=>''
       ),
       'fileName' => basename($image_file_name),
       'fileContentBase64' => base64_encode(file_get_contents($image)),
@@ -297,7 +297,7 @@ function sendToCampaigner ($data_array) {
         }
 
   $response = $client->ImmediateUpload(Array(
-      'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>'zhijiage209H@0'),
+      'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>''),
       'UpdateExistingContacts' => true,
       'TriggerWorkflow' => false,
       'contacts' => Array(
@@ -361,7 +361,7 @@ function updateCampaignerOpenX ($data_array) {
     $contactId = $data_array['ContactId'];        if ($contactId == '') { $contactId = 0; }
 
     $response = $client->ImmediateUpload(Array(
-        'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>'zhijiage209H@0'),
+        'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>''),
         'UpdateExistingContacts' => true,
         'TriggerWorkflow' => false,
         'contacts' => Array(

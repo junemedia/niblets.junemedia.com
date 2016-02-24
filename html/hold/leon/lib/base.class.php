@@ -8,7 +8,7 @@ require_once("functions.php");
 */
 class CampaignClientModel{
     protected $_client = false;
-    protected $_authorization = array("Username"=>'api@junemedia.dom',"Password"=>'zhijiage209H@0');
+    protected $_authorization = array("Username"=>'api@junemedia.dom',"Password"=>'');
     protected $_responseStacks = array();
     public function throwErrorResponse(){
         $response = $this->_client->__getLastResponse();

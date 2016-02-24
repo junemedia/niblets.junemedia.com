@@ -145,7 +145,7 @@ function sendSweepsToCampaigner ($data_array) {
          */
         
 	$response = $client->ImmediateUpload(Array(
-	    'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>'zhijiage209H@0'),
+	    'authentication' => array("Username"=>'api@junemedia.dom',"Password"=>''),
 	    'UpdateExistingContacts' => true,
 	    'TriggerWorkflow' => false,
 	    'contacts' => Array(
