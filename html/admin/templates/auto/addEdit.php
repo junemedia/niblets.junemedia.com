@@ -1,12 +1,20 @@
 <?php
 
+/*
+ * this page doesn't make any api calls, just database
+ */ 
+
 include_once("../../../includes/paths.php");
 mysql_select_db('maropost');
 
+// default values
 $refresh = '';
 $error = '';
+
+// got here via submit button
 if (isset($submit) && $submit == 'Add/Update') {
-  // process only if there are no errors
+  // process only if there are no errors, though I can't see where
+  // an error would be getting set
   if ($error == '') {
     if ($iId == '') {
       // No id means new newsletter
@@ -18,6 +26,28 @@ if (isset($submit) && $submit == 'Add/Update') {
       $enable = addslashes($enable);
       $meta_keywords = addslashes($meta_keywords);
       $meta_desc = addslashes($meta_desc);
+
+
+      /*
+
+       Maropost contets api fields
+       ---------------------------
+      "id": 344309
+      "account_id": 694
+      "name": "API TEST 02"
+      "html_part": "<!DOCTYPE html> <html><body><p style="font-weight: bold;"><a href="http://www.recipe4living.com" data-mp-url-id="3ca9dd21b86d1c51d08c56774c7a2e4faa90ccf0">Test 02</a></p></body></html> "
+      "text_part": null
+      "created_at": "2016-02-23T15:18:08.000-05:00"
+      "updated_at": "2016-02-23T15:48:40.000-05:00"
+      "content_template_id": null
+      "pull_url": null
+      "footer_type": null
+      "footer_id": null
+      "folder_id": null
+      "content_feed_id": null
+      "total_pages": 1
+
+      */
 
       $insert = "INSERT IGNORE INTO automated (
                     subject,
@@ -42,7 +72,7 @@ if (isset($submit) && $submit == 'Add/Update') {
                     \"$reply_email_id\",
                     \"$campaign_name\")";
       $result = mysql_query($insert);
-      var_dump($result);
+      //var_dump($result);
       echo mysql_error();
 
       $iId = mysql_insert_id();
@@ -67,7 +97,7 @@ if (isset($submit) && $submit == 'Add/Update') {
     }
   }
 
-  // read template and find all of the input fields
+  // read template and find all of the variable tags
   $html = file_get_contents("templates/$template");
   preg_match_all("/\[.*?\]/",$html,$fields);
   $tags = array_unique ( $fields[0] );
@@ -149,6 +179,8 @@ if ($handle = opendir('templates')) {
 
 
 ?>
+
+
 <html>
 <head>
   <title>Add New Newsletter</title>
@@ -268,92 +300,93 @@ if ($handle = opendir('templates')) {
 </head>
 <body style="background-color: #db6;">
   <center>
-  <h3>Create Newsletter</h3>
-  <font color="red"><?php echo $error; ?></font>
+    <h3>Create Newsletter</h3>
+    <font color="red"><?php echo $error; ?></font>
   </center>
+
   <form name='form1' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-  <input type="hidden" value="<?php echo @$iId; ?>" name="iId">
-  <table cellpadding="5" cellspacing="5" align="center">
-    <tr>
-      <td><b>Newsletter Subject Line</b>:</td>
-      <td><input type="text" maxlength="255" size="50" name="subject" id="subject" value="<?php echo @$subject; ?>"></td>
-    </tr>
-    <tr>
-      <td><b>Mailing Date</b>:</td>
-      <td><input type="text" maxlength="10" size="50" name="mailing_date" id="mailing_date" value="<?php echo @$mailing_date; ?>"> (YYYY-MM-DD)</td>
-    </tr>
-    <tr>
-      <td><b>Template</b>:</td>
-      <td><select name="template" id="template" onchange="populateFromName(this.value);">
-      <?php echo $template_options; ?>
-      </select><font size="1"><br>(selecting Template option will auto populate Default From Name and then you can change it if you like)</font>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">&nbsp;</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="color:red;">Below two fields are required for Campaigner</td>
-    </tr>
-    <tr>
-      <td><b>Campaign Name</b>:</td>
-      <td><input type="text" maxlength="255" size="50" name="campaign_name" id="campaign_name" value="<?php echo @$campaign_name; ?>"></td>
-    </tr>
-    <tr>
-      <td><b>From Name</b>:</td>
-      <td><input type="text" maxlength="255" size="50" name="from_name" id="from_name" value="<?php echo @$from_name; ?>"></td>
-    </tr>
-    <tr>
-      <td><b>From Email</b>:</td>
-      <td><!-- from_email_id value must be obtained from Campaigner -->
-        <select name="from_email_id" id="from_email_id">
-          <option value="5080120" <?php if (@$from_email_id == '5080120') { echo 'selected'; } ?>>R4L@recipe4living-recipes.com</option>
-          <option value="5080118" <?php if (@$from_email_id == '5080118') { echo 'selected'; } ?>>email@workitmom-newsletter.com</option>
-          <option value="5080119" <?php if (@$from_email_id == '5080119') { echo 'selected'; } ?>>email@fitandfabliving-newsletter.com</option>
-          <option value="5169791" <?php if (@$from_email_id == '5169791') { echo 'selected'; } ?>>betterrecipes@email.betterrecipes.com</option>
-      </select>
-      </td>
-    </tr>
-    <tr>
-      <td><b>Reply Email</b>:</td>
-      <td><!-- reply_email_id value must be obtained from Campaigner -->
-        <select name="reply_email_id" id="reply_email_id">
-          <option value="5080120" <?php if (@$reply_email_id == '5080120') { echo 'selected'; } ?>>R4L@recipe4living-recipes.com</option>
-          <option value="5080118" <?php if (@$reply_email_id == '5080118') { echo 'selected'; } ?>>email@workitmom-newsletter.com</option>
-          <option value="5080119" <?php if (@$reply_email_id == '5080119') { echo 'selected'; } ?>>email@fitandfabliving-newsletter.com</option>
-          <option value="5173458" <?php if (@$reply_email_id == '5173458') { echo 'selected'; } ?>>betterrecipes@junemedia.com</option>
+    <input type="hidden" value="<?php echo @$iId; ?>" name="iId">
+    <table cellpadding="5" cellspacing="5" align="center">
+      <tr>
+        <td><b>Newsletter Subject Line</b>:</td>
+        <td><input type="text" maxlength="255" size="50" name="subject" id="subject" value="<?php echo @$subject; ?>"></td>
+      </tr>
+      <tr>
+        <td><b>Mailing Date</b>:</td>
+        <td><input type="text" maxlength="10" size="50" name="mailing_date" id="mailing_date" value="<?php echo @$mailing_date; ?>"> (YYYY-MM-DD)</td>
+      </tr>
+      <tr>
+        <td><b>Template</b>:</td>
+        <td><select name="template" id="template" onchange="populateFromName(this.value);">
+        <?php echo $template_options; ?>
+        </select><font size="1"><br>(selecting Template option will auto populate Default From Name and then you can change it if you like)</font>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="color:red;">Below two fields are required for Campaigner</td>
+      </tr>
+      <tr>
+        <td><b>Campaign Name</b>:</td>
+        <td><input type="text" maxlength="255" size="50" name="campaign_name" id="campaign_name" value="<?php echo @$campaign_name; ?>"></td>
+      </tr>
+      <tr>
+        <td><b>From Name</b>:</td>
+        <td><input type="text" maxlength="255" size="50" name="from_name" id="from_name" value="<?php echo @$from_name; ?>"></td>
+      </tr>
+      <tr>
+        <td><b>From Email</b>:</td>
+        <td><!-- from_email_id value must be obtained from Campaigner -->
+          <select name="from_email_id" id="from_email_id">
+            <option value="5080120" <?php if (@$from_email_id == '5080120') { echo 'selected'; } ?>>R4L@recipe4living-recipes.com</option>
+            <option value="5080118" <?php if (@$from_email_id == '5080118') { echo 'selected'; } ?>>email@workitmom-newsletter.com</option>
+            <option value="5080119" <?php if (@$from_email_id == '5080119') { echo 'selected'; } ?>>email@fitandfabliving-newsletter.com</option>
+            <option value="5169791" <?php if (@$from_email_id == '5169791') { echo 'selected'; } ?>>betterrecipes@email.betterrecipes.com</option>
         </select>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">&nbsp;</td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <table style="border: 1px solid #383838;">
-          <tr>
-            <td colspan="2" align="center"><b>Below Fields Are For R4L Newsletters Only</b></td>
-          </tr>
-          <tr>
-            <td><b>Add To Newsletter Archive System:</b>:</td>
-            <td><input type="radio" name="enable" id="enableY" value="Y" <?php if (@$enable == 'Y') { echo 'checked'; }?>> Yes
-            <input type="radio" name="enable" id="enableN" value="N" <?php if (@$enable == '' || $enable == 'N') { echo 'checked'; }?>> No</td>
-          </tr>
-          <tr>
-            <td><b>Meta Keywords</b>:</td>
-            <td><input type="text" maxlength="255" size="50" name="meta_keywords" id="meta_keywords" value="<?php echo @$meta_keywords; ?>"></td>
-          </tr>
-          <tr>
-            <td><b>Meta Desc</b>:</td>
-            <td><input type="text" maxlength="255" size="50" name="meta_desc" id="meta_desc" value="<?php echo @$meta_desc; ?>"></td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center"><input type="submit" name="submit" value="Add/Update" onclick="return check_fields();"></td>
-    </tr>
-  </table>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Reply Email</b>:</td>
+        <td><!-- reply_email_id value must be obtained from Campaigner -->
+          <select name="reply_email_id" id="reply_email_id">
+            <option value="5080120" <?php if (@$reply_email_id == '5080120') { echo 'selected'; } ?>>R4L@recipe4living-recipes.com</option>
+            <option value="5080118" <?php if (@$reply_email_id == '5080118') { echo 'selected'; } ?>>email@workitmom-newsletter.com</option>
+            <option value="5080119" <?php if (@$reply_email_id == '5080119') { echo 'selected'; } ?>>email@fitandfabliving-newsletter.com</option>
+            <option value="5173458" <?php if (@$reply_email_id == '5173458') { echo 'selected'; } ?>>betterrecipes@junemedia.com</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <table style="border: 1px solid #383838;">
+            <tr>
+              <td colspan="2" align="center"><b>Below Fields Are For R4L Newsletters Only</b></td>
+            </tr>
+            <tr>
+              <td><b>Add To Newsletter Archive System:</b>:</td>
+              <td><input type="radio" name="enable" id="enableY" value="Y" <?php if (@$enable == 'Y') { echo 'checked'; }?>> Yes
+              <input type="radio" name="enable" id="enableN" value="N" <?php if (@$enable == '' || $enable == 'N') { echo 'checked'; }?>> No</td>
+            </tr>
+            <tr>
+              <td><b>Meta Keywords</b>:</td>
+              <td><input type="text" maxlength="255" size="50" name="meta_keywords" id="meta_keywords" value="<?php echo @$meta_keywords; ?>"></td>
+            </tr>
+            <tr>
+              <td><b>Meta Desc</b>:</td>
+              <td><input type="text" maxlength="255" size="50" name="meta_desc" id="meta_desc" value="<?php echo @$meta_desc; ?>"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><input type="submit" name="submit" value="Add/Update" onclick="return check_fields();"></td>
+      </tr>
+    </table>
   </form>
   * Once newsletter is created, you cannot delete it.
   <?php echo $refresh; ?>
