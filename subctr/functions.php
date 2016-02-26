@@ -138,6 +138,7 @@ function addImageToLibrary($imgURL) {
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
   curl_setopt($ch, CURLOPT_HTTPHEADER, $api_headers);
   $response = curl_exec($ch);
+  curl_close($ch);
 
   //mail('johns@junemedia.com','rest request',$response);
 
