@@ -3,6 +3,32 @@
 include_once("JSON.php");
 */
 
+// jshearer 02/23/2106: log the html that's actually getting sent to
+// Campaigner; this should just be temporary during this transition to
+// Maropost
+function writeToLog($data) {
+  $logfile = '/var/www/html/admin.popularliving.com/html/admin/templates/auto/logs/createUpdate.log';
+  $logentry  = "\n----------------------------------------------------------------------------\n";
+  $logentry .= date("Y-m-d H:i:s");
+  $logentry .= "\n----------------------------------------------------------------------------\n";
+  $logentry .= $data;
+  $logentry .= "\n\n\n";
+
+  if (is_writable($logfile)) {
+    if (!$fh = fopen($logfile, 'a')) {
+      return "Cannot open file ($logfile)";
+    }
+    if (fwrite($fh, $logentry) === FALSE) {
+      return "Cannot write to file ($logfile)";
+    }
+    fclose($fh);
+  } else {
+    return "$logfile is not writable";
+  }
+  return;
+}
+
+// campaigner's system includes html as part of the campaign
 function CreateUpdateCampaign ($data_array) {
   $opts = array(
     'ssl' => array(
@@ -60,35 +86,6 @@ function CreateUpdateCampaign ($data_array) {
 
   $r = $client->__getLastResponse();
 
-  // jshearer 02/21/2016: don't believe this does anything or gets used
-  // anywhere
-  /*
-  $tt = Array(
-    'authentication' => array(
-      'Username' => 'api@junemedia.dom',
-      'Password' => ''
-    ),
-    'campaignData' => Array(
-      'Id' => $campaign_id,
-      'CampaignName' => $campaign_name,
-      'CampaignSubject' => $subject_line,
-      'CampaignFormat' => 'HTML',
-      'Status' => 'Complete',
-      'CampaignType' => 'None',
-      'HtmlContent' => $html_code,
-      'FromName' => $from_name,
-      'FromEmailId' => $from_email_id,
-      'ReplyEmailId' => $reply_email_id,
-      'TrackReplies' => false,
-      'AutoReplyMessageId' => '0',
-      'ProjectId' => 0,
-      'IsWelcomeCampaign' => false,
-      'DateModified' => date(DATE_ATOM),
-      'Encoding' => 'UTF_8'
-    )
-  );
-  */
-
   // error notification email
   $headers = 'From: johns@junemedia.com' . "\r\n" . 'Reply-To: johns@junemedia.com';
   $mailList = 'johns@junemedia.com';
@@ -119,6 +116,35 @@ function ListMediaFilesCampaigner() {
 }
 */
 
+function addImageToLibrary($imgURL) {
+  $payload = array(
+    "content_image" => array(
+      "image_url" => $imgURL
+    )
+  );
+  $payload = json_encode($payload);
+
+  $api_key = 'c300eeefb54ee6e746260585befa15a10a947a86';
+  $api_root = 'http://api.maropost.com/accounts/694';
+  $api_endpoint = 'content_images/upload.json';
+  $api_headers = array(
+    'Accept: application/json',
+    'Content-Type: application/json'
+  );
+
+  $ch = curl_init("$api_root/$api_endpoint?auth_token=$api_key");
+  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($ch, CURLOPT_HTTPHEADER, $api_headers);
+  $response = curl_exec($ch);
+
+  //mail('johns@junemedia.com','rest request',$response);
+
+  return json_decode($response);
+}
+
+/*
 function UploadMediaFileCampaigner($image) {
   if (strlen(basename($image)) >= 45) {
     $image_file_name = substr(md5(uniqid(rand(), true)), 0, 10).substr(basename($image), -40);
@@ -150,7 +176,6 @@ function UploadMediaFileCampaigner($image) {
   return $client->__getLastResponse();
 }
 
-/*
 
 function getLocationByIp($ipaddr)
 {

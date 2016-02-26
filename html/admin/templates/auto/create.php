@@ -108,31 +108,7 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
     }
   </style>
   <script src="http://r4l.popularliving.com/subctr/js/ajax.js"></script>
-  <script>
-    // upload image to Campaigner media library and update form field
-    // with returned asset url
-    function move_image_to_cloud(key) {
-      var value = document.getElementById(key).value;
-      if (value != '') {
-        if (value.indexOf("media.campaigner.com") != -1) {
-          return true;
-        } else {
-          if (value.toUpperCase().indexOf(".JPG") != -1 ||
-              value.toUpperCase().indexOf(".JPEG") != -1 ||
-              value.toUpperCase().indexOf(".GIF") != -1 ||
-              value.toUpperCase().indexOf(".PNG") != -1) {
-            response=coRegPopup.send('move_image_to_cloud.php?image=' + value, '');
-            if (response.indexOf("media.campaigner.com") != -1) {
-              document.getElementById(key).value = response.trim();
-            }
-          } else {
-            return true;
-          }
-        }
-      }
-      return true;
-    }
-  </script>
+  <script src="/admin/js/niblets.js"></script>
 </head>
 
 <body>
@@ -171,7 +147,7 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
                 <?php if (strstr($key,'ADS_') || strstr($key,'TEXT')) { ?>
                   <textarea name="<?php echo $key; ?>" id="<?php echo $key; ?>" cols="37" rows="5"><?php echo $value; ?></textarea>
                 <?php } else { ?>
-                  <input type="text" size="50" name="<?php echo $key; ?>" id="<?php echo $key; ?>" value="<?php echo $value; ?>" onblur="move_image_to_cloud('<?php echo $key; ?>');">
+                  <input type="text" size="50" name="<?php echo $key; ?>" id="<?php echo $key; ?>" value="<?php echo $value; ?>" onblur="addImageToLibrary('<?php echo $key; ?>');">
                 <?php } ?>
               </td>
             </tr>

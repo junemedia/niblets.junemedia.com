@@ -98,25 +98,7 @@ mysql_query($responseSql);
 // jshearer 02/23/2106: log the html that's actually getting sent to
 // Campaigner; this should just be temporary during this transition to
 // Maropost
-$logfile = 'logs/createUpdate.log';
-$logentry  = "\n----------------------------------------------------------------------------\n";
-$logentry .= date("Y-m-d H:i:s");
-$logentry .= "\n----------------------------------------------------------------------------\n";
-$logentry .= $html_code;
-$logentry .= "\n\n\n";
-
-if (is_writable($logfile)) {
-  if (!$fh = fopen($logfile, 'a')) {
-    echo "Cannot open file ($logfile)";
-  }
-  if (fwrite($fh, $logentry) === FALSE) {
-    echo "Cannot write to file ($logfile)";
-  }
-  fclose($fh);
-} else {
-  echo "$logfile is not writable";
-}
-
+echo writeToLog($html_code);
 
 // update the `automated` entry with campaign id, which may be new if
 // this is the first push of this newsletter instance
