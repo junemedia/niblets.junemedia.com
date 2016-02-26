@@ -4,11 +4,11 @@
 
 <?php
 
-reset($aGblSites);
+/* reset($aGblSites); */
 
-if( isset($_SESSION['reportsRunning']) && $_SESSION['reportsRunning'][$_SERVER['PHP_AUTH_USER']] == "1" ) {
-	$_SESSION['reportsRunning'][$_SERVER['PHP_AUTH_USER']] = "0";
-}
+/* if( isset($_SESSION['reportsRunning']) && $_SESSION['reportsRunning'][$_SERVER['PHP_AUTH_USER']] == "1" ) { */
+/* 	$_SESSION['reportsRunning'][$_SERVER['PHP_AUTH_USER']] = "0"; */
+/* } */
 
 ?>
 
