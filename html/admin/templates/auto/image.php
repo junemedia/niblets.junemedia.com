@@ -8,7 +8,9 @@
 }
 </style>
 <SCRIPT LANGUAGE=JavaScript SRC="http://r4l.popularliving.com/subctr/js/ajax.js" TYPE=text/javascript></script>
-<script language="JavaScript">
+<script>
+// upload image to Campaigner media library and update form field
+// with returned asset url
 function move_image_to_cloud(key) {
 	if (document.getElementById(key).value != '') {
 		if (document.getElementById(key).value.indexOf("media.campaigner.com") != -1) {

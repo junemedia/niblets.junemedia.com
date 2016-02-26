@@ -2,7 +2,7 @@
 
 /*
  * this page doesn't make any api calls, just database
- */ 
+ */
 
 include_once("../../../includes/paths.php");
 mysql_select_db('maropost');
@@ -30,7 +30,7 @@ if (isset($submit) && $submit == 'Add/Update') {
 
       /*
 
-       Maropost contets api fields
+       Maropost contents api fields
        ---------------------------
       "id": 344309
       "account_id": 694
@@ -138,6 +138,7 @@ if (isset($submit) && $submit == 'Add/Update') {
     $result = mysql_query($insert);
     echo mysql_error();
   }
+  // will refresh the parent window, i.e. Newsletters Automation
   $refresh = "<script>window.opener.location = '/admin/templates/auto/index.php';</script>";
 }
 

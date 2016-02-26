@@ -12,34 +12,42 @@ if ($iId == '' || !ctype_digit($iId)) {
   exit;
 }
 
+// find out which template to use
 $query = "SELECT * FROM automated WHERE id = '$iId'";
 $rSelectResult = mysql_query($query);
 echo mysql_error();
+// there should only be a single result...
 while ($oRow = mysql_fetch_object($rSelectResult)) {
   $template = $oRow->template;
 }
 $preview  = new Template("templates/$template");
 
+// populate template with values from database
 $query = "SELECT * FROM automated_map WHERE automated_id = '$iId'";
 $rSelectResult = mysql_query($query);
 echo mysql_error();
 while ($oRow = mysql_fetch_object($rSelectResult)) {
   // strip square brackets from tag_key
   $tag_key = str_replace(array('[', ']'), '', $oRow->tag_key);
+  // if we have a value, stick it in the template
   if ($oRow->tag_value != '') {
     $preview->set($tag_key, $oRow->tag_value);
   }
 }
-
+// getting a string of html
 $html_code = $preview->output();
-
+// not sure what some of these are in there for exactly, since they're
+// just getting stripped out
 $html_code = str_replace('REDIR:', '', $html_code);
 $html_code = str_replace("{opencount('<img src=\"{opct.url}\" width=\"1\" height=\"1\" border=\"0\" />')}",'',$html_code);
 $html_code = str_replace("{datetime(job.issuedate,'','%Y%m%d')}",date('Ymd'),$html_code);
 $html_code = str_replace('{to}','[Contact.Email]',$html_code);
 
 
+// get newsletter instance data from `automated`, insert job id into 
+// html, and create array with db info
 $get_data_result = mysql_query("SELECT * FROM automated WHERE id = \"$iId\"");
+// this should only run through a single time...
 while ($data_row = mysql_fetch_object($get_data_result)) {
   // if we already have a Campaigner id use that, otherwise use our
   // `automated` row id
@@ -60,9 +68,18 @@ while ($data_row = mysql_fetch_object($get_data_result)) {
   );
 }
 
+/*
+ * ********************************************************************
+ * Send new data to the remote system, ie Campaigner or Maropost
+ * ********************************************************************
+ */
+// pushes data to Campaigner, including the html content; if the
+// campaign doesn't already exist there, it will be created
 $create_result = CreateUpdateCampaign($data_array);
 $CampaignId = trim(getXmlValueByTag($create_result, 'CampaignId'));
 
+
+// no response, something went wrong
 if(trim($create_result) == ""){
     $message = "<p>Empty Server response! Could be the html content encoding error</p>";
     echo $message;
@@ -71,7 +88,7 @@ if(trim($create_result) == ""){
     //echo "</textarea></p>";
 }
 
-//Save campaigner response
+// Save campaigner response in db
 $responseSql = "INSERT INTO `campaignerResponse` (`id`, `campaignId`, `datetime`, `response`) VALUES
                 (NULL, '" . $data_array['campaign_id'] . "', NOW(), '$create_result')";
 mysql_query($responseSql);
@@ -101,9 +118,12 @@ if (is_writable($logfile)) {
 }
 
 
+// update the `automated` entry with campaign id, which may be new if
+// this is the first push of this newsletter instance
 if ($CampaignId !='' && ctype_digit($CampaignId)) {
   $get_data_result = mysql_query("UPDATE automated SET campaign_id=\"$CampaignId\" WHERE id = \"$iId\"");
 }
+
 
 echo trim(getXmlValueByTag($create_result,'ReturnMessage'))." => CampaignId: ".$CampaignId;
 echo "<br><br>";
