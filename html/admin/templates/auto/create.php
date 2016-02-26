@@ -10,19 +10,20 @@ iconv_set_encoding("internal_encoding", "UTF-8");
 iconv_set_encoding("output_encoding", "UTF-8");
 
 // upload an image to Campaigner library
-// duplicates templates/auto/move_image_to_cloud.php
-function generateImgUrl($url) {
-  if (!strstr($url,'media.campaigner.com')) {
-    $outputfile = 'upload_imgs/'.basename($url);
-    $output = shell_exec("wget '".$url."' -O '".$outputfile."' 2>&1");
-    $send_result = UploadMediaFileCampaigner(trim($outputfile));
+// duplicates templates/auto/addImageToLibrary.php
+function generateImgUrl($imageurl) {
+  if (!strstr($imageurl,'maropost.s3.amazonaws.com')) {
 
-    // check ReturnMessage for success status
-    if (strstr(strtolower(trim(getXmlValueByTag($send_result,'ReturnMessage'))),'success')) {
-      @unlink($outputfile);
-      return trim(getXmlValueByTag($send_result,'FileURL'));
-    } else {
-      return '';
+    // expecting to get back an object here
+    $response = addImageToLibrary($imageurl);
+
+    // if image_url is in response then it was successful
+    if (true || isset($response->{'image_url'})) {
+      return $response->{'image_url'};
+    }
+    else {
+      mail('johns@junemedia.com','MOVE upload image error', json_encode($response));
+      return json_encode($response);
     }
   }
 }

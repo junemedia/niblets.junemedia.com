@@ -146,38 +146,6 @@ function addImageToLibrary($imgURL) {
 }
 
 /*
-function UploadMediaFileCampaigner($image) {
-  if (strlen(basename($image)) >= 45) {
-    $image_file_name = substr(md5(uniqid(rand(), true)), 0, 10).substr(basename($image), -40);
-  } else {
-    $image_file_name = substr(md5(uniqid(rand(), true)), 0, 5).basename($image);
-  }
-
-  $image_file_name = str_replace(' ', '_', $image_file_name);
-
-  $client = new SoapClient('https://ws.campaigner.com/2013/01/contentmanagement.asmx?WSDL', array(
-      'exceptions' => false,
-      'compression'=> SOAP_COMPRESSION_ACCEPT | SOAP_COMPRESSION_GZIP,
-      'soap_version'=> 'SOAP_1_1',
-      'trace' => true,
-      'connection_timeout' => 300
-    )
-  );
-
-  $response = $client->UploadMediaFile(
-    Array(
-      'authentication' => array(
-        "Username"=>'api@junemedia.dom',
-        "Password"=>''
-      ),
-      'fileName' => basename($image_file_name),
-      'fileContentBase64' => base64_encode(file_get_contents($image)),
-    )
-  );
-  return $client->__getLastResponse();
-}
-
-
 function getLocationByIp($ipaddr)
 {
   $result = array();
