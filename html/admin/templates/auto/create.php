@@ -128,7 +128,7 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
    */
   if ($CreateUpdateCampaign == true) { ?>
   <!--iframe src="push_campaign.php?iId=<?php echo $iId; ?>" id="iframe2" frameborder="0" scrolling="No" width="1" height="1"></iframe-->
-  <iframe src="push_campaign.php?iId=<?php echo $iId; ?>" id="iframe2" frameborder="0"></iframe>
+  <iframe src="push_contents.php?iId=<?php echo $iId; ?>" id="iframe2" frameborder="0"></iframe>
   <?php } ?>
 
   <table align="center" cellpadding="5" cellspacing="5" style="border:1px solid #383838;background-color: #fff">

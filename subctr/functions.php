@@ -28,8 +28,99 @@ function writeToLog($data) {
   return;
 }
 
+
+/**
+ * build html from template and db data
+ *
+ * @param number $automatedId newsletter it in `maropost`.`automated`
+ *
+ * @return string newsletter html
+ */
+function buildPreview($automatedId) {
+
+  if ($automatedId != '' && ctype_digit($automatedId)) {
+    // find out which template to use
+    $query = "SELECT * FROM automated WHERE id = '$automatedId'";
+    $rSelectResult = mysql_query($query);
+    // there should only be a single result...
+    while ($oRow = mysql_fetch_object($rSelectResult)) {
+      $template = $oRow->template;
+
+      // if we already have a campaign id use that, otherwise use our
+      // `automated` row id
+      $campaignId = $oRow->campaign_id ? $oRow->campaign_id : $automatedId;
+      $contentId = $oRow->content_id ? $oRow->content_id : $automatedId;
+
+    }
+    $preview  = new Template("templates/$template");
+
+    // populate template with values from database
+    $query = "SELECT * FROM automated_map WHERE automated_id = '$automatedId'";
+    $rSelectResult = mysql_query($query);
+    while ($oRow = mysql_fetch_object($rSelectResult)) {
+      // strip square brackets from tag_key
+      $tag_key = str_replace(array('[', ']'), '', $oRow->tag_key);
+      // if we have a value, stick it in the template
+      if ($oRow->tag_value != '') {
+        $preview->set($tag_key, $oRow->tag_value);
+      }
+    }
+    // getting a string of html
+    $html_code = $preview->output();
+    // not sure what some of these are in there for exactly, since they're
+    // just getting stripped out
+    $html_code = str_replace('REDIR:', '', $html_code);
+    $html_code = str_replace("{opencount('<img src=\"{opct.url}\" width=\"1\" height=\"1\" border=\"0\" />')}", '', $html_code);
+    $html_code = str_replace("{datetime(job.issuedate,'','%Y%m%d')}", date('Ymd'), $html_code);
+    $html_code = str_replace('{to}', '[Contact.Email]', $html_code);
+    $html_code = str_replace('{job.jobid}', $campaignId, $html_code);
+  }
+  else {
+    $html_code = 'ID missing';
+
+  }
+
+  return $html_code;
+}
+
+function addImageToLibrary($imgURL) {
+  $payload = array(
+    "content_image" => array(
+      "image_url" => $imgURL
+    )
+  );
+  $payload = json_encode($payload);
+
+  $api_key = 'c300eeefb54ee6e746260585befa15a10a947a86';
+  $api_root = 'http://api.maropost.com/accounts/694';
+  $api_endpoint = 'content_images/upload.json';
+  $api_headers = array(
+    'Accept: application/json',
+    'Content-Type: application/json'
+  );
+
+  $ch = curl_init("$api_root/$api_endpoint?auth_token=$api_key");
+  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($ch, CURLOPT_HTTPHEADER, $api_headers);
+  $response = curl_exec($ch);
+  curl_close($ch);
+
+  //mail('johns@junemedia.com','rest request',$response);
+
+  return json_decode($response);
+}
+
+
+
+
+
+
 // campaigner's system includes html as part of the campaign
 function CreateUpdateCampaign ($data_array) {
+  $return;
+
   $opts = array(
     'ssl' => array(
       'ciphers'=>'DHE-RSA-AES256-SHA:DHE-DSS-AES256-SHA:AES256-SHA:KRB5-DES-CBC3-MD5:KRB5-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:EDH-DSS-DES-CBC3-SHA:DES-CBC3-SHA:DES-CBC3-MD5:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA:AES128-SHA:RC2-CBC-MD5:KRB5-RC4-MD5:KRB5-RC4-SHA:RC4-SHA:RC4-MD5:RC4-MD5:KRB5-DES-CBC-MD5:KRB5-DES-CBC-SHA:EDH-RSA-DES-CBC-SHA:EDH-DSS-DES-CBC-SHA:DES-CBC-SHA:DES-CBC-MD5:EXP-KRB5-RC2-CBC-MD5:EXP-KRB5-DES-CBC-MD5:EXP-KRB5-RC2-CBC-SHA:EXP-KRB5-DES-CBC-SHA:EXP-EDH-RSA-DES-CBC-SHA:EXP-EDH-DSS-DES-CBC-SHA:EXP-DES-CBC-SHA:EXP-RC2-CBC-MD5:EXP-RC2-CBC-MD5:EXP-KRB5-RC4-MD5:EXP-KRB5-RC4-SHA:EXP-RC4-MD5:EXP-RC4-MD5'
@@ -114,38 +205,7 @@ function ListMediaFilesCampaigner() {
       ));
   return $client->__getLastResponse();
 }
-*/
 
-function addImageToLibrary($imgURL) {
-  $payload = array(
-    "content_image" => array(
-      "image_url" => $imgURL
-    )
-  );
-  $payload = json_encode($payload);
-
-  $api_key = 'c300eeefb54ee6e746260585befa15a10a947a86';
-  $api_root = 'http://api.maropost.com/accounts/694';
-  $api_endpoint = 'content_images/upload.json';
-  $api_headers = array(
-    'Accept: application/json',
-    'Content-Type: application/json'
-  );
-
-  $ch = curl_init("$api_root/$api_endpoint?auth_token=$api_key");
-  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-  curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-  curl_setopt($ch, CURLOPT_HTTPHEADER, $api_headers);
-  $response = curl_exec($ch);
-  curl_close($ch);
-
-  //mail('johns@junemedia.com','rest request',$response);
-
-  return json_decode($response);
-}
-
-/*
 function getLocationByIp($ipaddr)
 {
   $result = array();
@@ -426,7 +486,6 @@ function LookupNewListIdByOldListId ($old_list_id) {
     return false;
   }
 }
- */
 
 
 function getXmlValueByTag($inXmlset, $needle) {
@@ -442,7 +501,6 @@ function getXmlValueByTag($inXmlset, $needle) {
 }
 
 
-/*
 function LookupImpressionWise($email_addr) {
   $isValid = true;
   $isValid_msg = 'Y';
