@@ -3,7 +3,7 @@
 include_once("/var/www/html/admin.popularliving.com/subctr/functions.php");
 include_once("../../../includes/paths.php");
 
-mysql_select_db('maropost');
+mysql_select_db('maropost_templates');
 
 iconv_set_encoding("input_encoding", "UTF-8");
 iconv_set_encoding("internal_encoding", "UTF-8");

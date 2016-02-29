@@ -3,7 +3,7 @@
 include_once("../../../includes/paths.php");
 include_once("/var/www/html/admin.popularliving.com/subctr/functions.php");
 
-mysql_select_db('maropost');
+mysql_select_db('maropost_templates');
 
 require_once("template_class.php");
 

@@ -8,7 +8,7 @@ $sPageTitle = "Ads Templates";
 
 session_start();
 
-mysql_select_db('maropost');
+mysql_select_db('maropost_templates');
 
 
 

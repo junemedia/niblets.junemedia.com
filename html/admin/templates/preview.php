@@ -4,7 +4,7 @@ include("../../includes/paths.php");
 
 session_start();
 
-mysql_select_db('maropost');
+mysql_select_db('maropost_templates');
 
 if (!ctype_digit($id)) {
 	$id = '';
