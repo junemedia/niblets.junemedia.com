@@ -43,7 +43,8 @@ if (isset($submit) && $submit == 'Generate') {
     $rSelectResult = mysql_query($query);
     echo mysql_error();
   }
-  $CreateUpdateCampaign = true;
+  /* disable momentarily, don't want to push anything for now */
+  /* $CreateUpdateCampaign = true; */
 }
 
 // generate key=>value pairs for all of the newsletters fields as well
@@ -161,7 +162,7 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
                 <?php }?>
                 <input type="submit" name="submit" id="submit" value="Generate">
                 <br><br><br>
-                <a href="push_campaign.php?iId=<?php echo $iId; ?>" onclick="javascript:void window.open('push_campaign.php?iId=<?php echo $iId; ?>','edit_<?php echo $iId; ?>','width=500,height=400,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;">Push to Campaigner</a>
+                <a href="push_contents.php?iId=<?php echo $iId; ?>" onclick="javascript:void window.open('push_contents.php?iId=<?php echo $iId; ?>','edit_<?php echo $iId; ?>','width=500,height=400,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;">Push to Maropost</a>
                 <br><p>Make sure to click Generate button before you click Push to Campaigner link...</p>
               </td>
             </tr>

@@ -83,6 +83,72 @@ function buildPreview($automatedId) {
   return $html_code;
 }
 
+function pushNewsletterContent($contentsArray) {
+  $apiKey = 'c300eeefb54ee6e746260585befa15a10a947a86';
+  $apiRoot = 'http://api.maropost.com/accounts/694';
+  $apiEndpoint = 'contents';
+  $apiHeaders = array(
+    'Accept: application/json',
+    'Content-Type: application/json'
+  );
+
+  $payload = array(
+    'content' => array(
+      'name' => $contentsArray['campaign_name'],
+      'html_part' => $contentsArray['html_code'],
+      /*
+      'id': 356632
+      'account_id': 694
+      'text_part': null
+      'created_at': '2016-02-26T16:17:48.000-05:00'
+      'updated_at': '2016-02-26T16:17:48.000-05:00'
+      'content_template_id': null
+      'pull_url': null
+      'footer_type': null
+      'footer_id': null
+      'folder_id': null
+      'content_feed_id': null
+      */
+    )
+  );
+  $payload = json_encode($payload);
+
+  // if it's new content, then POST the data
+  if ($contentsArray['content_id'] == 0) {
+    $apiEndpoint .= '.json';
+    $apiMethod = 'POST';
+  }
+  else {
+    $apiEndpoint .= "/{$contentsArray['content_id']}.json";
+    $apiMethod = 'PUT';
+  }
+
+  header('Content-type: text/plain');
+  echo "$apiRoot\n\n$apiEndpoint?auth_token=$apiKey\n\n";
+  //die;
+  echo $payload;
+
+  $ch = curl_init("$apiRoot/$apiEndpoint?auth_token=$apiKey");
+  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $apiMethod);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($ch, CURLOPT_HTTPHEADER, $apiHeaders);
+  $response = curl_exec($ch);
+  curl_close($ch);
+
+    /*
+     * example POST response:
+
+      {"id":344309,"account_id":694,"name":"API TEST 02","html_part":"\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\u003cbody\u003e\u003cp style=\"font-weight: bold;\"\u003eTest 02\u003c/p\u003e\u003c/body\u003e\u003c/html\u003e\n","text_part":null,"created_at":"2016-02-23T15:18:08.466-05:00","updated_at":"2016-02-23T15:18:08.466-05:00","content_template_id":null,"pull_url":null,"footer_type":null,"footer_id":null,"folder_id":null,"content_feed_id":null}
+
+     * PUT response has status 204 on success, with no content
+     */
+
+  //mail('johns@junemedia.com','rest request',$response);
+
+  return json_decode($response);
+}
+
 function addImageToLibrary($imgURL) {
   $payload = array(
     "content_image" => array(
