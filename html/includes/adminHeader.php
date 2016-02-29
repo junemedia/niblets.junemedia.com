@@ -18,7 +18,7 @@ include this file in a script
   $sBackButton = '';
 	if(!(strstr($_SERVER['PHP_SELF'], "admin/index.php")))	
 	{
-		$sMainMenuLink = "<a href='$sGblAdminSiteRoot/index.php?".SID."' class=menulink>Return to Nibbles Main Menu</a><BR><BR>";
+		$sMainMenuLink = "<a href='$sGblAdminSiteRoot/index.php?".SID."' class=menulink>Return to Niblets Main Menu</a><BR><BR>";
 		$sBackButton = "<a href=JavaScript:history.go(-1);>Back</a>";
 	}
 			

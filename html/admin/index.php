@@ -18,7 +18,7 @@ session_start();
 $sTrackingUser = $_SERVER['PHP_AUTH_USER'];
 
 
-$sPageTitle = "Nibbles Main Menu";
+$sPageTitle = "Niblets Main Menu";
 
   // querying nibbles[_stage] db
 $sMenuQuery = "SELECT *

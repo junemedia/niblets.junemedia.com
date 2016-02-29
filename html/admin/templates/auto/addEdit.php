@@ -327,7 +327,7 @@ if ($handle = opendir('templates')) {
         <td colspan="2">&nbsp;</td>
       </tr>
       <tr>
-        <td colspan="2" style="color:red;">Below two fields are required for Campaigner</td>
+        <td colspan="2" style="color:red;">Below two fields are required for Maropost</td>
       </tr>
       <tr>
         <td><b>Campaign Name</b>:</td>
