@@ -30,6 +30,8 @@ $sMenuQuery = "SELECT *
 $rMenuResult = dbQuery($sMenuQuery);
 
 $iNum = 0;
+$sMenuList = '';
+
 while ($oMenuRow = dbFetchObject($rMenuResult)) {
   if (isset($sOldCategory) && ($oMenuRow->category != $sOldCategory || $sOldCategory == '')) {
     if ($iNum%2 != 0)
