@@ -169,7 +169,9 @@
 							</tr>
 						  </tbody>
 						</table>
+            <!-- this is getting a 400 Bad Request response
 						<iframe class="dynamic" src="http://cs.powerinbox.com/stripe/dynamic?cs_email={to}&cs_esp=campaigner&cs_stripeid=1191" style="width: 650px; height: 225px; margin: 0; padding: 0;" scrolling="no" frameborder="0"></iframe>
+            -->
 						<table width="650" class="fallback" border="0" cellspacing="0" cellpadding="0">
 						  <tr>
 							<td width="155" style="border-collapse:collapse;padding-right:10px;">
