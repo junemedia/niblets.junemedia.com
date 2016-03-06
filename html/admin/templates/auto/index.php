@@ -42,7 +42,8 @@ include_once("../../../includes/adminHeader.php");
 $template_options = "<option></option>";
 if ($handle = opendir('templates')) {
   while (false !== ($entry = readdir($handle))) {
-    if ($entry != "." && $entry != "..") {
+    // only show php files
+    if (substr($entry, -4) === '.php') {
       if (isset($template) && $template == strtolower($entry)) {
         $selected = 'selected';
       } else {
