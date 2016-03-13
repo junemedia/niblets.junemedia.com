@@ -1,5 +1,5 @@
 <html><head></head><body><table cellpadding="0" cellspacing="0" width="100%">	<tbody>	<tr>		<td align="right" valign="top" width="49%">			<a href="http://liveintent.recipe4living-recipes.com/click?s=135062&layout=left&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=135062&layout=left&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a>		</td>		<td valign="top" width="2%">
-<!-------------------------------- Do not modify code above this line ------------------------------------------>
+<!-------------------------------- Do not modify code above this line ----------------------------------------->
 		
 		<table width="728"  border="0" style="border-collapse: collapse; font-family:Arial, Helvetica, sans-serif" cellpadding="0" cellspacing="0">
 		
@@ -110,62 +110,66 @@
 			</tr>
 			<!-- end white space -->
 						
-			<!-- POWERINBOX -->
 			<tr>
-			<td>
-			<table border="0" cellspacing="0" cellpadding="0">
-			<tbody><tr>
-			<td width="39" style="width:39px;height:240px;"><font size="1"><span style="font-size:0;">&nbsp;</span></font></td>
-			<td valign="top">
-			<div>
-			<table width="650" border="0" cellpadding="0" cellspacing="0">
-				<tbody>
-				  <tr>
-					<td align="left" valign="middle" style="color: #383838; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold;">
-					  You might like
-					</td>
-					<td align="right">
-					  <a href="http://contentstripe.powerinbox.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=junemedia_betterrecipes&utm_content=animatedlogo" style="display: inline-block; border: 0; outline:none; text-decoration:none;" target="_blank">
-						<img height="40" src="http://az571945.vo.msecnd.net/static/contentstripe/cs-recommend-by-transparent.gif" style="width: 143px; height: 40px;" width="143">
-					  </a>
-					</td>
-				  </tr>
-				</tbody>
-			  </table>
-			  <table width="650" border="0" cellspacing="0" cellpadding="0">
-				<tr>
-				  <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-					<a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=0&cs_stripeid=2225" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-					  <img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=0&cs_stripeid=2225" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-					</a>
-				  </td>
-				  <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-					<a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=1&cs_stripeid=2225" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-					  <img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=1&cs_stripeid=2225" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-					</a>
-				  </td>
-				  <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-					<a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=2&cs_stripeid=2225" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-					  <img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=2&cs_stripeid=2225" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-					</a>
-				  </td>
-				  <td width="155" style="border-collapse:collapse;">
-					<a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=3&cs_stripeid=2225" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-					  <img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=3&cs_stripeid=2225" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-					</a>
-				  </td>
-				</tr>
-			  </table>
-			</div>
-			</td>
-			<td width="39" style="width:39px;height:240px;"><font size="1"><span style="font-size:0;">&nbsp;</span></font></td>
-			</tr>
-			</tbody></table>
-			</td>
-			</tr>
-			<!-- POWERINBOX -->
+        <td>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td width="39" style="width:39px;height:240px;"><font size="1"><span style="font-size:0;">&nbsp;</span></font></td>
+                <td valign="top">
+                  <!-- POWERINBOX -->
+                  <div class="powerinbox">
+                    <!-- domain: rs-stripe.betterrecipes.com -->
+                    <!-- branding: rs-branding.betterrecipes.com -->
+                    <table width="650" border="0" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td align="left" valign="middle" style="color: #383838; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold;">
+                            You Might Like
+                          </td>
+                          <td align="right">
+                            <a href="http://rs-branding.betterrecipes.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=junemedia&utm_content=animatedlogo" style="display: inline-block; border: 0; outline:none; text-decoration:none;" target="_blank">
+                              <img src="http://rs-branding.betterrecipes.com/recommend/transparent.gif" style="width: 143px; height: 40px;" width="143" height="40" border="0" alt="Learn more about RevenueStripe..." />
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table width="650" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="155" style="border-collapse:collapse; padding-right: 10px;">
+                          <a href="http://rs-stripe.betterrecipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=0&cs_stripeid=2225" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                            <img alt="" height="190" src="http://rs-stripe.betterrecipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=0&cs_stripeid=2225" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+                          </a>
+                        </td>
+                        <td width="155" style="border-collapse:collapse; padding-right: 10px;">
+                          <a href="http://rs-stripe.betterrecipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=1&cs_stripeid=2225" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                            <img alt="" height="190" src="http://rs-stripe.betterrecipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=1&cs_stripeid=2225" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+                          </a>
+                        </td>
+                        <td width="155" style="border-collapse:collapse; padding-right: 10px;">
+                          <a href="http://rs-stripe.betterrecipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=2&cs_stripeid=2225" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                            <img alt="" height="190" src="http://rs-stripe.betterrecipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=2&cs_stripeid=2225" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+                          </a>
+                        </td>
+                        <td width="155" style="border-collapse:collapse;">
+                          <a href="http://rs-stripe.betterrecipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=3&cs_stripeid=2225" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                            <img alt="" height="190" src="http://rs-stripe.betterrecipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=3&cs_stripeid=2225" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!-- POWERINBOX -->
 
-			
+                </td>
+                <td width="39" style="width:39px;height:240px;"><font size="1"><span style="font-size:0;">&nbsp;</span></font></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+			</tr>
+
 			<!-- white space -->
 			<tr>
 				<td>

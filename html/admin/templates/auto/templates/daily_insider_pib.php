@@ -100,48 +100,50 @@
 	</tr>
 	<tr>
 		<td colspan="2" align="center" style="padding-top:10px;">
-		<!-- POWERINBOX -->
-		<div class="powerinbox">
-		  <table width="650" border="0" cellpadding="0" cellspacing="0">
-			<tbody>
-			  <tr>
-				<td align="left" valign="middle" style="color: #383838; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold;">
-				  You might like
-				</td>
-				<td align="right">
-				  <a href="http://contentstripe.powerinbox.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=junemedia_fitfab&utm_content=animatedlogo" style="display: inline-block; border: 0; outline:none; text-decoration:none;" target="_blank">
-					<img height="40" src="http://az571945.vo.msecnd.net/static/contentstripe/cs-recommend-by-transparent.gif" style="width: 143px; height: 40px;" width="143">
-				  </a>
-				</td>
-			  </tr>
-			</tbody>
-		  </table>
-		  <table width="650" border="0" cellspacing="0" cellpadding="0">
-			<tr>
-			  <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-				<a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=0&cs_stripeid=2222" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-				  <img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=0&cs_stripeid=2222" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-				</a>
-			  </td>
-			  <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-				<a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=1&cs_stripeid=2222" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-				  <img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=1&cs_stripeid=2222" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-				</a>
-			  </td>
-			  <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-				<a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=2&cs_stripeid=2222" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-				  <img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=2&cs_stripeid=2222" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-				</a>
-			  </td>
-			  <td width="155" style="border-collapse:collapse;">
-				<a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=3&cs_stripeid=2222" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-				  <img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=3&cs_stripeid=2222" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-				</a>
-			  </td>
-			</tr>
-		  </table>
-		</div>
-		<!-- POWERINBOX -->
+      <!-- POWERINBOX -->
+      <div class="powerinbox">
+        <!-- domain: rs-stripe.fitandfabliving-newsletter.com -->
+        <!-- branding: rs-branding.fitandfabliving-newsletter.com -->
+        <table width="650" border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td align="left" valign="middle" style="color: #383838; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold;">
+                You might like
+              </td>
+              <td align="right">
+                <a href="http://rs-branding.fitandfabliving-newsletter.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=junemedia&utm_content=animatedlogo" style="display: inline-block; border: 0; outline:none; text-decoration:none;" target="_blank">
+                  <img src="http://rs-branding.fitandfabliving-newsletter.com/recommend/transparent.gif" style="width: 143px; height: 40px;" width="143" height="40" border="0" alt="Learn more about RevenueStripe..." />
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="650" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="155" style="border-collapse:collapse; padding-right: 10px;">
+              <a href="http://rs-stripe.fitandfabliving-newsletter.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=0&cs_stripeid=2222" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                <img alt="" height="190" src="http://rs-stripe.fitandfabliving-newsletter.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=0&cs_stripeid=2222" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+              </a>
+            </td>
+            <td width="155" style="border-collapse:collapse; padding-right: 10px;">
+              <a href="http://rs-stripe.fitandfabliving-newsletter.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=1&cs_stripeid=2222" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                <img alt="" height="190" src="http://rs-stripe.fitandfabliving-newsletter.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=1&cs_stripeid=2222" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+              </a>
+            </td>
+            <td width="155" style="border-collapse:collapse; padding-right: 10px;">
+              <a href="http://rs-stripe.fitandfabliving-newsletter.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=2&cs_stripeid=2222" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                <img alt="" height="190" src="http://rs-stripe.fitandfabliving-newsletter.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=2&cs_stripeid=2222" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+              </a>
+            </td>
+            <td width="155" style="border-collapse:collapse;">
+              <a href="http://rs-stripe.fitandfabliving-newsletter.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=3&cs_stripeid=2222" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                <img alt="" height="190" src="http://rs-stripe.fitandfabliving-newsletter.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=3&cs_stripeid=2222" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- POWERINBOX -->
 		</td>
 	</tr>
 </table>
