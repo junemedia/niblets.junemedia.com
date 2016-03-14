@@ -96,6 +96,7 @@ function pushNewsletterContent($contentsArray) {
     'content' => array(
       'name' => $contentsArray['campaign_name'],
       'html_part' => $contentsArray['html_code'],
+      'full_email' => true,
       /*
       'id': 356632
       'account_id': 694
