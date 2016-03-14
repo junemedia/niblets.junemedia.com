@@ -123,10 +123,10 @@ function pushNewsletterContent($contentsArray) {
     $apiMethod = 'PUT';
   }
 
-  header('Content-type: text/plain');
-  echo "$apiRoot\n\n$apiEndpoint?auth_token=$apiKey\n\n";
+  //header('Content-type: text/plain');
+  //echo "$apiRoot\n\n$apiEndpoint?auth_token=$apiKey\n\n";
   //die;
-  echo $payload;
+  //echo $payload;
 
   $ch = curl_init("$apiRoot/$apiEndpoint?auth_token=$apiKey");
   curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $apiMethod);
