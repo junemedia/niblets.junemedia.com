@@ -141,69 +141,65 @@
 			</tr>
 			<!-- end white space -->
 						
-			<!-- POWERINBOX -->
-			<tr>
-			  <td>
-				<table border="0" cellpadding="0" cellspacing="0">
-				  <tr>
-					<td width="39" height="240" style="font-size: 0; line-height: 0;">&nbsp;</td>
-					<td valign="top">
-					  <div class="powerinbox">
-						<style>
-						.dynamic + .fallback {
-						  display: none !important;
-						}
-						</style>
-						<table width="650" border="0" cellpadding="0" cellspacing="0">
-						  <tbody>
-							<tr>
-							  <td align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif; color:#e41239; font-weight:bold; font-size:16px;">
-								You Might Like
-							  </td>
-							  <td align="right">
-								<a href="http://contentstripe.powerinbox.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=junemedia_editorschoice&utm_content=animatedlogo" style="display: inline-block; border-style:none; outline:none; text-decoration:none;" target="_blank">
-								  <img height="40" src="http://az571945.vo.msecnd.net/static/contentstripe/cs-recommend-by-transparent.gif" style="width: 143px; height: 40px;" width="143">
-								</a>
-							  </td>
-							</tr>
-							<tr>
-							  <td align="center" height="8" valign="top" style="font-size:8px; height:8px; line-height:8px; vertical-align:top"></td>
-							</tr>
-						  </tbody>
-						</table>
-						<iframe class="dynamic" src="http://cs.powerinbox.com/stripe/dynamic?cs_email={to}&cs_esp=campaigner&cs_stripeid=1191" style="width: 650px; height: 225px; margin: 0; padding: 0;" scrolling="no" frameborder="0"></iframe>
-						<table width="650" class="fallback" border="0" cellspacing="0" cellpadding="0">
-						  <tr>
-							<td width="155" style="border-collapse:collapse;padding-right:10px;">
-							  <a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=0&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-								<img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=0&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-							  </a>
-							</td>
-							<td width="155" style="border-collapse:collapse;padding-right:10px;">
-							  <a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=1&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-								<img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=1&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-							  </a>
-							</td>
-							<td width="155" style="border-collapse:collapse;padding-right:10px;">
-							  <a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=2&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-								<img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=2&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-							  </a>
-							</td>
-							<td width="155" style="border-collapse:collapse;">
-							  <a href="http://cs.powerinbox.com/stripe/redirect?cs_email={to}&cs_esp=campaigner&cs_offset=3&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-								<img alt="" height="190" src="http://cs.powerinbox.com/stripe/image?cs_email={to}&cs_esp=campaigner&cs_offset=3&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-							  </a>
-							</td>
-						  </tr>
-						</table>
-					  </div>
-					</td>
-					<td width="39" height="240" style="font-size: 0; line-height: 0;">&nbsp;</td>
-				  </tr>
-				</table>
-			  </td>
-			</tr>
-			<!-- POWERINBOX -->
+      <!-- POWERINBOX -->
+      <tr>
+        <td>
+          <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="39" height="240" style="font-size: 0; line-height: 0;">&nbsp;</td>
+              <td valign="top">
+                <div class="powerinbox">
+                  <!-- domain: rs-stripe.recipe4living-recipes.com -->
+                  <!-- branding: rs-branding.recipe4living-recipes.com -->
+                  <table width="650" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif; color:#e41239; font-weight:bold; font-size:16px;">
+                          You Might Like
+                        </td>
+                        <td align="right">
+                          <a href="http://rs-branding.recipe4living-recipes.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=junemedia&utm_content=animatedlogo" style="display: inline-block; border: 0; outline:none; text-decoration:none;" target="_blank">
+                            <img src="http://rs-branding.recipe4living-recipes.com/recommend/transparent.gif" style="width: 143px; height: 40px;" width="143" height="40" border="0" alt="Learn more about RevenueStripe..." />
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" height="8" valign="top" style="font-size:8px; height:8px; line-height:8px; vertical-align:top"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="650" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="155" style="border-collapse:collapse;padding-right:10px;">
+                        <a href="http://rs-stripe.recipe4living-recipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=0&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                          <img alt="" height="190" src="http://rs-stripe.recipe4living-recipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=0&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+                        </a>
+                      </td>
+                      <td width="155" style="border-collapse:collapse;padding-right:10px;">
+                        <a href="http://rs-stripe.recipe4living-recipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=1&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                          <img alt="" height="190" src="http://rs-stripe.recipe4living-recipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=1&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+                        </a>
+                      </td>
+                      <td width="155" style="border-collapse:collapse;padding-right:10px;">
+                        <a href="http://rs-stripe.recipe4living-recipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=2&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                          <img alt="" height="190" src="http://rs-stripe.recipe4living-recipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=2&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+                        </a>
+                      </td>
+                      <td width="155" style="border-collapse:collapse;">
+                        <a href="http://rs-stripe.recipe4living-recipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=3&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
+                          <img alt="" height="190" src="http://rs-stripe.recipe4living-recipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=3&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+              <td width="39" height="240" style="font-size: 0; line-height: 0;">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- POWERINBOX -->
 
 			
 			<!-- white space -->
