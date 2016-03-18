@@ -1,5 +1,5 @@
 <html><head></head><body><table cellpadding="0" cellspacing="0" width="100%">	<tbody>	<tr>		<td align="right" valign="top" width="49%">			<a href="http://liveintent.recipe4living-recipes.com/click?s=138919&layout=left&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=138919&layout=left&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a>		</td>		<td valign="top" width="2%">
-<!-------------------------------- Do not modify code above this line ------------------------------------------>
+<!-------------------------------- Do not modify code above this line ----------------------------------------->
 		
 		<table width="728"  border="0" style="border-collapse: collapse; font-family:Arial, Helvetica, sans-serif" cellpadding="0" cellspacing="0">
 		
@@ -249,7 +249,7 @@
 				<td>
 					<table border="0" cellpadding="0" cellspacing="0">
 						<tr>
-							<td width="728" height="30" style="float:left;font-family:Arial, Helvetica, sans-serif; font-size:11px;" align="justify">
+							<td width="728" height="30" style="font-family:Arial, Helvetica, sans-serif; font-size:11px;" align="justify">
 								<em>
 									Recipe4Living is the premiere quick and easy recipe site. With over 25,000 recipes ranging from one-pot casseroles to seasonal no-bake desserts, readers are sure to find something delicious to serve to their family and friends. If you want to be the star of your next potluck, Recipe4Living is the answer. You can also connect with Recipe4Living on <a href="https://twitter.com/Recipe4Living">Twitter</a>, <a href="https://www.facebook.com/Recipe4Living">Facebook</a>, and <a href="http://www.pinterest.com/recipe4living/">Pinterest</a>. Be the first to know about our easy recipes, helpful tips, and newest adventures in the kitchen!
 									<br />
@@ -316,5 +316,5 @@
 
 
 
-<!-------------------------------- Do not modify code below this line ------------------------------------------>
+<!-------------------------------- Do not modify code below this line ----------------------------------------->
 </td>		<td align="left" valign="top" width="48%">			<table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a href="http://liveintent.recipe4living-recipes.com/click?s=138920&layout=right&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=138920&layout=right&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a></td></tr><tr style="display:block; height:1px; line-height:1px;"><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=138921&sz=1x1&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=138922&sz=1x1&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /></td></tr><tr><td align="left"><a href="http://liveintent.recipe4living-recipes.com/click?s=138924&sz=116x15&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=138924&sz=116x15&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a></td><td align="right"><a href="http://liveintent.recipe4living-recipes.com/click?s=138923&sz=19x15&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=138923&sz=19x15&li=615&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a></td></tr></table>		</td>	</tr>	</tbody></table></body></html>

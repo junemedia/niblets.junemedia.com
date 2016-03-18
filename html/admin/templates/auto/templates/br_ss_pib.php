@@ -251,7 +251,7 @@
 				<td>
 					<table border="0" cellpadding="0" cellspacing="0">
 						<tr>
-							<td width="728" height="30" style="float:left;font-family:Arial, Helvetica, sans-serif; font-size:11px;" align="justify">
+							<td width="728" height="30" style="font-family:Arial, Helvetica, sans-serif; font-size:11px;" align="justify">
 								<em>
 									Better Recipes is the tastier, healthier, and better food site. With lightened up recipes ranging from appetizers, one-pot dishes, all the way to decadent desserts, readers are sure to find something delicious to serve to their family and friends without ruining their waistline. You can also connect with Better Recipes on <a href="https://twitter.com/BetterRecipes">Twitter</a>, <a href="https://www.facebook.com/betterrecipes?ref=br_tf">Facebook</a>, and <a href="https://www.pinterest.com/BetterRecipes/">Pinterest</a>. Be the first to know about our healthier recipes, helpful tips, and newest adventures in cooking!
 									<br />

@@ -282,7 +282,7 @@
 				<td>
 					<table border="0" cellpadding="0" cellspacing="0">
 						<tr>
-							<td width="728" height="30" style="float:left;font-family:Arial, Helvetica, sans-serif; font-size:11px;" align="justify">
+							<td width="728" height="30" style="font-family:Arial, Helvetica, sans-serif; font-size:11px;" align="justify">
 								<em>
 									Recipe4Living is the premiere quick and easy recipe site. With over 25,000 recipes ranging from one-pot casseroles to seasonal no-bake desserts, readers are sure to find something delicious to serve to their family and friends. If you want to be the star of your next potluck, Recipe4Living is the answer. You can also connect with Recipe4Living on <a href="https://twitter.com/Recipe4Living">Twitter</a>, <a href="https://www.facebook.com/Recipe4Living">Facebook</a>, and <a href="http://www.pinterest.com/recipe4living/">Pinterest</a>. Be the first to know about our easy recipes, helpful tips, and newest adventures in the kitchen!
 									<br />
