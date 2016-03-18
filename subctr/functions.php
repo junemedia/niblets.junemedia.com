@@ -3,31 +3,6 @@
 include_once("JSON.php");
 */
 
-// jshearer 02/23/2106: log the html that's actually getting sent to
-// Campaigner; this should just be temporary during this transition to
-// Maropost
-function writeToLog($data) {
-  $logfile = '/var/www/html/admin.popularliving.com/html/admin/templates/auto/logs/createUpdate.log';
-  $logentry  = "\n----------------------------------------------------------------------------\n";
-  $logentry .= date("Y-m-d H:i:s");
-  $logentry .= "\n----------------------------------------------------------------------------\n";
-  $logentry .= $data;
-  $logentry .= "\n\n\n";
-
-  if (is_writable($logfile)) {
-    if (!$fh = fopen($logfile, 'a')) {
-      return "Cannot open file ($logfile)";
-    }
-    if (fwrite($fh, $logentry) === FALSE) {
-      return "Cannot write to file ($logfile)";
-    }
-    fclose($fh);
-  } else {
-    return "$logfile is not writable";
-  }
-  return;
-}
-
 
 /**
  * build html from template and db data

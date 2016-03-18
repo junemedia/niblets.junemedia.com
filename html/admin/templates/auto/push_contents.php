@@ -70,12 +70,6 @@ mysql_query($responseSql);
 echo mysql_error();
 
 
-
-// jshearer 02/23/2106: log the html that's actually getting sent to
-// Maropost; this should just be temporary during this transition
-echo writeToLog($html_code);
-
-
 //echo trim(getXmlValueByTag($create_result,'ReturnMessage'))." => CampaignId: ".$CampaignId;
 echo "<br><br>";
 //echo json_encode($apiResult);

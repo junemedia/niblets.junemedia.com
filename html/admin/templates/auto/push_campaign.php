@@ -94,12 +94,6 @@ $responseSql = "INSERT INTO `campaignerResponse` (`id`, `campaignId`, `datetime`
 mysql_query($responseSql);
 
 
-
-// jshearer 02/23/2106: log the html that's actually getting sent to
-// Campaigner; this should just be temporary during this transition to
-// Maropost
-echo writeToLog($html_code);
-
 // update the `automated` entry with campaign id, which may be new if
 // this is the first push of this newsletter instance
 if ($CampaignId !='' && ctype_digit($CampaignId)) {
