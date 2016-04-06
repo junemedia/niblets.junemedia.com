@@ -10,8 +10,8 @@
 <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a style="display: block; width: 728px; height: 90px;" href="http://liveintent.recipe4living-recipes.com/click?s=133282&sz=728x90&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=133282&sz=728x90&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0" width="728" height="90"/></a></td></tr><tr style="display:block; height:1px; line-height:1px;"><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=133283&sz=1x1&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=133284&sz=1x1&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /></td></tr><tr><td align="left"><a href="http://liveintent.recipe4living-recipes.com/click?s=20228&sz=116x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=20228&sz=116x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a></td><td align="right"><a href="http://liveintent.recipe4living-recipes.com/click?s=96306&sz=69x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=96306&sz=69x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a></td></tr></table>
 <!-- end 728x90 ATF -->
 <table width="728" align="center" border="0" style="">
-	
-	
+
+
 	<tr>
 		<td colspan="2" align="center">
 			<a href="REDIR:http://www.betterrecipes.com/" title="Recipe4Living" target="_blank" style="word-wrap: break-word !important;">
@@ -19,7 +19,7 @@
 			</a>
 		</td>
 	</tr>
-		
+
 	<tr>
 		<td colspan="2" align="center">
 			<a href="REDIR:[FEATURED_URL]?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="[FEATURED_TITLE]" target="_blank" style="word-wrap: break-word !important;">
@@ -27,7 +27,7 @@
             </a>
 		</td>
 	</tr>
-	
+
 	<tr>
 		<td>
 			<table border="0" cellpadding="0" cellspacing="0">
@@ -37,8 +37,8 @@
 			</table>
 		</td>
 	</tr>
-	
-	<tr>		
+
+	<tr>
         <td colspan="2" style="padding: 0px 10px;font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 13px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #606060;line-height: 150%;text-align: left;" valign="top" width="564">
             <h4 style="display: block;font-family: Helvetica;font-size: 16px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;margin: 0;text-align: left;color: #808080 !important;">
             	<a href="REDIR:[FEATURED_URL]?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" title="[FEATURED_TITLE]" style="color: #006faf;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;">[FEATURED_TITLE]</a>
@@ -47,7 +47,6 @@
 			</p>
         </td>
     </tr>
-
 
     <tr>
       <td colspan="2">
@@ -76,18 +75,14 @@
             </td>
             <td align="right">
               <a href="http://liveintent.recipe4living-recipes.com/click?s=176758&sz=69x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
-                <img src="http://liveintent.recipe4living-recipes.com/imp?s=176758&sz=69x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a>
+                <img src="http://liveintent.recipe4living-recipes.com/imp?s=176758&sz=69x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
+              </a>
             </td>
           </tr>
         </table>
         <!-- /marquee ad -->
       </td>
     </tr>
-
-
-
-
-
 
 	<tr>
 		<td colspan="2" style="border-top:1px solid #383838;padding:9px 18px;color:#383838;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;line-height:100%;text-align:center;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;" valign="top">
@@ -104,21 +99,21 @@
 						</a>
 						<p style="max-width:160px;float:left;"><a href="REDIR:[RECIPE_1_URL]?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">[RECIPE_1_TITLE]</a></p>
 					</td>
-					
+
 					<td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
 						<a href="REDIR:[RECIPE_2_URL]?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="[RECIPE_2_TITLE]" target="_blank" style="word-wrap:break-word !important;">
 							<img alt="[RECIPE_2_TITLE]" src="[RECIPE_2_IMAGE]" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
 						</a>
 						<p style="max-width:160px;float:left;"><a href="REDIR:[RECIPE_2_URL]?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">[RECIPE_2_TITLE]</a></p>
 					</td>
-					
+
 					<td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
 						<a href="REDIR:[RECIPE_3_URL]?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="[RECIPE_3_TITLE]" target="_blank" style="word-wrap:break-word !important;">
 							<img alt="[RECIPE_3_TITLE]" src="[RECIPE_3_IMAGE]" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
 						</a>
 						<p style="max-width:160px;float:left;"><a href="REDIR:[RECIPE_3_URL]?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">[RECIPE_3_TITLE]</a></p>
 					</td>
-					
+
 					<td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
 						<a href="REDIR:[RECIPE_4_URL]?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="[RECIPE_4_TITLE]" target="_blank" style="word-wrap:break-word !important;">
 							<img alt="[RECIPE_4_TITLE]" src="[RECIPE_4_IMAGE]" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
