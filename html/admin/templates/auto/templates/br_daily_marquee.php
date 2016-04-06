@@ -47,6 +47,48 @@
 			</p>
         </td>
     </tr>
+
+
+    <tr>
+      <td colspan="2">
+        <!-- marquee ad -->
+        <table border="0" cellpadding="0" cellspacing="0" align="center" style="margin-left:auto; margin-right:auto;">
+          <tr>
+            <td colspan="2">
+              <a href="http://liveintent.recipe4living-recipes.com/click?s=176754&layout=marquee&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
+                <img src="http://liveintent.recipe4living-recipes.com/imp?s=176754&layout=marquee&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0" style="display: block; width:100%; height:auto;" width="728"/>
+              </a>
+            </td>
+          </tr>
+          <tr style="display:block; height:1px; line-height:1px;">
+            <td>
+              <img src="http://liveintent.recipe4living-recipes.com/imp?s=176755&sz=1x1&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10"/>
+            </td>
+            <td>
+              <img src="http://liveintent.recipe4living-recipes.com/imp?s=176756&sz=1x1&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10"/>
+            </td>
+          </tr>
+          <tr>
+            <td align="left">
+              <a href="http://liveintent.recipe4living-recipes.com/click?s=176757&sz=116x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
+                <img src="http://liveintent.recipe4living-recipes.com/imp?s=176757&sz=116x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
+              </a>
+            </td>
+            <td align="right">
+              <a href="http://liveintent.recipe4living-recipes.com/click?s=176758&sz=69x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
+                <img src="http://liveintent.recipe4living-recipes.com/imp?s=176758&sz=69x15&li=687&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a>
+            </td>
+          </tr>
+        </table>
+        <!-- /marquee ad -->
+      </td>
+    </tr>
+
+
+
+
+
+
 	<tr>
 		<td colspan="2" style="border-top:1px solid #383838;padding:9px 18px;color:#383838;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;line-height:100%;text-align:center;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;" valign="top">
 			More We Love
