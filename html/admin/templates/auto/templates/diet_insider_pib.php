@@ -15,7 +15,7 @@
 	<tr>
 		<td colspan="2" align="center">
 			<a href="REDIR:http://www.fitandfabliving.com/?utm_source=diet_insider_nl&utm_medium=newsletter&utm_campaign=Diet%2BInsider&utm_content=image" target="_blank">
-			<img alt="Fit and fab living Diet Insider" src="http://media.campaigner.com/accountsmedia/43/439960/58cb28bd467c44b0a790902015dc1a17.JPG?rand=039d1888-6982-4709-ba0e-e14d0b8cf264" width="600" />
+			<img alt="Fit and fab living Diet Insider" src="https://cdn.maropost.com/pro/uploads/account_694/70092/58cb28bd467c44b0a790902015dc1a17.jpeg?rand=039d1888-6982-4709-ba0e-e14d0b8cf264" width="600" />
 			</a>
 		</td>
 	</tr>

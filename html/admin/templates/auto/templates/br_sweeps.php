@@ -35,7 +35,7 @@
 				<td>
 					<table border="0" cellpadding="0" cellspacing="0">
 						<tr>							
-							<td width="728" height="56" style="font-size: 0; line-height: 0;"><a href="http://win.betterrecipes.com/" target="_blank"><img src="http://media.campaigner.com/media/43/439960/4d18cbr_sweeps.PNG?rand=18fd551d-0c87-40cf-9595-e10e75177a98" alt="ad"  style="display: block;"></a></td>							
+							<td width="728" height="56" style="font-size: 0; line-height: 0;"><a href="http://win.betterrecipes.com/" target="_blank"><img src="https://cdn.maropost.com/pro/uploads/account_694/70083/4d18cbr_sweeps.png?rand=18fd551d-0c87-40cf-9595-e10e75177a98" alt="ad"  style="display: block;"></a></td>							
 						</tr>
 					</table>
 				</td>
@@ -76,7 +76,7 @@
 								[FEATURE_TEXT]
 								<br />
 								<br />
-								<a href="[FEATURE_LINK]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" style=";display: inline-block;font-size: 1.5em;padding: 0.5em 1.2em;text-decoration: none;"><img alt="Enter Here" src="http://media.campaigner.com/media/43/439960/20b74enter_here.PNG?rand=cb7cd20b-194c-4b49-afe3-c6bbdcde3182"></a>
+								<a href="[FEATURE_LINK]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" style=";display: inline-block;font-size: 1.5em;padding: 0.5em 1.2em;text-decoration: none;"><img alt="Enter Here" src="https://cdn.maropost.com/pro/uploads/account_694/70088/20b74enter_here.png?rand=cb7cd20b-194c-4b49-afe3-c6bbdcde3182"></a>
 								</span>	
 								</span>
 							</td>
@@ -122,7 +122,7 @@
 				  </tr>
 				  <tr>
 					<td align="center" valign="middle" style="background-color:#FFF9C5;color: #7a2279; font-family: Arial, Helvetica, sans-serif; font-size: 18px;">
-					  <img src="http://media.campaigner.com/media/43/439960/4da54upcoming.PNG?rand=23840fcb-d1ca-45a4-933e-881311b0363b" alt="Upcoming Giveaways" style="display: block;"/>
+					  <img src="https://cdn.maropost.com/pro/uploads/account_694/70084/4da54upcoming.png?rand=23840fcb-d1ca-45a4-933e-881311b0363b" alt="Upcoming Giveaways" style="display: block;"/>
 					</td>					
 				  </tr>
 				  <tr>

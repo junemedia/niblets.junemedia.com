@@ -12,15 +12,15 @@
 			[ISSUE_DATE]
 		</td>
 		<td align="right" style="padding-top:9px;padding-right:18px;padding-bottom:9px;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;color:#606060;font-family:Helvetica;font-size:11px;line-height:125%;text-align:right;">
-			<a href="REDIR:http://www.facebook.com/Recipe4Living" target="_blank"><img src="http://media.campaigner.com/accountsmedia/43/439960/df4fffb0de9940e0940d545728b3d3d7.PNG?rand=824760a2-ff70-4f0e-8bf5-17f6cdcd6cb9" alt="Facebook" style="width: 24px;max-width: 24px;" width="24" /></a>
-			<a href="REDIR:http://www.twitter.com/recipe4living" target="_blank"><img src="http://media.campaigner.com/accountsmedia/43/439960/bed046f6202d49d79ae34e3d30947cd9.PNG?rand=c9395b6e-c7ee-4d74-9bf3-31a72124f1f7" alt="Twitter" style="width: 24px;max-width: 24px;" width="24" /></a>
-			<a href="REDIR:http://www.pinterest.com/recipe4living" target="_blank"><img src="http://media.campaigner.com/accountsmedia/43/439960/175623a3e42046a086c003f96dec6e00.PNG?rand=27eeb286-ea68-4386-b568-75ae52257067" alt="Pinterest" style="width: 24px;max-width: 24px;"width="24" /></a>
+			<a href="REDIR:http://www.facebook.com/Recipe4Living" target="_blank"><img src="https://cdn.maropost.com/pro/uploads/account_694/70140/facebook_gray.png?rand=824760a2-ff70-4f0e-8bf5-17f6cdcd6cb9" alt="Facebook" style="width: 24px;max-width: 24px;" width="24" /></a>
+			<a href="REDIR:http://www.twitter.com/recipe4living" target="_blank"><img src="https://cdn.maropost.com/pro/uploads/account_694/70142/twitter_gray.png?rand=c9395b6e-c7ee-4d74-9bf3-31a72124f1f7" alt="Twitter" style="width: 24px;max-width: 24px;" width="24" /></a>
+			<a href="REDIR:http://www.pinterest.com/recipe4living" target="_blank"><img src="https://cdn.maropost.com/pro/uploads/account_694/70141/pinterest_gray.png?rand=27eeb286-ea68-4386-b568-75ae52257067" alt="Pinterest" style="width: 24px;max-width: 24px;"width="24" /></a>
 		</td>
 	</tr>
 	<tr>
 		<td colspan="2" align="center">
 			<a href="REDIR:http://www.recipe4living.com/?utm_source=dailyrecipes&utm_medium=newsletter&utm_campaign=Daily%2BRecipes&utm_content=image" target="_blank">
-			<img alt="Recipe4Living Daily Recipes" src="http://media.campaigner.com/accountsmedia/43/439960/b3fe45a8d20a466f80f9c8731617a1e2.PNG?rand=bc0379ec-f175-4c3e-ad04-82fdaf06f5a6" width="600" />
+			<img alt="Recipe4Living Daily Recipes" src="https://cdn.maropost.com/pro/uploads/account_694/70138/b3fe45a8d20a466f80f9c8731617a1e2.png?rand=bc0379ec-f175-4c3e-ad04-82fdaf06f5a6" width="600" />
 			</a>
 		</td>
 	</tr>

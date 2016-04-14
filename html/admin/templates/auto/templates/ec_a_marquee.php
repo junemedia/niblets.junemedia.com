@@ -63,13 +63,9 @@
 						
 							<td width="39" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
 							
-							<td width="211" height="50" style="font-size: 0; line-height: 0;"><a href="http://www.recipe4living.com/?utm_source=singleserving&utm_medium=newsletter&utm_content=logo_image&utm_campaign=Seasonal"><img src="http://media.campaigner.com/media/43/439960/d6b99r4l_ss_logo_new.PNG?rand=50350420-c4f8-475a-97a8-9d60438833b3" alt="ad" width="78" height="50"  style="display: block;"></a></td>
+							<td width="211" height="50" style="font-size: 0; line-height: 0;"><a href="http://www.recipe4living.com/?utm_source=singleserving&utm_medium=newsletter&utm_content=logo_image&utm_campaign=Seasonal"><img src="https://cdn.maropost.com/pro/uploads/account_694/70104/d6b99r4l_ss_logo_new.png?rand=50350420-c4f8-475a-97a8-9d60438833b3" alt="ad" width="78" height="50"  style="display: block;"></a></td>
 							
 							<td width="223" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
-							
-							<!-- Editor's Choice Text Image
-							<td width="217" height="70" style="font-size: 0; line-height: 0;" valign="middle"><img src="http://media.campaigner.com/media/43/439960/5f8ddeditors_choice.PNG?rand=8917c054-9415-48dc-a048-8b4b6d12eece" alt="ad" width="175" height="22"  style="display: block;"></td>
-							-->
 							
 							<td width="217" height="50" style="font-family: Impact, Charcoal, sans-serif; font-weight: 100; font-size: 28px; " valign="middle">[CAMPAIGN_NAME]</td>
 

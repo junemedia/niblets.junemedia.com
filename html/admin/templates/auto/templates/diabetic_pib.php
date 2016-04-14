@@ -15,7 +15,7 @@
 	<tr>
 		<td colspan="2" align="center">
 			<a href="REDIR:http://www.recipe4living.com/" title="Recipe4Living" target="_blank" style="word-wrap: break-word !important;">
-				<img width="564" alt="Daily Recipes" src="http://media.campaigner.com/accountsmedia/43/439960/b209c20b691142609fac152520ff26e5.JPG?rand=f54fecbc-384d-4949-8fcf-c21f82e6c3d2" style="max-width: 730px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;line-height: 100%;outline: none;text-decoration: none;height: auto !important;" align="middle" />
+				<img width="564" alt="Daily Recipes" src="https://cdn.maropost.com/pro/uploads/account_694/70103/b209c20b691142609fac152520ff26e5.jpeg?rand=f54fecbc-384d-4949-8fcf-c21f82e6c3d2" style="max-width: 730px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;line-height: 100%;outline: none;text-decoration: none;height: auto !important;" align="middle" />
 			</a>
 		</td>
 	</tr>

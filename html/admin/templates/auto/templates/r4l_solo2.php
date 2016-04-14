@@ -5,7 +5,7 @@
 <body bgcolor="#FFFFFF">
 <table width="640" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="center"><img src="http://media.campaigner.com/accountsmedia/43/439960/68ca060a5fc64c1489bfb08c26bb16ca.JPG?rand=5b262937-f0c5-430f-a943-f95d770c3e47" width="640"/></td>
+    <td align="center"><img src="https://cdn.maropost.com/pro/uploads/account_694/70065/68ca060a5fc64c1489bfb08c26bb16ca.jpeg?rand=5b262937-f0c5-430f-a943-f95d770c3e47" width="640"/></td>
   </tr>
 <tr><td colspan="3" align="center" valign="middle"> <font size="1" color="#999999">PAID ADVERTISEMENT</font><br />
 			</td></tr>

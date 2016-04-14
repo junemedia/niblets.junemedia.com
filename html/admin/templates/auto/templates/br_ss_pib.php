@@ -38,7 +38,7 @@
 						
 							<td width="39" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
 							
-							<td width="211" height="50" style="font-size: 0; line-height: 0;"><a href="http://www.betterrecipes.com/"><img src="http://media.campaigner.com/media/43/439960/9d14fbr_logo.PNG?rand=94a4ac36-f6df-4162-98e7-71aab0b62512" alt="ad"  style="display: block;"></a></td>
+							<td width="211" height="50" style="font-size: 0; line-height: 0;"><a href="http://www.betterrecipes.com/"><img src="https://cdn.maropost.com/pro/uploads/account_694/70050/9d14fbr_logo.png?rand=94a4ac36-f6df-4162-98e7-71aab0b62512" alt="ad"  style="display: block;"></a></td>
 							
 							<td width="200" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
 														

@@ -15,7 +15,7 @@
 		<tr>
 			<td colspan="2" align="center">
 				<a href="REDIR:http://www.workitmom.com/?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=image" target="_blank">
-					<img src="http://media.campaigner.com/accountsmedia/43/439960/a998225a83ac4e3bba491ea96811ec49.JPG?rand=95787ef9-bb1f-48f7-9850-1fc51d1eceb7" alt="WorkItMom">
+					<img src="https://cdn.maropost.com/pro/uploads/account_694/70070/a998225a83ac4e3bba491ea96811ec49.jpeg?rand=95787ef9-bb1f-48f7-9850-1fc51d1eceb7" alt="WorkItMom">
 				</a>
 			</td>
 		</tr>

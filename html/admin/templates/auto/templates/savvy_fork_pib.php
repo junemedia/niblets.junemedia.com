@@ -17,15 +17,15 @@
 				[ISSUE_DATE]
 			</div>
 			<div style="float:right;">
-				<a href="REDIR:https://www.facebook.com/Savvyfork" target="_blank"><img src="http://media.campaigner.com/accountsmedia/43/439960/d093a1f11a5f435d8e36fa5a748b68f4.PNG?rand=99dbdd9f-4022-4557-95c3-6b095362d4cb" alt="Facebook" style="width: 24px;max-width: 24px;" width="24" /></a>
-				<a href="REDIR:https://twitter.com/Savvy_Fork" target="_blank"><img src="http://media.campaigner.com/accountsmedia/43/439960/3e403ad2d8fb44aaa717ae35b1c3afc7.PNG?rand=df36fd4d-003f-490b-81e2-59ec7ddf80c1" alt="Twitter" style="width: 24px;max-width: 24px;" width="24" /></a>
-				<a href="REDIR:http://www.pinterest.com/savvyfork/" target="_blank"><img src="http://media.campaigner.com/accountsmedia/43/439960/9a850b1817da44c08859fdf9d25b8bc8.PNG?rand=3c1600ed-2888-42c1-bb1d-5089f29585ff" alt="Pinterest" style="width: 24px;max-width: 24px;"width="24" /></a>
+				<a href="REDIR:https://www.facebook.com/Savvyfork" target="_blank"><img src="https://cdn.maropost.com/pro/uploads/account_694/70112/d093a1f11a5f435d8e36fa5a748b68f4.png?rand=99dbdd9f-4022-4557-95c3-6b095362d4cb" alt="Facebook" style="width: 24px;max-width: 24px;" width="24" /></a>
+				<a href="REDIR:https://twitter.com/Savvy_Fork" target="_blank"><img src="https://cdn.maropost.com/pro/uploads/account_694/70115/3e403ad2d8fb44aaa717ae35b1c3afc7.png?rand=df36fd4d-003f-490b-81e2-59ec7ddf80c1" alt="Twitter" style="width: 24px;max-width: 24px;" width="24" /></a>
+				<a href="REDIR:http://www.pinterest.com/savvyfork/" target="_blank"><img src="https://cdn.maropost.com/pro/uploads/account_694/70114/9a850b1817da44c08859fdf9d25b8bc8.png?rand=3c1600ed-2888-42c1-bb1d-5089f29585ff" alt="Pinterest" style="width: 24px;max-width: 24px;"width="24" /></a>
 			</div>
 		</td>
 	</tr>
 	<tr>
 		<td align="center" style="border-top-color: #575757;border-top-width: 3px;border-top-style: solid;">
-			<a href="REDIR:http://www.savvyfork.com/?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="http://media.campaigner.com/accountsmedia/43/439960/3ca4d10ea6f34601818a3fbf9d5a7d61.PNG?rand=7c087577-84f1-4aba-b798-904a697205e3"></a>
+			<a href="REDIR:http://www.savvyfork.com/?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="https://cdn.maropost.com/pro/uploads/account_694/70113/3ca4d10ea6f34601818a3fbf9d5a7d61.png?rand=7c087577-84f1-4aba-b798-904a697205e3"></a>
 		</td>
 	</tr>
 	<tr>
