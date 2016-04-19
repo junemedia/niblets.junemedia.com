@@ -12,7 +12,7 @@ iconv_set_encoding("output_encoding", "UTF-8");
 // upload an image to Campaigner library
 // duplicates templates/auto/addImageToLibrary.php
 function generateImgUrl($imageurl) {
-  if (!strstr($imageurl,'maropost.s3.amazonaws.com')) {
+  if (!strstr($imageurl,'maropost.s3.amazonaws.com') && !strstr($imageurl, 'cdn.maropost.com')) {
 
     // expecting to get back an object here
     $response = addImageToLibrary($imageurl);

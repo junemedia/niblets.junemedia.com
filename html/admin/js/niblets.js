@@ -10,7 +10,7 @@
 
       if (imgURL != '') {
         // if it's already a library image, we're done
-        if (imgURL.indexOf('maropost.s3.amazonaws.com') != -1) {
+        if (imgURL.indexOf('maropost.s3.amazonaws.com') != -1 || imgURL.indexOf('cdn.maropost.com') != -1) {
           console.log('[addImageToLibrary] already in library');
           return true;
         }
@@ -27,7 +27,7 @@
             response=coRegPopup.send('addImageToLibrary.php?imageurl=' + imgURL, '');
             console.info('response:', response);
 
-            if (response.indexOf('maropost.s3.amazonaws.com') != -1) {
+            if (response.indexOf('maropost.s3.amazonaws.com') != -1 || response.indexOf('cdn.maropost.com') != -1) {
               document.getElementById(key).value = response.trim();
               return true;
             }

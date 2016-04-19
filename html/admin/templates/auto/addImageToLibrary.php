@@ -6,7 +6,7 @@ include_once("/var/www/html/admin.popularliving.com/subctr/functions.php");
 $imageurl = $_GET['imageurl'];
 
 
-if (!strstr($url,'maropost.s3.amazonaws.com')) {
+if (!strstr($url,'maropost.s3.amazonaws.com') && !strstr($url, 'cdn.maropost.com')) {
 
   // expecting to get back an object here
   $response = addImageToLibrary($imageurl);
