@@ -8,7 +8,7 @@ $sPageTitle = "Body Templates";
 
 session_start();
 
-mysql_select_db('maropost_templates');
+mysql_select_db( $templatesDB );
 
 
 

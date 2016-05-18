@@ -3,7 +3,7 @@
 include_once("../../../includes/paths.php");
 
 
-mysql_select_db('maropost_templates');
+mysql_select_db( $templatesDB );
 
 require_once("template_class.php");
 

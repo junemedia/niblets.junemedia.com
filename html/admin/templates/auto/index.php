@@ -1,7 +1,7 @@
 <?php
 
 include_once("../../../includes/paths.php");
-mysql_select_db('maropost_templates');
+mysql_select_db( $templatesDB );
 
 session_start();
 $sList = '';

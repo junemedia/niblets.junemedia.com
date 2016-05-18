@@ -2,7 +2,7 @@
 
 include("../../includes/paths.php");
 session_start();
-mysql_select_db('maropost_templates');
+mysql_select_db( $templatesDB );
 $user = $_SERVER['PHP_AUTH_USER'];
 
 

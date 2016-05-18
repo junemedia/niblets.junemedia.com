@@ -20,7 +20,9 @@ $pass = "password" ;
 mysql_pconnect ($host, $user, $pass);
 mysql_select_db ($dbase);
 
-$sGblWebRoot = "/path/to/web/root";
+$templatesDB = 'maropost_templates';
+
+$sGblWebRoot = '/var/www/html/admin.popularliving.com/html';
 $sGblAdminWebRoot = "$sGblWebRoot/admin";
 
 // base url of site
