@@ -1,1 +1,3 @@
-Just using this to keep track of files I'm changing, this all is tracked elsewhere: https://github.com/junemedia/nibbles
+# Niblets
+
+The new newsletter templating system to replace Nibbles, which is tracked elsewhere: https://github.com/junemedia/nibbles
