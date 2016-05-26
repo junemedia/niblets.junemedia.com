@@ -78,7 +78,7 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
   $rawPrizes = file_get_contents("http://win.betterrecipes.com/api/getPrize/$NL_mailDate");
   $prizes = json_decode($rawPrizes);
   $sweepBaseUrl = 'http://win.betterrecipes.com/';
-  if ($template =='r4l_sweeps.php') {
+  if ($template =='r4l_sweeps.php' || $template == 'r4l_sweeps_marquee.php') {
     $sweepBaseUrl = 'http://win.recipe4living.com/';
   }
 
@@ -157,7 +157,7 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
             <tr>
               <td align="right" colspan="2">
                 <input type="hidden" name="templateName" value="<?php echo $template; ?>">
-                <?php if($template =='br_sweeps.php' || $template =='r4l_sweeps.php'){?>
+                <?php if($template =='br_sweeps.php' || $template =='r4l_sweeps.php' || $template =='br_sweeps_marquee.php' || $template =='r4l_sweeps_marquee.php'){?>
                 <input type="submit" name="initSubmit" id="initSubmit" value="Get Sweeps">&nbsp;&nbsp;&nbsp;&nbsp;
                 <?php }?>
                 <input type="submit" name="submit" id="submit" value="Generate">
