@@ -40,8 +40,9 @@ include_once("../../../includes/adminHeader.php");
 
 // templates select form field
 $template_options = "<option></option>";
-if ($handle = opendir('templates')) {
-  while (false !== ($entry = readdir($handle))) {
+
+if ($scanned = scandir('templates')) {
+  foreach ($scanned as $entry) {
     // only show php files
     if (substr($entry, -4) === '.php') {
       if (isset($template) && $template == strtolower($entry)) {
@@ -52,7 +53,6 @@ if ($handle = opendir('templates')) {
       $template_options .= "<option value='$entry' $selected>$entry</option>";
     }
   }
-  closedir($handle);
 }
 ?>
 
@@ -69,7 +69,6 @@ if ($handle = opendir('templates')) {
 <table cellpadding="10" cellspacing="10" bgcolor="c9c9c9" width="75%" align="center" border="0">
   <tr>
     <td colspan="4" align="right">
-      <!--a href="image.php" onclick="javascript:void window.open('image.php','add','width=800,height=600,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=50,top=50');return false;">Upload Image to Campaigner/Cloud/Akamai</a-->
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="addEdit.php" onclick="javascript:void window.open('addEdit.php','add','width=700,height=700,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=50,top=50');return false;">Create New Newsletter</a>
     </td>

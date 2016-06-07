@@ -168,14 +168,18 @@ if (isset($iId) && $iId != '') {
 
 
 $template_options = "";
-if ($handle = opendir('templates')) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry != "." && $entry != "..") {
-          if (isset($template) && strtolower($entry) == $template) { $selected = 'selected'; } else { $selected = ''; }
-            $template_options .= "<option value='$entry' $selected>$entry</option>";
-        }
+if ($scanned = scandir('templates')) {
+  foreach ($scanned as $entry) {
+    // only show php files
+    if (substr($entry, -4) === '.php') {
+      if (isset($template) && $template == strtolower($entry)) {
+        $selected = 'selected';
+      } else {
+        $selected = '';
+      }
+      $template_options .= "<option value='$entry' $selected>$entry</option>";
     }
-    closedir($handle);
+  }
 }
 
 
