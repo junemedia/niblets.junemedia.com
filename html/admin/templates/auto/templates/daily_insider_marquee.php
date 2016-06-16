@@ -132,7 +132,7 @@
               <tr>
                 <td colspan="2">
                   <a href="http://liveintent.recipe4living-recipes.com/click?s=182586&layout=marquee&li=411&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
-                    <img src="http://liveintent.recipe4living-recipes.com/imp?s=182586&layout=marquee&li=411&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0" style="display: block; width:100%; height:auto;" width="728" />
+                    <img src="http://liveintent.recipe4living-recipes.com/imp?s=182586&layout=marquee&li=411&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0" style="display: block; width:100%; height:auto;" width="650" />
                   </a>
                 </td>
               </tr>
