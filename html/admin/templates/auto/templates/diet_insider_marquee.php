@@ -18,40 +18,6 @@
     <td valign="top" width="2%">
       <!-- takeover -->
 
-      <!-- LiveIntent marquee -->
-      <!-- code from LiveIntent -->
-      <table border="0" cellpadding="0" cellspacing="0"  align="center" style="margin-left:auto; margin-right:auto;">
-        <tr>
-          <td colspan="2">
-            <a href="http://liveintent.recipe4living-recipes.com/click?s=182581&layout=marquee&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
-              <img src="http://liveintent.recipe4living-recipes.com/imp?s=182581&layout=marquee&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0" style="display: block; width:100%; height:auto;" width="728" />
-            </a>
-          </td>
-        </tr>
-        <tr style="display:block; height:1px; line-height:1px;">
-          <td>
-            <img src="http://liveintent.recipe4living-recipes.com/imp?s=182582&sz=1x1&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
-          </td>
-          <td>
-            <img src="http://liveintent.recipe4living-recipes.com/imp?s=182583&sz=1x1&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
-          </td>
-        </tr>
-        <tr>
-          <td align="left">
-            <a href="http://liveintent.recipe4living-recipes.com/click?s=182584&sz=116x15&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
-              <img src="http://liveintent.recipe4living-recipes.com/imp?s=182584&sz=116x15&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
-            </a>
-          </td>
-          <td align="right">
-            <a href="http://liveintent.recipe4living-recipes.com/click?s=182585&sz=69x15&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
-              <img src="http://liveintent.recipe4living-recipes.com/imp?s=182585&sz=69x15&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
-            </a>
-          </td>
-        </tr>
-      </table>
-      <!-- /code from LiveIntent -->
-      <!-- /LiveIntent marquee -->
-
       <!-- 728x90 ATF -->
       <table border="0" cellpadding="0" cellspacing="0" >
         <tr>
@@ -159,6 +125,45 @@
             </table>
           </td>
         </tr>
+
+        <!-- LiveIntent marquee -->
+        <tr>
+          <td colspan="2" align="center" valign="top">
+            <!-- code from LiveIntent -->
+            <table border="0" cellpadding="0" cellspacing="0"  align="center" style="margin-left:auto; margin-right:auto;">
+              <tr>
+                <td colspan="2">
+                  <a href="http://liveintent.recipe4living-recipes.com/click?s=182581&layout=marquee&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
+                    <img src="http://liveintent.recipe4living-recipes.com/imp?s=182581&layout=marquee&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0" style="display: block; width:100%; height:auto;" width="728" />
+                  </a>
+                </td>
+              </tr>
+              <tr style="display:block; height:1px; line-height:1px;">
+                <td>
+                  <img src="http://liveintent.recipe4living-recipes.com/imp?s=182582&sz=1x1&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
+                </td>
+                <td>
+                  <img src="http://liveintent.recipe4living-recipes.com/imp?s=182583&sz=1x1&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <a href="http://liveintent.recipe4living-recipes.com/click?s=182584&sz=116x15&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
+                    <img src="http://liveintent.recipe4living-recipes.com/imp?s=182584&sz=116x15&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
+                  </a>
+                </td>
+                <td align="right">
+                  <a href="http://liveintent.recipe4living-recipes.com/click?s=182585&sz=69x15&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
+                    <img src="http://liveintent.recipe4living-recipes.com/imp?s=182585&sz=69x15&li=448&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <!-- /code from LiveIntent -->
+          </td>
+        </tr>
+        <!-- /LiveIntent marquee -->
+
         <tr>
           <td width="300" valign="top" align="center" style="padding-top:10px;">
             <!--ADS_BLOCK_1-->
