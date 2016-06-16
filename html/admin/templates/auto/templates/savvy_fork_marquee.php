@@ -29,11 +29,11 @@
           </td>
         </tr>
         <tr style="display:block; height:1px; line-height:1px;">
-          <td>
-            <img src="http://li.savvyfork.com/imp?s=133854&sz=1x1&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
+          <td style="line-height:1px;">
+            <img src="http://li.savvyfork.com/imp?s=133854&sz=1x1&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" style="line-height:1px;" />
           </td>
-          <td>
-            <img src="http://li.savvyfork.com/imp?s=133855&sz=1x1&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
+          <td style="line-height:1px;">
+            <img src="http://li.savvyfork.com/imp?s=133855&sz=1x1&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" style="line-height:1px;" />
           </td>
         </tr>
         <tr>

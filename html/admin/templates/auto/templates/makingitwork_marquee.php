@@ -29,11 +29,11 @@
           </td>
         </tr>
         <tr style="display:block; height:1px; line-height:1px;">
-          <td>
-            <img src="http://liveintent.recipe4living-recipes.com/imp?s=133857&sz=1x1&li=553&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
+          <td style="line-height:1px;">
+            <img src="http://liveintent.recipe4living-recipes.com/imp?s=133857&sz=1x1&li=553&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" style="line-height:1px;" />
           </td>
-          <td>
-            <img src="http://liveintent.recipe4living-recipes.com/imp?s=133858&sz=1x1&li=553&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
+          <td style="line-height:1px;">
+            <img src="http://liveintent.recipe4living-recipes.com/imp?s=133858&sz=1x1&li=553&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" style="line-height:1px;" />
           </td>
         </tr>
         <tr>
