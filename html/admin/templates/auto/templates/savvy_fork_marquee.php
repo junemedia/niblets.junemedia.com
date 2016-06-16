@@ -15,42 +15,9 @@
         <img src="http://li.savvyfork.com/imp?s=102752&layout=left&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
       </a>
     </td>
+
     <td valign="top" width="2%">
       <!--takeover-->
-
-      <!-- LiveIntent marquee -->
-      <!-- code from LiveIntent -->
-      <table border="0" cellpadding="0" cellspacing="0"  align="center" style="margin-left:auto; margin-right:auto;">
-        <tr>
-          <td colspan="2">
-            <a href="http://li.savvyfork.com/click?s=182516&layout=marquee&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
-              <img src="http://li.savvyfork.com/imp?s=182516&layout=marquee&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0" style="display: block; width:100%; height:auto;" width="728" />
-            </a>
-          </td>
-        </tr>
-        <tr style="display:block; height:1px; line-height:1px;">
-          <td>
-            <img src="http://li.savvyfork.com/imp?s=182517&sz=1x1&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
-          </td>
-          <td>
-            <img src="http://li.savvyfork.com/imp?s=182518&sz=1x1&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
-          </td>
-        </tr>
-        <tr>
-          <td align="left">
-            <a href="http://li.savvyfork.com/click?s=182519&sz=116x15&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
-              <img src="http://li.savvyfork.com/imp?s=182519&sz=116x15&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
-            </a>
-          </td>
-          <td align="right">
-            <a href="http://li.savvyfork.com/click?s=182520&sz=69x15&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
-              <img src="http://li.savvyfork.com/imp?s=182520&sz=69x15&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
-            </a>
-          </td>
-        </tr>
-      </table>
-      <!-- /code from LiveIntent -->
-      <!-- /LiveIntent marquee -->
 
       <!-- 728x90 ATF -->
       <table border="0" cellpadding="0" cellspacing="0" >
@@ -83,6 +50,8 @@
         </tr>
       </table>
       <!-- end 728x90 ATF -->
+
+      <!-- Content area -->
       <table width="610" align="center" border="0" cellpadding="5" cellspacing="5" style="background-color:white;">
         <tr>
           <td align="right" style="font-size: 9px;color: #575757;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;">
@@ -150,6 +119,45 @@
             </table>
           </td>
         </tr>
+
+        <!-- LiveIntent marquee -->
+        <tr>
+          <td>
+            <!-- code from LiveIntent -->
+            <table border="0" cellpadding="0" cellspacing="0"  align="center" style="margin-left:auto; margin-right:auto;">
+              <tr>
+                <td colspan="2">
+                  <a href="http://li.savvyfork.com/click?s=182516&layout=marquee&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
+                    <img src="http://li.savvyfork.com/imp?s=182516&layout=marquee&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0" style="display: block; width:100%; height:auto;" width="624" />
+                  </a>
+                </td>
+              </tr>
+              <tr style="display:block; height:1px; line-height:1px;">
+                <td>
+                  <img src="http://li.savvyfork.com/imp?s=182517&sz=1x1&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
+                </td>
+                <td>
+                  <img src="http://li.savvyfork.com/imp?s=182518&sz=1x1&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" />
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <a href="http://li.savvyfork.com/click?s=182519&sz=116x15&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
+                    <img src="http://li.savvyfork.com/imp?s=182519&sz=116x15&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
+                  </a>
+                </td>
+                <td align="right">
+                  <a href="http://li.savvyfork.com/click?s=182520&sz=69x15&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow">
+                    <img src="http://li.savvyfork.com/imp?s=182520&sz=69x15&li=583&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/>
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <!-- /code from LiveIntent -->
+          </td>
+        </tr>
+        <!-- /LiveIntent marquee -->
+
         <tr>
           <td align="center" style="padding: 9px 18px;text-align: center;color: #575757;font-family: Georgia, Times, 'Times New Roman', serif;font-size: 20px;font-weight: normal;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;line-height: 125%;">
             More From June Media
