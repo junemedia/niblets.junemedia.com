@@ -30,11 +30,19 @@ while ($data_row = mysql_fetch_object($get_data_result)) {
 
 /*
  * ********************************************************************
- * Send new data to the remote system, ie Campaigner or Maropost
+ * Send new data to Maropost
  * ********************************************************************
  */
 // if we don't already have a contents_id, then this is new content
 $newContent = $data_array['content_id'] == 0;
+
+// if not new, check to make sure the content is still in Maropost's system
+if (!$newContent) {
+  if (!contentExists($data_array['content_id'])) {
+    $data_array['content_id'] = 0;
+    $newContent = true;
+  };
+}
 
 $apiResult = pushNewsletterContent($data_array);
 //var_dump($apiResult);

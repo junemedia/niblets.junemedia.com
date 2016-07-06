@@ -3,6 +3,40 @@
 include_once("JSON.php");
 */
 
+/**
+ * check whether content exists in Maropost's system
+ *
+ * @param number $contentId
+ *
+ * @return number
+ */
+function contentExists($contentId) {
+  $apiKey = 'c300eeefb54ee6e746260585befa15a10a947a86';
+  $apiRoot = 'http://api.maropost.com/accounts/694';
+  $apiEndpoint = "contents/$contentId.json";
+  $apiMethod = 'GET';
+  $apiHeaders = array(
+    'Accept: application/json',
+    'Content-Type: application/json'
+  );
+
+  $ch = curl_init("$apiRoot/$apiEndpoint?auth_token=$apiKey");
+  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $apiMethod);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($ch, CURLOPT_HTTPHEADER, $apiHeaders);
+  $response = curl_exec($ch);
+  $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  curl_close($ch);
+
+  $json = json_decode($response);
+
+  if ($statusCode == 200) {
+    if (isset($json->id) && $json->id == $contentId) {
+      return true;
+    }
+  }
+  return false;
+}
 
 /**
  * build html from template and db data
