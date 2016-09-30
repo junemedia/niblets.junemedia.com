@@ -25,7 +25,7 @@ To unsubscribe, <a href="http://www.fitandfabliving.com/unsubscribe.php?lid=410&
     </P>
 <P>The preceding is a paid message from a Fit&FabLiving advertiser and does not 
 reflect the views of Fit&Fab Living. Any questions or concerns regarding this offer should be directed to the advertiser.</P>
-<P>Privacy Policy: <a href="http://www.fitandfabliving.com/index.php/privacy-policy.html" style="color:#2E2E2E;" target="_blank">http://www.fitandfabliving.com/index.php/privacy-policy.html</a></P>
+<P>Privacy Policy: <a href="http://www.fitandfabliving.com/privacy-policy" style="color:#2E2E2E;" target="_blank">http://www.fitandfabliving.com/privacy-policy</a></P>
     <P align="left">June Media, Inc., 209 W Jackson Blvd, Suite 702, Chicago, IL 60606,   FAX: (847) 205-9340<BR>
 Copyright &copy; [CURRENT_YEAR] June Media, Inc. All rights reserved. 
 </P>
