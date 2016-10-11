@@ -1,6 +1,7 @@
 <?php
 
-include_once("/var/www/html/admin.popularliving.com/subctr/functions.php");
+include_once("../../../includes/paths.php");
+include_once("$sGblSubctrPath/functions.php");
 
 // duplicates generateImgUrl function in create.php
 $imageurl = $_GET['imageurl'];

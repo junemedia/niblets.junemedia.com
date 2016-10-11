@@ -22,14 +22,17 @@ mysql_select_db ($dbase);
 
 $templatesDB = 'maropost_templates';
 
-$sGblWebRoot = '/var/www/html/admin.popularliving.com/html';
+$sGblWebRoot = '/path/to/web/root';
 $sGblAdminWebRoot = "$sGblWebRoot/admin";
 
 // base url of site
-$sGblSiteRoot = "http://www.mysite.com";
+$sGblSiteRoot = 'http://niblets.junemedia.com';
 
 // specify site root of the images specified on different server
-$sGblImageServerSiteRoot = "http://images.mysite.com";
+$sGblImageServerSiteRoot = 'http://images.popularliving.com';
 
 // url of admin site
-$sGblAdminSiteRoot = "http://www.mysite.com/admin";
+$sGblAdminSiteRoot = 'http://niblets.junemedia.com/admin';
+
+// path to subctr folder
+$sGblSubctrPath = '/path/to/subctr';
