@@ -1,5 +1,6 @@
 .htaccess
 config.php
+html/includes/paths.php
 
 hold/
 logs/
