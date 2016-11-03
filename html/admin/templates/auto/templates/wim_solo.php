@@ -26,7 +26,7 @@ Privacy Policy: <a href="http://workitmom.com/privacy/" target="_blank">click he
 <br>
 <P>The preceding is a paid message from a Work It Mom advertiser and does not 
 reflect the views of Work It Mom. Any questions or concerns regarding this offer should be directed to the advertiser.</P>
-June Media, Inc., 209 W Jackson Blvd, Suite 702, Chicago, IL 60606, FAX: (847) 205-9340
+June Media, Inc., 200 E. Ohio Street, Suite 300, Chicago, IL 60611
 <br>
 Copyright &copy; [CURRENT_YEAR] June Media Inc. All rights reserved. 
 	<br>

@@ -247,7 +247,7 @@
         <tr align="center">
           <td>
             <div style="float:left;font-family:Arial, Helvetica, sans-serif; font-size:9px;">
-              <em>Copyright &copy; [CURRENT_YEAR] June Media, All rights reserved. June Media, 209 W. Jackson Blvd, Suite 702, Chicago, IL 60606</em>
+              <em>Copyright &copy; [CURRENT_YEAR] June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
             </div>
             <div style="float:right;font-family:Arial, Helvetica, sans-serif; font-size:10px;">
               <a href="http://www.recipe4living.com/index/unsubscribe?lid=395&jid={job.jobid}" target="_blank">Unsubscribe From This List</a>

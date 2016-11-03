@@ -305,7 +305,7 @@
         <tr>
           <td>
             <div style="font-family:Arial, Helvetica, sans-serif; font-size:9px;">
-              <em>Copyright &copy; [CURRENT_YEAR] June Media, All rights reserved. June Media, 209 W. Jackson Blvd, Suite 702, Chicago, IL 60606</em>
+				      <em>Copyright &copy; [CURRENT_YEAR] June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
             </div>
           </td>
         </tr>
