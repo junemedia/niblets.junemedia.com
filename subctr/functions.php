@@ -105,7 +105,7 @@ function pushNewsletterContent($contentsArray) {
     'content' => array(
       'name' => $contentsArray['campaign_name'],
       'html_part' => $contentsArray['html_code'],
-      'full_email' => true,
+      'full_email' => false, // open content in Maropost's WYSIWYG editor
       /*
       'id': 356632
       'account_id': 694
