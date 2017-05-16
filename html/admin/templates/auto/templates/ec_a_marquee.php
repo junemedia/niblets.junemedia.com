@@ -158,74 +158,29 @@
 			</tr>
 			<!-- end white space -->
 
-      <!-- POWERINBOX -->
       <tr>
         <td>
           <table border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td width="39" height="240" style="font-size: 0; line-height: 0;">&nbsp;</td>
+              <td width="64" height="185" style="font-size: 0; line-height: 0;">&nbsp;</td>
               <td valign="top">
-                <div class="powerinbox">
-                  <!-- domain: rs-stripe.recipe4living-recipes.com -->
-                  <!-- branding: rs-branding.recipe4living-recipes.com -->
-                  <table width="650" border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
-                      <tr>
-                        <td align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif; color:#e41239; font-weight:bold; font-size:16px;">
-                          You Might Like
-                        </td>
-                        <td align="right">
-                          <a href="http://rs-branding.recipe4living-recipes.com/?utm_source=contentstripe&utm_medium=email&utm_campaign=junemedia&utm_content=animatedlogo" style="display: inline-block; border: 0; outline:none; text-decoration:none;" target="_blank">
-                            <img src="http://rs-branding.recipe4living-recipes.com/recommend/transparent.gif" style="width: 143px; height: 40px;" width="143" height="40" border="0" alt="Learn more about RevenueStripe..." />
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="center" height="8" valign="top" style="font-size:8px; height:8px; line-height:8px; vertical-align:top"></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table width="650" border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                      <td width="155" style="border-collapse:collapse;padding-right:10px;">
-                        <a href="http://rs-stripe.recipe4living-recipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=0&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-                          <img alt="" height="190" src="http://rs-stripe.recipe4living-recipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=0&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-                        </a>
-                      </td>
-                      <td width="155" style="border-collapse:collapse;padding-right:10px;">
-                        <a href="http://rs-stripe.recipe4living-recipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=1&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-                          <img alt="" height="190" src="http://rs-stripe.recipe4living-recipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=1&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-                        </a>
-                      </td>
-                      <td width="155" style="border-collapse:collapse;padding-right:10px;">
-                        <a href="http://rs-stripe.recipe4living-recipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=2&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-                          <img alt="" height="190" src="http://rs-stripe.recipe4living-recipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=2&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-                        </a>
-                      </td>
-                      <td width="155" style="border-collapse:collapse;">
-                        <a href="http://rs-stripe.recipe4living-recipes.com/stripe/redirect?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=3&cs_stripeid=1191" style="border-style: none;outline: none;text-decoration: none;" target="_blank">
-                          <img alt="" height="190" src="http://rs-stripe.recipe4living-recipes.com/stripe/image?cs_email={{contact.email}}&cs_esp=campaigner&cs_offset=3&cs_stripeid=1191" style="display: block;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="155">
-                        </a>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
+                <!-- LiveIntent content recommendations -->
+                <style type="text/css"> <!-- @media only screen and (max-width: 599px) { table[id=li-container]{ width: 100% !important; } div[class=fullw]{ width: 50% !important; } img[class=orgw]{ width: 95% !important; } td[class=adcontent]{ padding: 5px 0 5px 10px !important; } td[class=adchoices]{ padding: 0 10px 5px 0 !important; } } //--> </style>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" id="li-container" style="width:600px; margin:0 auto; font-size:0; line-height:0; border-collapse: collapse; background-color:#FFFFFF;"> <tr> <td class="adcontent" style="overflow:hidden; width:50%; padding:5px;"> <img src="https://s3-eu-west-1.amazonaws.com/avari-production-content-blocks-images/sponsored_content.png" width="217" height="22" border="0" style="display:inline-block;"> </td> <td class="adchoices" style="overflow:hidden; width:50%; vertical-align:bottom; text-align:right; padding-bottom:5px; padding-right:5px;"> <a href="http://liveintent.recipe4living-recipes.com/click?s=96306&sz=69x15&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=96306&sz=69x15&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a> </td> </tr> <tr> <td colspan="2" align="center" width="100%" style="width:100%; text-align:center; font-size:0; line-height:0; vertical-align: top;"> <!--[if (gte mso 9)|(IE)]> <table width="600" align="center" cellpadding="0" cellspacing="0" border="0"> <tr> <td> <![endif]--> <!--[if (gte mso 9)|(IE)]> <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"> <tr><td width="150" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241050&layout=native&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241050&layout=native&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241051&layout=tracking&sz=1x1&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241052&layout=tracking&sz=1x1&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td><td width="150" align="center" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241053&layout=native&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241053&layout=native&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241054&layout=tracking&sz=1x1&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241055&layout=tracking&sz=1x1&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td><td width="150" align="center" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241056&layout=native&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241056&layout=native&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241057&layout=tracking&sz=1x1&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241058&layout=tracking&sz=1x1&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td><td width="150" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241059&layout=native&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241059&layout=native&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241060&layout=tracking&sz=1x1&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241061&layout=tracking&sz=1x1&li=703A&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td></tr> </table> <![endif]--> <!--[if (gte mso 9)|(IE)]> </td> </tr> </table> <![endif]--> </td> </tr> </table>
+                <!-- LiveIntent content recommendations -->
               </td>
-              <td width="39" height="240" style="font-size: 0; line-height: 0;">&nbsp;</td>
+              <td width="64" height="185" style="font-size: 0; line-height: 0;">&nbsp;</td>
             </tr>
           </table>
         </td>
       </tr>
-      <!-- POWERINBOX -->
-
-
 
 			<!-- white space -->
 			<tr>
 				<td>
 					<table border="0" cellpadding="0" cellspacing="0">
 						<tr>
-							<td width="728" height="10" style="font-size: 0; line-height: 0;">&nbsp;</td>
+							<td width="728" height="20" style="font-size: 0; line-height: 0;">&nbsp;</td>
 						</tr>
 					</table>
 				</td>
