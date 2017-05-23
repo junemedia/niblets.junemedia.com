@@ -16,7 +16,7 @@ class Template {
 
   public function output() {
     foreach ($this->values AS $key => $value) {
-      $find = "[$key]";
+      $find = "{{/$key/}}";
       $this->output = str_replace($find, $value, $this->output);
     }
     return $this->output;

@@ -56,7 +56,7 @@
         <tr>
           <td align="right" style="font-size: 9px;color: #575757;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;">
             <div style="float:left;">
-              [ISSUE_DATE]
+              {{/ISSUE_DATE/}}
             </div>
             <div style="float:right;">
               <a href="REDIR:https://www.facebook.com/Savvyfork" target="_blank"><img src="https://cdn.maropost.com/pro/uploads/account_694/70112/d093a1f11a5f435d8e36fa5a748b68f4.png?rand=99dbdd9f-4022-4557-95c3-6b095362d4cb" alt="Facebook" style="width: 24px;max-width: 24px;" width="24" /></a>
@@ -77,7 +77,7 @@
         </tr>
         <tr>
           <td align="center" style="background-color: #EBEBEB;color: #575757;font-family: Tahoma, Verdana, Segoe, sans-serif;font-size: 12px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;line-height: 150%;text-align: left;">
-            [FEATURED_TEXT]
+            {{/FEATURED_TEXT/}}
           </td>
         </tr>
         <tr>
@@ -85,35 +85,35 @@
             <table width="100%" align="center">
               <tr valign="top">
                 <td valign="top">
-                  <a href="REDIR:[RECIPE_1_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[RECIPE_1_IMAGE]" width="200" height="200" alt="[RECIPE_1_TITLE]"></a>
+                  <a href="REDIR:{{/RECIPE_1_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/RECIPE_1_IMAGE/}}" width="200" height="200" alt="{{/RECIPE_1_TITLE/}}"></a>
                 </td>
                 <td valign="top">
-                  <a href="REDIR:[RECIPE_2_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[RECIPE_2_IMAGE]" width="200" height="200" alt="[RECIPE_2_TITLE]"></a>
+                  <a href="REDIR:{{/RECIPE_2_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/RECIPE_2_IMAGE/}}" width="200" height="200" alt="{{/RECIPE_2_TITLE/}}"></a>
                 </td>
                 <td valign="top">
-                  <a href="REDIR:[RECIPE_3_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[RECIPE_3_IMAGE]" width="200" height="200" alt="[RECIPE_3_TITLE]"></a>
-                </td>
-              </tr>
-              <tr valign="top">
-                <td valign="top">
-                  <a href="REDIR:[RECIPE_4_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[RECIPE_4_IMAGE]" width="200" height="200" alt="[RECIPE_4_TITLE]"></a>
-                </td>
-                <td valign="top">
-                  <a href="REDIR:[RECIPE_5_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[RECIPE_5_IMAGE]" width="200" height="200" alt="[RECIPE_5_TITLE]"></a>
-                </td>
-                <td valign="top">
-                  <a href="REDIR:[RECIPE_6_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[RECIPE_6_IMAGE]" width="200" height="200" alt="[RECIPE_6_TITLE]"></a>
+                  <a href="REDIR:{{/RECIPE_3_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/RECIPE_3_IMAGE/}}" width="200" height="200" alt="{{/RECIPE_3_TITLE/}}"></a>
                 </td>
               </tr>
               <tr valign="top">
                 <td valign="top">
-                  <a href="REDIR:[RECIPE_7_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[RECIPE_7_IMAGE]" width="200" height="200" alt="[RECIPE_7_TITLE]"></a>
+                  <a href="REDIR:{{/RECIPE_4_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/RECIPE_4_IMAGE/}}" width="200" height="200" alt="{{/RECIPE_4_TITLE/}}"></a>
                 </td>
                 <td valign="top">
-                  <a href="REDIR:[RECIPE_8_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[RECIPE_8_IMAGE]" width="200" height="200" alt="[RECIPE_8_TITLE]"></a>
+                  <a href="REDIR:{{/RECIPE_5_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/RECIPE_5_IMAGE/}}" width="200" height="200" alt="{{/RECIPE_5_TITLE/}}"></a>
                 </td>
                 <td valign="top">
-                  <a href="REDIR:[RECIPE_9_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[RECIPE_9_IMAGE]" width="200" height="200" alt="[RECIPE_9_TITLE]"></a>
+                  <a href="REDIR:{{/RECIPE_6_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/RECIPE_6_IMAGE/}}" width="200" height="200" alt="{{/RECIPE_6_TITLE/}}"></a>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td valign="top">
+                  <a href="REDIR:{{/RECIPE_7_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/RECIPE_7_IMAGE/}}" width="200" height="200" alt="{{/RECIPE_7_TITLE/}}"></a>
+                </td>
+                <td valign="top">
+                  <a href="REDIR:{{/RECIPE_8_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/RECIPE_8_IMAGE/}}" width="200" height="200" alt="{{/RECIPE_8_TITLE/}}"></a>
+                </td>
+                <td valign="top">
+                  <a href="REDIR:{{/RECIPE_9_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/RECIPE_9_IMAGE/}}" width="200" height="200" alt="{{/RECIPE_9_TITLE/}}"></a>
                 </td>
               </tr>
             </table>
@@ -165,22 +165,22 @@
         </tr>
         <tr>
           <td align="center">
-            <a href="REDIR:[MORE_RECIPE_1_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[MORE_RECIPE_1_IMAGE]" width="600" height="220" alt="[MORE_RECIPE_1_TITLE]"></a>
+            <a href="REDIR:{{/MORE_RECIPE_1_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/MORE_RECIPE_1_IMAGE/}}" width="600" height="220" alt="{{/MORE_RECIPE_1_TITLE/}}"></a>
           </td>
         </tr>
         <tr>
           <td style="color: #575757;font-family: Tahoma, Verdana, Segoe, sans-serif;font-size: 12px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;line-height: 150%;text-align: left;">
-            [MORE_RECIPE_1_TEXT]
+            {{/MORE_RECIPE_1_TEXT/}}
           </td>
         </tr>
         <tr>
           <td align="center">
-            <a href="REDIR:[MORE_RECIPE_2_URL]?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="[MORE_RECIPE_2_IMAGE]" width="600" height="220" alt="[MORE_RECIPE_2_TITLE]"></a>
+            <a href="REDIR:{{/MORE_RECIPE_2_URL/}}?utm_source=thefeed&utm_medium=newsletter&utm_campaign=TheFeed&utm_content=image" target=_blank><img src="{{/MORE_RECIPE_2_IMAGE/}}" width="600" height="220" alt="{{/MORE_RECIPE_2_TITLE/}}"></a>
           </td>
         </tr>
         <tr>
           <td style="color: #575757;font-family: Tahoma, Verdana, Segoe, sans-serif;font-size: 12px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;line-height: 150%;text-align: left;">
-            [MORE_RECIPE_2_TEXT]
+            {{/MORE_RECIPE_2_TEXT/}}
           </td>
         </tr>
         <tr>
@@ -265,7 +265,7 @@
         <tr align="center">
           <td>
             <div style="float:left;font-family:Arial, Helvetica, sans-serif; font-size:9px;">
-              <em>Copyright &copy; [CURRENT_YEAR] June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
+              <em>Copyright &copy; {{/CURRENT_YEAR/}} June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
             </div>
             <div style="float:right;font-family:Arial, Helvetica, sans-serif; font-size:10px;">
               <a href="http://www.savvyfork.com/unsubscribe/?lid=583&jid={job.jobid}" target="_blank">Unsubscribe From This List</a>

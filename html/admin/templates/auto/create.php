@@ -35,8 +35,11 @@ if (isset($submit) && $submit == 'Generate') {
   $fields_name = explode(',', $fields_name);
   foreach ($fields_name as $field) {
     $val = addslashes($$field);
-    //$val = mb_convert_encoding($val, 'ISO-8859-1', 'UTF-8');
-    $query = "UPDATE automated_map SET  tag_value = \"$val\" WHERE automated_id = '$iId' AND tag_key=\"[$field]\"";
+
+    $query = "UPDATE automated_map
+              SET tag_value = \"$val\"
+              WHERE automated_id = '$iId'
+              AND tag_key=\"$field\"";
     $rSelectResult = mysql_query($query);
     echo mysql_error();
   }
@@ -49,15 +52,10 @@ $fields_name = "";
 $query = "SELECT * FROM automated_map WHERE automated_id = '$iId'";
 $rSelectResult = mysql_query($query);
 while ($oRow = mysql_fetch_object($rSelectResult)) {
-  // strip square brackets from tag_key
-  $tag_key = str_replace(array('[', ']'), '', $oRow->tag_key);
+  $tag_key = $oRow->tag_key;
   $fields[$tag_key] = stripslashes($oRow->tag_value);
-  $fields_name .= "$tag_key,";
 }
-// remove trailing comma
-if ($fields_name != '') {
-  $fields_name = substr($fields_name, 0, strlen($fields_name) - 1);
-}
+$fields_name = implode(',', array_keys($fields));
 
 // get newsletter details
 $query = "SELECT * FROM automated WHERE id = '$iId'";
@@ -117,6 +115,7 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
 
   <table align="center" cellpadding="5" cellspacing="5" style="border:1px solid #383838;background-color: #fff">
     <tr>
+      <!-- form fields -->
       <td valign="top">
         <table cellpadding="5" cellspacing="5" style="border: 1px solid #383838;">
           <form name='form1' action='<?php echo $_SERVER['PHP_SELF'];?>' method="POST">
@@ -129,7 +128,8 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
                 <?php echo $key; ?>
               </td>
               <td>
-                <?php if (strstr($key,'ADS_') || strstr($key,'TEXT')) { ?>
+                <?php
+                if (strstr($key,'ADS_') || strstr($key,'TEXT')) { ?>
                   <textarea name="<?php echo $key; ?>" id="<?php echo $key; ?>" cols="37" rows="5"><?php echo $value; ?></textarea>
                 <?php } else { ?>
                   <input type="text" size="50" name="<?php echo $key; ?>" id="<?php echo $key; ?>" value="<?php echo $value; ?>" onblur="addImageToLibrary('<?php echo $key; ?>');">
@@ -153,6 +153,8 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
           <p>Supported file formats are: JPEG, JPG, GIF, and PNG</p>
         </table>
       </td>
+      <!-- end form fields -->
+
       <td valign="top">
         <a href="arcamax_preview.php?iId=<?php echo $iId; ?>" target="_blank">Arcamax Preview</a><br>
         <iframe src="campaigner_preview.php?iId=<?php echo $iId; ?>" id="iframe1" frameborder="0" scrolling="auto" width="800" height="1500"></iframe>

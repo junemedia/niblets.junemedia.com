@@ -59,7 +59,7 @@
 
                 <td width="200" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
-                <td width="217" height="50" style="font-family: Impact, Charcoal, sans-serif; font-weight: 100; font-size: 28px; " valign="middle">[CAMPAIGN_NAME]</td>
+                <td width="217" height="50" style="font-family: Impact, Charcoal, sans-serif; font-weight: 100; font-size: 28px; " valign="middle">{{/CAMPAIGN_NAME/}}</td>
 
                 <td width="39" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
@@ -83,21 +83,21 @@
 
                 <td width="39" height="250" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
-                <td width="300" height="250" style="font-size: 0; line-height: 0;"><a href="[FEATURE_LINK]?utm_source=br_singleserving&utm_medium=newsletter&utm_content=feature_image&utm_campaign=Seasonal"><img src="[FEATURE_IMAGE]" alt="[FEATURE_TITLE]" width="300" height="250"  style="display: block;"></a></td>
+                <td width="300" height="250" style="font-size: 0; line-height: 0;"><a href="{{/FEATURE_LINK/}}?utm_source=br_singleserving&utm_medium=newsletter&utm_content=feature_image&utm_campaign=Seasonal"><img src="{{/FEATURE_IMAGE/}}" alt="{{/FEATURE_TITLE/}}" width="300" height="250"  style="display: block;"></a></td>
 
                 <td width="12" height="250" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
                 <td width="338" height="250" style="font-family: Helvetica, sans-serif;" valign="top">
                   <span style="font-size:22px; color:#000000; font-weight:bold;">
-                  <a href="[FEATURE_LINK]?utm_source=br_singleserving&utm_medium=newsletter&utm_content=feature_title&utm_campaign=Seasonal" style="font-size:22px; color:#000000; text-decoration:none;font-weight:bold;">[FEATURE_TITLE]</a><br/>
+                  <a href="{{/FEATURE_LINK/}}?utm_source=br_singleserving&utm_medium=newsletter&utm_content=feature_title&utm_campaign=Seasonal" style="font-size:22px; color:#000000; text-decoration:none;font-weight:bold;">{{/FEATURE_TITLE/}}</a><br/>
                   </span>
 
                   <span style="font-size:15px; color:#666666;">
                   <br />
-                  [FEATURE_TEXT]
+                  {{/FEATURE_TEXT/}}
                   <br />
                   <br />
-                  <a href="[FEATURE_LINK]?utm_source=br_singleserving&utm_medium=newsletter&utm_content=feature_cta&utm_campaign=Seasonal"><img src="http://pics.recipe4living.com/read_more_button_black_a.png" alt="ad" width="150" height="39"  style="display: block;"></a>
+                  <a href="{{/FEATURE_LINK/}}?utm_source=br_singleserving&utm_medium=newsletter&utm_content=feature_cta&utm_campaign=Seasonal"><img src="http://pics.recipe4living.com/read_more_button_black_a.png" alt="ad" width="150" height="39"  style="display: block;"></a>
                   </span>
                   </span>
                 </td>
@@ -305,7 +305,7 @@
         <tr>
           <td>
             <div style="font-family:Arial, Helvetica, sans-serif; font-size:9px;">
-				      <em>Copyright &copy; [CURRENT_YEAR] June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
+				      <em>Copyright &copy; {{/CURRENT_YEAR/}} June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
             </div>
           </td>
         </tr>

@@ -27,28 +27,6 @@ if (isset($submit) && $submit == 'Add/Update') {
       $meta_keywords = addslashes($meta_keywords);
       $meta_desc = addslashes($meta_desc);
 
-
-      /*
-
-       Maropost contents api fields
-       ---------------------------
-      "id": 344309
-      "account_id": 694
-      "name": "API TEST 02"
-      "html_part": "<!DOCTYPE html> <html><body><p style="font-weight: bold;"><a href="http://www.recipe4living.com" data-mp-url-id="3ca9dd21b86d1c51d08c56774c7a2e4faa90ccf0">Test 02</a></p></body></html> "
-      "text_part": null
-      "created_at": "2016-02-23T15:18:08.000-05:00"
-      "updated_at": "2016-02-23T15:48:40.000-05:00"
-      "content_template_id": null
-      "pull_url": null
-      "footer_type": null
-      "footer_id": null
-      "folder_id": null
-      "content_feed_id": null
-      "total_pages": 1
-
-      */
-
       $insert = "INSERT IGNORE INTO automated (
                     subject,
                     mailing_date,
@@ -72,12 +50,12 @@ if (isset($submit) && $submit == 'Add/Update') {
                     \"$reply_email_id\",
                     \"$campaign_name\")";
       $result = mysql_query($insert);
-      //var_dump($result);
       echo mysql_error();
 
       $iId = mysql_insert_id();
       $error = "Insert Success";
-    } else {
+    }
+    else {
       // update existing newsletter
       $update = "UPDATE automated SET
                     subject=\"$subject\",
@@ -99,14 +77,16 @@ if (isset($submit) && $submit == 'Add/Update') {
 
   // read template and find all of the variable tags
   $html = file_get_contents("templates/$template");
-  preg_match_all("/\[.*?\]/",$html,$fields);
-  $tags = array_unique ( $fields[0] );
+  // looking for variables of form {{/my_variable/}}
+  $var_pattern = "/{{\/([a-zA-Z0-9_]+?)\/}}/";
+  preg_match_all($var_pattern, $html, $fields);
+  $tags = array_unique ( $fields[1] );
 
   $curr_year = date('Y');
   // insert [mostly] blank key/value pairs into `automated_map`
   foreach ($tags as $tag) {
     switch ($tag) {
-      case "[ISSUE_DATE]":
+      case "ISSUE_DATE":
         $insert = "REPLACE INTO automated_map (
                       automated_id,
                       tag_key,
@@ -116,7 +96,7 @@ if (isset($submit) && $submit == 'Add/Update') {
                       \"$tag\",
                       \"$mailing_date\")";
         break;
-      case "[CURRENT_YEAR]":
+      case "CURRENT_YEAR":
         $insert = "REPLACE INTO automated_map (
                       automated_id,
                       tag_key,
@@ -124,8 +104,7 @@ if (isset($submit) && $submit == 'Add/Update') {
                   VALUES (
                       \"$iId\",
                       \"$tag\",
-                      \"$curr_year
-                      \")";
+                      \"$curr_year\")";
         break;
       default:
         $insert = "INSERT IGNORE INTO automated_map (
@@ -162,7 +141,8 @@ if (isset($iId) && $iId != '') {
     $error = "No Record Found";
     $iId = '';  // clear iId since we can't find this record
   }
-} else {
+}
+else {
   $mailing_date = date("Y-m-d", mktime(0, 0, 0, date("m"), date("d")+1, date("Y")));
 }
 

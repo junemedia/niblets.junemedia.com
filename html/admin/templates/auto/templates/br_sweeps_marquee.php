@@ -61,21 +61,21 @@
 
                 <td width="39" height="250" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
-                <td width="300" height="250" style="font-size: 0; line-height: 0;"><a href="[FEATURE_LINK]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps"><img src="[FEATURE_IMAGE]" alt="[FEATURE_TITLE]" width="300" height="250"  style="display: block;"></a></td>
+                <td width="300" height="250" style="font-size: 0; line-height: 0;"><a href="{{/FEATURE_LINK/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps"><img src="{{/FEATURE_IMAGE/}}" alt="{{/FEATURE_TITLE/}}" width="300" height="250"  style="display: block;"></a></td>
 
                 <td width="12" height="250" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
                 <td width="338" height="250" style="font-family: Helvetica, sans-serif;" valign="top">
                   <span style="font-size:22px; color:#000000; font-weight:bold;">
-                  <a href="[FEATURE_LINK]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" style="font-size:22px; color:#000000; text-decoration:none;font-weight:bold;">[FEATURE_TITLE]</a><br/>
+                  <a href="{{/FEATURE_LINK/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" style="font-size:22px; color:#000000; text-decoration:none;font-weight:bold;">{{/FEATURE_TITLE/}}</a><br/>
                   </span>
 
                   <span style="font-size:15px; color:#666666;">
                   <br />
-                  [FEATURE_TEXT]
+                  {{/FEATURE_TEXT/}}
                   <br />
                   <br />
-                  <a href="[FEATURE_LINK]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" style=";display: inline-block;font-size: 1.5em;padding: 0.5em 1.2em;text-decoration: none;"><img alt="Enter Here" src="https://cdn.maropost.com/pro/uploads/account_694/70088/20b74enter_here.png?rand=cb7cd20b-194c-4b49-afe3-c6bbdcde3182"></a>
+                  <a href="{{/FEATURE_LINK/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" style=";display: inline-block;font-size: 1.5em;padding: 0.5em 1.2em;text-decoration: none;"><img alt="Enter Here" src="https://cdn.maropost.com/pro/uploads/account_694/70088/20b74enter_here.png?rand=cb7cd20b-194c-4b49-afe3-c6bbdcde3182"></a>
                   </span>
                   </span>
                 </td>
@@ -124,28 +124,28 @@
           <table width="650" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-            <a href="REDIR:[PRIZE_1_URL]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" title="[PRIZE_1_TITLE]" target="_blank" style="word-wrap:break-word !important;">
-                <img alt="[PRIZE_1_TITLE]" src="[PRIZE_1_IMAGE]" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
+            <a href="REDIR:{{/PRIZE_1_URL/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" title="{{/PRIZE_1_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                <img alt="{{/PRIZE_1_TITLE/}}" src="{{/PRIZE_1_IMAGE/}}" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
               </a>
-              <span style="max-width:155px; height:36px; float:left; text-align: center;"><a href="REDIR:[PRIZE_1_URL]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">[PRIZE_1_TITLE]</a></span>
+              <span style="max-width:155px; height:36px; float:left; text-align: center;"><a href="REDIR:{{/PRIZE_1_URL/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_1_TITLE/}}</a></span>
             </td>
             <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-            <a href="REDIR:[PRIZE_2_URL]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" title="[PRIZE_2_TITLE]" target="_blank" style="word-wrap:break-word !important;">
-                <img alt="[PRIZE_2_TITLE]" src="[PRIZE_2_IMAGE]" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
+            <a href="REDIR:{{/PRIZE_2_URL/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" title="{{/PRIZE_2_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                <img alt="{{/PRIZE_2_TITLE/}}" src="{{/PRIZE_2_IMAGE/}}" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
               </a>
-              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="REDIR:[PRIZE_2_URL]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">[PRIZE_2_TITLE]</a></span>
+              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="REDIR:{{/PRIZE_2_URL/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_2_TITLE/}}</a></span>
             </td>
             <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-            <a href="REDIR:[PRIZE_3_URL]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" title="[PRIZE_3_TITLE]" target="_blank" style="word-wrap:break-word !important;">
-                <img alt="[PRIZE_3_TITLE]" src="[PRIZE_3_IMAGE]" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
+            <a href="REDIR:{{/PRIZE_3_URL/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" title="{{/PRIZE_3_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                <img alt="{{/PRIZE_3_TITLE/}}" src="{{/PRIZE_3_IMAGE/}}" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
               </a>
-              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="REDIR:[PRIZE_3_URL]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">[PRIZE_3_TITLE]</a></span>
+              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="REDIR:{{/PRIZE_3_URL/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_3_TITLE/}}</a></span>
             </td>
             <td width="155" style="border-collapse:collapse;">
-            <a href="REDIR:[PRIZE_4_URL]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" title="[PRIZE_4_TITLE]" target="_blank" style="word-wrap:break-word !important;">
-                <img alt="[PRIZE_4_TITLE]" src="[PRIZE_4_IMAGE]" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
+            <a href="REDIR:{{/PRIZE_4_URL/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" title="{{/PRIZE_4_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                <img alt="{{/PRIZE_4_TITLE/}}" src="{{/PRIZE_4_IMAGE/}}" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
               </a>
-              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="REDIR:[PRIZE_4_URL]?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">[PRIZE_4_TITLE]</a></span>
+              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="REDIR:{{/PRIZE_4_URL/}}?utm_source=br_sweeps&utm_medium=newsletter&utm_campaign=BR_Sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_4_TITLE/}}</a></span>
             </td>
           </tr>
           </table>
@@ -288,7 +288,7 @@
         <tr align="center">
           <td>
             <div style="float:left;font-family:Arial, Helvetica, sans-serif; font-size:9px;">
-              <em>Copyright &copy; [CURRENT_YEAR] June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
+              <em>Copyright &copy; {{/CURRENT_YEAR/}} June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
             </div>
             <div style="float:right;font-family:Arial, Helvetica, sans-serif; font-size:10px;">
               <a href="http://unsubscribe.betterrecipes.com/?c=unsub&jid={job.jobid}&lid=506" target="_blank" name="UnsubBetterRecipes">Unsubscribe From This List</a>

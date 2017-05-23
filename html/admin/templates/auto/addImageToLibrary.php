@@ -7,7 +7,7 @@ include_once("$sGblSubctrPath/functions.php");
 $imageurl = $_GET['imageurl'];
 
 
-if (!strstr($url,'maropost.s3.amazonaws.com') && !strstr($url, 'cdn.maropost.com')) {
+if (!strstr($imageurl,'maropost.s3.amazonaws.com') && !strstr($imageurl, 'cdn.maropost.com')) {
 
   // expecting to get back an object here
   $response = addImageToLibrary($imageurl);
