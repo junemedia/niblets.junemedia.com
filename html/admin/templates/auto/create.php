@@ -28,9 +28,6 @@ function generateImgUrl($imageurl) {
   }
 }
 
-// initialize default value
-$CreateUpdateCampaign = false;
-
 // if "Generate" button was pushed, update the
 // `newsletter_templates`.`automated_map` table
 // with new/updated field values
@@ -43,8 +40,6 @@ if (isset($submit) && $submit == 'Generate') {
     $rSelectResult = mysql_query($query);
     echo mysql_error();
   }
-  /* disable momentarily, don't want to push anything for now */
-  /* $CreateUpdateCampaign = true; */
 }
 
 // generate key=>value pairs for all of the newsletters fields as well
@@ -119,18 +114,6 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
       <td><h2><?php echo $subject; ?></h2> </td>
     </tr>
   </table>
-
-  <?php
-  /*
-   * why load this hidden iframe? because we want to create campaign
-   * first and capture campaignId so we can use it again to push updates
-   * and replace jobid tag from template with campaignId. this is
-   * important so keep this hidden iframe. it will not harm.
-   */
-  if ($CreateUpdateCampaign == true) { ?>
-  <!--iframe src="push_campaign.php?iId=<?php echo $iId; ?>" id="iframe2" frameborder="0" scrolling="No" width="1" height="1"></iframe-->
-  <iframe src="push_contents.php?iId=<?php echo $iId; ?>" id="iframe2" frameborder="0"></iframe>
-  <?php } ?>
 
   <table align="center" cellpadding="5" cellspacing="5" style="border:1px solid #383838;background-color: #fff">
     <tr>
