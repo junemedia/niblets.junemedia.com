@@ -37,6 +37,9 @@ while ($data_row = mysql_fetch_object($get_data_result)) {
 $newContent = $data_array['content_id'] == 0;
 
 // if not new, check to make sure the content is still in Maropost's system
+// if it's not, e.g because somebody deleted it in Maropost's system,
+// reset `contentid` to 0 so we're not trying to push content to
+// non-existent endpoint
 if (!$newContent) {
   if (!contentExists($data_array['content_id'])) {
     $data_array['content_id'] = 0;
@@ -45,7 +48,6 @@ if (!$newContent) {
 }
 
 $apiResult = pushNewsletterContent($data_array);
-//var_dump($apiResult);
 
 // for new content, add the id field from the response to the db record
 if ($newContent) {
@@ -61,26 +63,11 @@ if ($newContent) {
   }
 }
 
-
-// no response, something went wrong
-/* if(trim($create_result) == ""){ */
-/*     $message = "<p>Empty Server response! Could be the html content encoding error</p>"; */
-/*     echo $message; */
-/*     //echo "<p><textarea width='80%' height=200>"; */
-/*     //echo print_r($data_array, true); */
-/*     //echo "</textarea></p>"; */
-/* } */
-
 // Save campaigner response in db
 $responseSql = "INSERT INTO `campaignerResponse` (`id`, `campaignId`, `datetime`, `response`)
                 VALUES (NULL, '{$data_array['content_id']}', NOW(), '" . addslashes(json_encode($apiResult)) . "')";
 mysql_query($responseSql);
 echo mysql_error();
-
-
-//echo trim(getXmlValueByTag($create_result,'ReturnMessage'))." => CampaignId: ".$CampaignId;
-echo "<br><br>";
-//echo json_encode($apiResult);
 
 ?>
 <br><br><br><center><button type="button" onclick="window.open('', '_self', ''); window.close();">Close</button></center>
