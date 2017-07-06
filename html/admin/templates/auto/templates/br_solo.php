@@ -40,11 +40,12 @@
 </table>
 
 <!-- LiveRamp tags -->
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{contact.email_sha1}}&n=1'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{contact.email_sha1}}&n=2'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{contact.email_sha1}}&n=3'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{contact.email_sha1}}&n=4'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{contact.email_sha1}}&n=5'/>
+{% assign emailSHA1 = contact.email | sha1 %}
+<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=1'/>
+<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=2'/>
+<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=3'/>
+<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=4'/>
+<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=5'/>
 <!-- LiveRamp tags -->
 
 </body>
