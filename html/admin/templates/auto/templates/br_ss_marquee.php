@@ -298,13 +298,4 @@
 <!-------------------------------- Do not modify code below this line ----------------------------------------->
 </td>   <td align="left" valign="top" width="48%">      <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a href="http://liveintent.recipe4living-recipes.com/click?s=135063&layout=right&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=135063&layout=right&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a></td></tr><tr style="display:block; height:1px; line-height:1px;"><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=135064&sz=1x1&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=135065&sz=1x1&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" height="1" width="10" /></td></tr><tr><td align="left"><a href="http://liveintent.recipe4living-recipes.com/click?s=135067&sz=116x15&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=135067&sz=116x15&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a></td><td align="right"><a href="http://liveintent.recipe4living-recipes.com/click?s=135066&sz=19x15&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=135066&sz=19x15&li=213&e={to}&p={datetime(job.issuedate,'','%Y%m%d')}{job.jobid}" border="0"/></a></td></tr></table>    </td> </tr> </tbody></table>
 
-<!-- LiveRamp tags -->
-{% assign emailSHA1 = contact.email | sha1 %}
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=1'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=2'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=3'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=4'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447946.gif?s={{emailSHA1}}&n=5'/>
-<!-- LiveRamp tags -->
-
 </body></html>

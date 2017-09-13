@@ -32,14 +32,5 @@ Copyright &copy; {{/CURRENT_YEAR/}} June Media Inc. All rights reserved.
 	<br>
   </td></tr></table>
 
-<!-- LiveRamp tags -->
-{% assign emailSHA1 = contact.email | sha1 %}
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447966.gif?s={{emailSHA1}}&n=1'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447966.gif?s={{emailSHA1}}&n=2'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447966.gif?s={{emailSHA1}}&n=3'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447966.gif?s={{emailSHA1}}&n=4'/>
-<img border='0' hspace='0' vspace='0' width='1' height='1' src='https://ei.rlcdn.com/447966.gif?s={{emailSHA1}}&n=5'/>
-<!-- LiveRamp tags -->
-
 </body>
 </html>
