@@ -124,28 +124,28 @@
           <table width="650" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-            <a href="REDIR:{{/PRIZE_1_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" title="{{/PRIZE_1_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+            <a href="{{/PRIZE_1_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" title="{{/PRIZE_1_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                 <img alt="{{/PRIZE_1_TITLE/}}" src="{{/PRIZE_1_IMAGE/}}" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
               </a>
-              <span style="max-width:155px; height:36px; float:left; text-align: center;"><a href="REDIR:{{/PRIZE_1_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_1_TITLE/}}</a></span>
+              <span style="max-width:155px; height:36px; float:left; text-align: center;"><a href="{{/PRIZE_1_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_1_TITLE/}}</a></span>
             </td>
             <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-            <a href="REDIR:{{/PRIZE_2_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" title="{{/PRIZE_2_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+            <a href="{{/PRIZE_2_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" title="{{/PRIZE_2_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                 <img alt="{{/PRIZE_2_TITLE/}}" src="{{/PRIZE_2_IMAGE/}}" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
               </a>
-              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="REDIR:{{/PRIZE_2_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_2_TITLE/}}</a></span>
+              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="{{/PRIZE_2_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_2_TITLE/}}</a></span>
             </td>
             <td width="155" style="border-collapse:collapse; padding-right: 10px;">
-            <a href="REDIR:{{/PRIZE_3_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" title="{{/PRIZE_3_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+            <a href="{{/PRIZE_3_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" title="{{/PRIZE_3_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                 <img alt="{{/PRIZE_3_TITLE/}}" src="{{/PRIZE_3_IMAGE/}}" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
               </a>
-              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="REDIR:{{/PRIZE_3_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_3_TITLE/}}</a></span>
+              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="{{/PRIZE_3_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_3_TITLE/}}</a></span>
             </td>
             <td width="155" style="border-collapse:collapse;">
-            <a href="REDIR:{{/PRIZE_4_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" title="{{/PRIZE_4_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+            <a href="{{/PRIZE_4_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" title="{{/PRIZE_4_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                 <img alt="{{/PRIZE_4_TITLE/}}" src="{{/PRIZE_4_IMAGE/}}" style="max-width:155px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="155" height="150" />
               </a>
-              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="REDIR:{{/PRIZE_4_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_4_TITLE/}}</a></span>
+              <span style="max-width:155px; height:36px;float:left;text-align: center;"><a href="{{/PRIZE_4_URL/}}?utm_source=r4l_sweeps&utm_medium=newsletter&utm_source=R4L_sweeps" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/PRIZE_4_TITLE/}}</a></span>
             </td>
           </tr>
           </table>

@@ -55,7 +55,7 @@
         <!-- header graphic -->
         <tr>
           <td colspan="2" align="center">
-            <a href="REDIR:http://www.recipe4living.com/" title="Recipe4Living" target="_blank" style="word-wrap: break-word !important;">
+            <a href="http://www.recipe4living.com/" title="Recipe4Living" target="_blank" style="word-wrap: break-word !important;">
               <img width="564" alt="Daily Recipes" src="https://cdn.maropost.com/pro/uploads/account_694/70066/6efc0874fe834c0f87b5e3be60a613cc.png?rand=eb2848de-fad4-4de7-808d-cc0735de81a6" style="max-width: 730px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;line-height: 100%;outline: none;text-decoration: none;height: auto !important;" align="middle" />
             </a>
           </td>
@@ -65,7 +65,7 @@
         <!-- featured content -->
         <tr>
           <td colspan="2" align="center">
-            <a href="REDIR:{{/FEATURED_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/FEATURED_TITLE/}}" target="_blank" style="word-wrap: break-word !important;">
+            <a href="{{/FEATURED_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/FEATURED_TITLE/}}" target="_blank" style="word-wrap: break-word !important;">
               <img alt="{{/FEATURED_TITLE/}}" src="{{/FEATURED_IMAGE/}}" style="border: 0;line-height: 100%;outline: none;text-decoration: none;vertical-align: bottom;height: auto !important;" width="650" />
             </a>
           </td>
@@ -84,9 +84,9 @@
         <tr>
           <td colspan="2" style="padding: 0px 10px;font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 13px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #606060;line-height: 150%;text-align: left;" valign="top" width="564">
             <h4 style="display: block;font-family: Helvetica;font-size: 16px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;margin: 0;text-align: left;color: #808080 !important;">
-              <a href="REDIR:{{/FEATURED_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" title="{{/FEATURED_TITLE/}}" style="color: #006faf;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;">{{/FEATURED_TITLE/}}</a>
+              <a href="{{/FEATURED_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" title="{{/FEATURED_TITLE/}}" style="color: #006faf;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;">{{/FEATURED_TITLE/}}</a>
             </h4>{{/FEATURED_TEXT/}}
-            <a href="REDIR:{{/FEATURED_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" title="{{/FEATURED_TITLE/}}" style="color: #006faf;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;">{{/FEATURED_READ_MORE_TITLE/}}</a>
+            <a href="{{/FEATURED_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" title="{{/FEATURED_TITLE/}}" style="color: #006faf;font-weight: normal;text-decoration: underline;word-wrap: break-word !important;">{{/FEATURED_READ_MORE_TITLE/}}</a>
             </p>
           </td>
         </tr>
@@ -103,31 +103,31 @@
             <table width="100%" border="0" style="padding:0px 5px;">
               <tr>
                 <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
-                  <a href="REDIR:{{/RECIPE_1_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/RECIPE_1_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/RECIPE_1_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/RECIPE_1_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/RECIPE_1_TITLE/}}" src="{{/RECIPE_1_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
                   </a>
-                  <p style="max-width:160px;float:left;"><a href="REDIR:{{/RECIPE_1_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/RECIPE_1_TITLE/}}</a></p>
+                  <p style="max-width:160px;float:left;"><a href="{{/RECIPE_1_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/RECIPE_1_TITLE/}}</a></p>
                 </td>
 
                 <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
-                  <a href="REDIR:{{/RECIPE_2_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/RECIPE_2_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/RECIPE_2_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/RECIPE_2_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/RECIPE_2_TITLE/}}" src="{{/RECIPE_2_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
                   </a>
-                  <p style="max-width:160px;float:left;"><a href="REDIR:{{/RECIPE_2_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/RECIPE_2_TITLE/}}</a></p>
+                  <p style="max-width:160px;float:left;"><a href="{{/RECIPE_2_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/RECIPE_2_TITLE/}}</a></p>
                 </td>
 
                 <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
-                  <a href="REDIR:{{/RECIPE_3_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/RECIPE_3_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/RECIPE_3_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/RECIPE_3_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/RECIPE_3_TITLE/}}" src="{{/RECIPE_3_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
                   </a>
-                  <p style="max-width:160px;float:left;"><a href="REDIR:{{/RECIPE_3_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/RECIPE_3_TITLE/}}</a></p>
+                  <p style="max-width:160px;float:left;"><a href="{{/RECIPE_3_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/RECIPE_3_TITLE/}}</a></p>
                 </td>
 
                 <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
-                  <a href="REDIR:{{/RECIPE_4_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/RECIPE_4_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/RECIPE_4_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=Image" title="{{/RECIPE_4_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/RECIPE_4_TITLE/}}" src="{{/RECIPE_4_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
                   </a>
-                  <p style="max-width:160px;float:left;"><a href="REDIR:{{/RECIPE_4_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/RECIPE_4_TITLE/}}</a></p>
+                  <p style="max-width:160px;float:left;"><a href="{{/RECIPE_4_URL/}}?utm_source=secondsend&utm_medium=newsletter&utm_campaign=Second%20Send&utm_content=title_link" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/RECIPE_4_TITLE/}}</a></p>
                 </td>
               </tr>
             </table>
@@ -228,11 +228,6 @@
             <div style="float:right;font-family:Arial, Helvetica, sans-serif; font-size:10px;">
               <a href="http://www.recipe4living.com/index/unsubscribe?lid=393&jid={job.jobid}" target="_blank">Unsubscribe From This List</a>
             </div>
-          </td>
-        </tr>
-        <tr align="center">
-          <td style="font-family:Arial, Helvetica, sans-serif; font-size:1px; color:#FFFFFF;">
-            {opencount('<img src="{opct.url}" width="1" height="1" border="0" />')}
           </td>
         </tr>
       </table>

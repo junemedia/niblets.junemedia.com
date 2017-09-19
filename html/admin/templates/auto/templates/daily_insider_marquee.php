@@ -52,14 +52,14 @@
 
         <tr>
           <td colspan="2" align="center">
-            <a href="REDIR:http://www.fitandfabliving.com/?utm_source=FFDailyInsider&utm_medium=newsletter&utm_campaign=Fit%26Fab%2BDaily%2BInsider&utm_content=image" target="_blank">
+            <a href="http://www.fitandfabliving.com/?utm_source=FFDailyInsider&utm_medium=newsletter&utm_campaign=Fit%26Fab%2BDaily%2BInsider&utm_content=image" target="_blank">
               <img alt="Fit and fab living Insider" src="https://cdn.maropost.com/pro/uploads/account_694/70116/78835638dff9485b8c1e5db052ba209d.jpeg?rand=b55e3338-0851-43d9-bf92-02803e6e525a" width="600" />
             </a>
           </td>
         </tr>
         <tr>
           <td colspan="2" align="center">
-            <a href="REDIR:{{/FEATURED_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank">
+            <a href="{{/FEATURED_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank">
               <img src="{{/FEATURED_IMAGE/}}" alt="{{/FEATURED_TITLE/}}" width="600">
             </a>
           </td>
@@ -71,7 +71,7 @@
             </h2>
             <p style="padding-left:10px;padding-right:10px;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;text-align:left;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;color:#606060;">
             {{/FEATURED_TEXT/}}
-            <a href="REDIR:{{/FEATURED_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=text_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank">{{/FEATURED_READ_MORE_TITLE/}}</a>.
+            <a href="{{/FEATURED_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=text_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank">{{/FEATURED_READ_MORE_TITLE/}}</a>.
             </p>
           </td>
         </tr>
@@ -85,38 +85,38 @@
             <table width="100%" border="0" style="padding:0px 5px;">
               <tr>
                 <td width="150" valign="top">
-                  <a href="REDIR:{{/ITEM_1_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" title="{{/ITEM_1_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/ITEM_1_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" title="{{/ITEM_1_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/ITEM_1_TITLE/}}" src="{{/ITEM_1_IMAGE/}}" style="max-width:150px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" class="mcnImage" width="150" height="150">
                   </a>
                   <p style="max-width:150px;">
-                  <a href="REDIR:{{/ITEM_1_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=title_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_1_TITLE/}}</a>
+                  <a href="{{/ITEM_1_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=title_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_1_TITLE/}}</a>
                   </p>
                 </td>
 
                 <td width="150" valign="top">
-                  <a href="REDIR:{{/ITEM_2_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" title="{{/ITEM_2_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/ITEM_2_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" title="{{/ITEM_2_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/ITEM_2_TITLE/}}" src="{{/ITEM_2_IMAGE/}}" style="max-width:150px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" class="mcnImage" width="150" height="150">
                   </a>
                   <p style="max-width:150px;">
-                  <a href="REDIR:{{/ITEM_2_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=title_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_2_TITLE/}}</a>
+                  <a href="{{/ITEM_2_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=title_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_2_TITLE/}}</a>
                   </p>
                 </td>
 
                 <td width="150" valign="top">
-                  <a href="REDIR:{{/ITEM_3_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" title="{{/ITEM_3_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/ITEM_3_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" title="{{/ITEM_3_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/ITEM_3_TITLE/}}" src="{{/ITEM_3_IMAGE/}}" style="max-width:150px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" class="mcnImage" width="150" height="150">
                   </a>
                   <p style="max-width:150px;">
-                  <a href="REDIR:{{/ITEM_3_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=title_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_3_TITLE/}}</a>
+                  <a href="{{/ITEM_3_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=title_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_3_TITLE/}}</a>
                   </p>
                 </td>
 
                 <td width="150" valign="top">
-                  <a href="REDIR:{{/ITEM_4_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" title="{{/ITEM_4_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/ITEM_4_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=Image&utm_campaign=Fit%26Fab%2BDaily%2BInsider" title="{{/ITEM_4_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/ITEM_4_TITLE/}}" src="{{/ITEM_4_IMAGE/}}" style="max-width:150px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" class="mcnImage" width="150" height="150">
                   </a>
                   <p style="max-width:150px;">
-                  <a href="REDIR:{{/ITEM_4_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=title_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_4_TITLE/}}</a>
+                  <a href="{{/ITEM_4_URL/}}?utm_source=FFDailyInsider&utm_medium=newsletter&utm_content=title_link&utm_campaign=Fit%26Fab%2BDaily%2BInsider" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_4_TITLE/}}</a>
                   </p>
                 </td>
               </tr>
@@ -209,11 +209,6 @@
             <div style="float:right;font-family:Arial, Helvetica, sans-serif; font-size:10px;">
               <a href="http://www.fitandfabliving.com/unsubscribe.php?lid=411&jid={job.jobid}" target="_blank">Unsubscribe From This List</a>
             </div>
-          </td>
-        </tr>
-        <tr align="center">
-          <td style="font-family:Arial, Helvetica, sans-serif; font-size:1px; color:#FFFFFF;">
-            {opencount('<img src="{opct.url}" width="1" height="1" border="0" />')}
           </td>
         </tr>
       </table>

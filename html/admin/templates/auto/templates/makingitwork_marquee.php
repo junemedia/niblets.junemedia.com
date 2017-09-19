@@ -57,7 +57,7 @@
         <!-- header graphic -->
         <tr>
           <td colspan="2" align="center">
-            <a href="REDIR:http://www.workitmom.com/?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=image" target="_blank">
+            <a href="http://www.workitmom.com/?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=image" target="_blank">
               <img src="https://cdn.maropost.com/pro/uploads/account_694/70070/a998225a83ac4e3bba491ea96811ec49.jpeg?rand=95787ef9-bb1f-48f7-9850-1fc51d1eceb7" alt="WorkItMom">
             </a>
           </td>
@@ -67,7 +67,7 @@
         <!-- Featured content -->
         <tr>
           <td colspan="2" align="center">
-            <a href="REDIR:{{/FEATURED_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=image" target="_blank">
+            <a href="{{/FEATURED_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=image" target="_blank">
               <img src="{{/FEATURED_IMAGE/}}" alt="{{/FEATURED_TITLE/}}" width="600">
             </a>
           </td>
@@ -75,7 +75,7 @@
 
         <tr>
           <td colspan="2" align="center" style="color:#F7931E;font-family:verdana;font-weight:bold;padding:0px;">
-            <a href="REDIR:{{/FEATURED_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=title_link" target="_blank" style="text-decoration: none;">
+            <a href="{{/FEATURED_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=title_link" target="_blank" style="text-decoration: none;">
               <p style="font-size:28px;color:#F7931E;font-family:verdana;font-weight:bold;text-decoration:none;margin-top:0;margin-bottom:0;">{{/FEATURED_TITLE/}}</p>
             </a>
           </td>
@@ -85,7 +85,7 @@
           <td colspan="2" style="color:black;font-family:verdana;font-size:12px;padding:0px 20px;">
             <p>
             {{/FEATURED_TEXT/}} 
-            <a href="REDIR:{{/FEATURED_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=text_link" target="_blank">{{/FEATURED_READ_MORE_TITLE/}}</a>
+            <a href="{{/FEATURED_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=text_link" target="_blank">{{/FEATURED_READ_MORE_TITLE/}}</a>
             </p>
             <br />
           </td>
@@ -102,27 +102,27 @@
             <table width="100%" border="0" style="padding:0px 5px;">
               <tr>
                 <td width="200" valign="top">
-                  <a href="REDIR:{{/ITEM_1_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=Image&utm_campaign=WIM%2BNewsletter" title="{{/ITEM_1_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/ITEM_1_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=Image&utm_campaign=WIM%2BNewsletter" title="{{/ITEM_1_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/ITEM_1_TITLE/}}" src="{{/ITEM_1_IMAGE/}}" style="max-width:200px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" class="mcnImage" width="200" height="200">
                   </a>
                   <p style="max-width:200px;">
-                  <a href="REDIR:{{/ITEM_1_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=title_link&utm_campaign=WIM%2BNewsletter" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_1_TITLE/}}</a>
+                  <a href="{{/ITEM_1_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=title_link&utm_campaign=WIM%2BNewsletter" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_1_TITLE/}}</a>
                   </p>
                 </td>
                 <td width="200" valign="top">
-                  <a href="REDIR:{{/ITEM_2_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=Image&utm_campaign=WIM%2BNewsletter" title="{{/ITEM_2_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/ITEM_2_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=Image&utm_campaign=WIM%2BNewsletter" title="{{/ITEM_2_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/ITEM_2_TITLE/}}" src="{{/ITEM_2_IMAGE/}}" style="max-width:200px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" class="mcnImage" width="200" height="200">
                   </a>
                   <p style="max-width:200px;">
-                  <a href="REDIR:{{/ITEM_2_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=title_link&utm_campaign=WIM%2BNewsletter" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_2_TITLE/}}</a>
+                  <a href="{{/ITEM_2_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=title_link&utm_campaign=WIM%2BNewsletter" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_2_TITLE/}}</a>
                   </p>
                 </td>
                 <td width="200" valign="top">
-                  <a href="REDIR:{{/ITEM_3_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=Image&utm_campaign=WIM%2BNewsletter" title="{{/ITEM_3_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/ITEM_3_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=Image&utm_campaign=WIM%2BNewsletter" title="{{/ITEM_3_TITLE/}}" class="" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/ITEM_3_TITLE/}}" src="{{/ITEM_3_IMAGE/}}" style="max-width:200px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" class="mcnImage" width="200" height="200">
                   </a>
                   <p style="max-width:200px;">
-                  <a href="REDIR:{{/ITEM_3_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=title_link&utm_campaign=WIM%2BNewsletter" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_3_TITLE/}}</a>
+                  <a href="{{/ITEM_3_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_content=title_link&utm_campaign=WIM%2BNewsletter" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/ITEM_3_TITLE/}}</a>
                   </p>
                 </td>
               </tr>
@@ -218,11 +218,6 @@
             <div style="float:right;font-family:Arial, Helvetica, sans-serif; font-size:10px;">
               <a href="http://www.workitmom.com/unsubscribe/?lid=553&jid={job.jobid}" target="_blank">Unsubscribe From This List</a>
             </div>
-          </td>
-        </tr>
-        <tr align="center">
-          <td style="font-family:Arial, Helvetica, sans-serif; font-size:1px; color:#FFFFFF;">
-            {opencount('<img src="{opct.url}" width="1" height="1" border="0" />')}
           </td>
         </tr>
       </table>

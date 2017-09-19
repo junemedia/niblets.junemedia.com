@@ -75,10 +75,6 @@ function buildPreview($automatedId) {
     }
     // getting a string of html
     $html_code = $preview->output();
-    // not sure what some of these are in there for exactly, since they're
-    // just getting stripped out
-    $html_code = str_replace('REDIR:', '', $html_code);
-    $html_code = str_replace("{opencount('<img src=\"{opct.url}\" width=\"1\" height=\"1\" border=\"0\" />')}", '', $html_code);
     $html_code = str_replace("{datetime(job.issuedate,'','%Y%m%d')}", date('Ymd'), $html_code);
     $html_code = str_replace('{to}', '{{contact.email}}', $html_code);
     $html_code = str_replace('{job.jobid}', $campaignId, $html_code);
