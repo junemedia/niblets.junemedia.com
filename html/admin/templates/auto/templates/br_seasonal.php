@@ -218,7 +218,7 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://hypster.com">
-                                <img src="https://cdn.maropost.com/pro/uploads/account_694/192767/br_winter_banner.jpg"
+                                <img src="https://cdn.maropost.com/pro/uploads/account_694/198899/br_winter_banner.jpg"
                                     class="logo"
                                     width="600"
                                     alt="Holiday Recipes by BetterRecipes"
