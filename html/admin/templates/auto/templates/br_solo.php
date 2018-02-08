@@ -1,47 +1,42 @@
 <html>
 <head>
-<title>Better Recipes - Special Offer</title>
+  <title>Better Recipes - Special Offer</title>
 </head>
-<body bgcolor="#FFFFFF">
 
-<table border="0" align="center" cellpadding="0" cellspacing="0" style="width:100%; max-width:640px; min-width:360px;">
-  <tr>
-    <td align="center"><img src="https://cdn.maropost.com/pro/uploads/account_694/70071/90ee2br_special.jpeg?rand=6ec54ee7-8370-4730-b16a-5737ff7faf42" alt="" width="90%"/></td>
-  </tr>
-  <tr>
-    <td colspan="3" align="center" valign="middle">
-      <font size="1" color="#999999">PAID ADVERTISEMENT</font><br />
-    </td>
-  </tr>
+<body bgcolor="#fff">
+  <table border="0" align="center" cellpadding="0" cellspacing="0" style="width:100%; max-width:640px; min-width:360px;">
+    <tr>
+      <td align="center">
+        <img src="https://cdn.maropost.com/pro/uploads/account_694/70071/90ee2br_special.jpeg" alt="" width="90%"/>
+      </td>
+    </tr>
 
-  <tr>
-    <td style="padding:24px 0px; text-align:center;">
-      {{/SLOT_TEXT/}}
-    </td>
-  </tr>
+    <tr>
+      <td colspan="3" align="center" valign="middle">
+        <font size="1" color="#999999">PAID ADVERTISEMENT</font><br />
+      </td>
+    </tr>
 
-  <tr>
-    <td style="padding:20px 0px; text-align:left; color:#2E2E2E; font-family:Arial, Helvetica, sans-serif; font-size:12px;">
+    <tr>
+      <td style="padding:24px 0px; text-align:center;">
+        {{/SLOT_TEXT/}}
+      </td>
+    </tr>
 
-      <p>
-        This e-mail was requested by: {to}.<br>
-        To unsubscribe, <a href="http://unsubscribe.betterrecipes.com/?c=unsub&lid=505&jid={job.jobid}" target="_blank">click here</a>.<br>
-        Privacy Policy: <a href="http://betterrecipes.com/privacy-policy/" target="_blank">click here</a>.
-      </p>
+    <tr>
+      <td style="padding:20px 0px; text-align:left; color:#2E2E2E; font-family:Arial, Helvetica, sans-serif; font-size:12px; border-top: solid 1px #000000;">
+        <p>The preceding is a paid message from a Better Recipes advertiser and does not reflect the views of Better Recipes. Any questions or concerns regarding this offer should be directed to the advertiser.</p>
 
-      <p>The preceding is a paid message from a Better Recipes advertiser and does not reflect the views of Better Recipes. Any questions or concerns regarding this offer should be directed to the advertiser.</p>
+        <p>Privacy Policy: <a href="http://betterrecipes.com/privacy-policy/" target="_blank">http://betterrecipes.com/privacy-policy/</a>.</p>
 
-      <p>
-        June Media, Inc., 200 E. Ohio Street, Suite 300, Chicago, IL 60611<br>
-        Copyright &copy; {{/CURRENT_YEAR/}} June Media Inc. All rights reserved.<br>
-      </p>
-    </td>
-  </tr>
-</table>
+        <p>Copyright &copy; {{/CURRENT_YEAR/}} June Media, Inc. All rights reserved.</p>
+      </td>
+    </tr>
+  </table>
 
-<!-- Return Path engagement and device pixels -->
-<img src="https://pixel.app.returnpath.net/pixel.gif?r=b2b8144a183fd8075a9b6895c37532d28941d712&c=br.solo" width="1" height="1" />
-<img src="https://pixel.monitor1.returnpath.net/pixel.gif?r=b2b8144a183fd8075a9b6895c37532d28941d712" width="1" height="1" />
+  <!-- Return Path engagement and device pixels -->
+  <img src="https://pixel.app.returnpath.net/pixel.gif?r=b2b8144a183fd8075a9b6895c37532d28941d712&c=br.solo" width="1" height="1" />
+  <img src="https://pixel.monitor1.returnpath.net/pixel.gif?r=b2b8144a183fd8075a9b6895c37532d28941d712" width="1" height="1" />
 
 </body>
 </html>
