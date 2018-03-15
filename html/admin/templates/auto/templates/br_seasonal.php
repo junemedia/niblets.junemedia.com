@@ -218,10 +218,10 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://hypster.com">
-                                <img src="https://cdn.maropost.com/pro/uploads/account_694/198899/br_winter_banner.jpg"
+                                <img src="https://cdn.maropost.com/pro/uploads/account_694/210502/br.banner.spring.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Holiday Recipes by BetterRecipes"
+                                    alt="Spring Recipes by BetterRecipes"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>

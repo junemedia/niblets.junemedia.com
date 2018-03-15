@@ -219,10 +219,10 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://hypster.com">
-                                <img src="https://cdn.maropost.com/pro/uploads/account_694/198898/r4l_winter_banner.jpg"
+                                <img src="https://cdn.maropost.com/pro/uploads/account_694/210503/r4l.banner.spring.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Daily Recipes by Recipe4Living"
+                                    alt="Spring Recipes by Recipe4Living"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>
