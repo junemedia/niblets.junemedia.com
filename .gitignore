@@ -1,13 +1,3 @@
 .htaccess
 config.php
 html/includes/paths.php
-
-hold/
-logs/
-
-html/admin/emailmd5/download
-html/admin/emailmd5/export
-html/admin/emailmd5/log
-html/admin/emailmd5/source
-
-html/admin/templates/auto/upload_imgs/
