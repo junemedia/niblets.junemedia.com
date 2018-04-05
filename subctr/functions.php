@@ -1,8 +1,4 @@
 <?php
-/*
-include_once("JSON.php");
-*/
-
 /**
  * check whether content exists in Maropost's system
  *
@@ -101,19 +97,6 @@ function pushNewsletterContent($contentsArray) {
       'name' => $contentsArray['campaign_name'],
       'html_part' => $contentsArray['html_code'],
       'full_email' => false, // open content in Maropost's WYSIWYG editor
-      /*
-      'id': 356632
-      'account_id': 694
-      'text_part': null
-      'created_at': '2016-02-26T16:17:48.000-05:00'
-      'updated_at': '2016-02-26T16:17:48.000-05:00'
-      'content_template_id': null
-      'pull_url': null
-      'footer_type': null
-      'footer_id': null
-      'folder_id': null
-      'content_feed_id': null
-      */
     )
   );
   $payload = json_encode($payload);
@@ -128,11 +111,6 @@ function pushNewsletterContent($contentsArray) {
     $apiMethod = 'PUT';
   }
 
-  //header('Content-type: text/plain');
-  //echo "$apiRoot\n\n$apiEndpoint?auth_token=$apiKey\n\n";
-  //die;
-  //echo $payload;
-
   $ch = curl_init("$apiRoot/$apiEndpoint?auth_token=$apiKey");
   curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $apiMethod);
   curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
@@ -140,16 +118,6 @@ function pushNewsletterContent($contentsArray) {
   curl_setopt($ch, CURLOPT_HTTPHEADER, $apiHeaders);
   $response = curl_exec($ch);
   curl_close($ch);
-
-    /*
-     * example POST response:
-
-      {"id":344309,"account_id":694,"name":"API TEST 02","html_part":"\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\u003cbody\u003e\u003cp style=\"font-weight: bold;\"\u003eTest 02\u003c/p\u003e\u003c/body\u003e\u003c/html\u003e\n","text_part":null,"created_at":"2016-02-23T15:18:08.466-05:00","updated_at":"2016-02-23T15:18:08.466-05:00","content_template_id":null,"pull_url":null,"footer_type":null,"footer_id":null,"folder_id":null,"content_feed_id":null}
-
-     * PUT response has status 204 on success, with no content
-     */
-
-  //mail('johns@junemedia.com','rest request',$response);
 
   return json_decode($response);
 }
@@ -177,8 +145,6 @@ function addImageToLibrary($imgURL) {
   curl_setopt($ch, CURLOPT_HTTPHEADER, $api_headers);
   $response = curl_exec($ch);
   curl_close($ch);
-
-  //mail('johns@junemedia.com','rest request',$response);
 
   return json_decode($response);
 }

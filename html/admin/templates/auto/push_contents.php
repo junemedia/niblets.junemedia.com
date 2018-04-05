@@ -70,4 +70,8 @@ mysql_query($responseSql);
 echo mysql_error();
 
 ?>
-<br><br><br><center><button type="button" onclick="window.open('', '_self', ''); window.close();">Close</button></center>
+
+<br><br><br>
+<center>
+  <button type="button" onclick="window.open('', '_self', ''); window.close();">Close</button>
+</center>

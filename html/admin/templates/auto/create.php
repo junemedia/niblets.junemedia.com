@@ -89,9 +89,9 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
       break;
     }
   }
-}
+} ?>
 
-?>
+
 <html>
 <head>
   <title>Generate Newsletter</title>
@@ -109,7 +109,7 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
 <body>
   <table align="center">
     <tr>
-      <td><h2><?php echo $subject; ?></h2> </td>
+      <td><h2><?php echo $subject; ?></h2></td>
     </tr>
   </table>
 

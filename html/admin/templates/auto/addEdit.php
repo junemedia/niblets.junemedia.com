@@ -77,12 +77,14 @@ if (isset($submit) && $submit == 'Add/Update') {
 
   // read template and find all of the variable tags
   $html = file_get_contents("templates/$template");
+
   // looking for variables of form {{/my_variable/}}
   $var_pattern = "/{{\/([a-zA-Z0-9_]+?)\/}}/";
   preg_match_all($var_pattern, $html, $fields);
   $tags = array_unique ( $fields[1] );
 
   $curr_year = date('Y');
+
   // insert [mostly] blank key/value pairs into `automated_map`
   foreach ($tags as $tag) {
     switch ($tag) {
@@ -154,16 +156,14 @@ if ($scanned = scandir('templates')) {
     if (substr($entry, -4) === '.php') {
       if (isset($template) && $template == strtolower($entry)) {
         $selected = 'selected';
-      } else {
+      }
+      else {
         $selected = '';
       }
       $template_options .= "<option value='$entry' $selected>$entry</option>";
     }
   }
-}
-
-
-?>
+} ?>
 
 
 <html>

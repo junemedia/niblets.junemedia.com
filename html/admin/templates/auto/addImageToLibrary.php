@@ -6,7 +6,6 @@ include_once("$sGblSubctrPath/functions.php");
 // duplicates generateImgUrl function in create.php
 $imageurl = $_GET['imageurl'];
 
-
 if (!strstr($imageurl,'maropost.s3.amazonaws.com') && !strstr($imageurl, 'cdn.maropost.com')) {
 
   // expecting to get back an object here
