@@ -9,25 +9,6 @@ iconv_set_encoding("input_encoding", "UTF-8");
 iconv_set_encoding("internal_encoding", "UTF-8");
 iconv_set_encoding("output_encoding", "UTF-8");
 
-// upload an image to Campaigner library
-// duplicates templates/auto/addImageToLibrary.php
-function generateImgUrl($imageurl) {
-  if (!strstr($imageurl,'maropost.s3.amazonaws.com') && !strstr($imageurl, 'cdn.maropost.com')) {
-
-    // expecting to get back an object here
-    $response = addImageToLibrary($imageurl);
-
-    // if image_url is in response then it was successful
-    if (true || isset($response->{'image_url'})) {
-      return $response->{'image_url'};
-    }
-    else {
-      mail('johns@junemedia.com','MOVE upload image error', json_encode($response));
-      return json_encode($response);
-    }
-  }
-}
-
 // if "Generate" button was pushed, update the
 // `newsletter_templates`.`automated_map` table
 // with new/updated field values
@@ -89,77 +70,6 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
       break;
     }
   }
-} ?>
+}
 
-
-<html>
-<head>
-  <title>Generate Newsletter</title>
-  <link rel="stylesheet" href="<?php echo $sGblAdminSiteRoot;?>/styles.css" type="text/css" >
-  <style>
-    * {
-      font-family: verdana;
-      font-size:12px;
-    }
-  </style>
-  <script src="http://r4l.popularliving.com/subctr/js/ajax.js"></script>
-  <script src="/admin/js/niblets.js"></script>
-</head>
-
-<body>
-  <table align="center">
-    <tr>
-      <td><h2><?php echo $subject; ?></h2></td>
-    </tr>
-  </table>
-
-  <table align="center" cellpadding="5" cellspacing="5" style="border:1px solid #383838;background-color: #fff">
-    <tr>
-      <!-- form fields -->
-      <td valign="top">
-        <table cellpadding="5" cellspacing="5" style="border: 1px solid #383838;">
-          <form name='form1' action='<?php echo $_SERVER['PHP_SELF'];?>' method="POST">
-            <input type="hidden" name="iId" id="iId" value="<?php echo $iId; ?>">
-            <input type="hidden" name="subject" id="subject" value="<?php echo $subject; ?>">
-            <input type="hidden" name="fields_name" id="fields_name" value="<?php echo $fields_name; ?>">
-            <?php foreach ($fields AS $key => $value) { ?>
-            <tr>
-              <td>
-                <?php echo $key; ?>
-              </td>
-              <td>
-                <?php
-                if (strstr($key,'ADS_') || strstr($key,'TEXT')) { ?>
-                  <textarea name="<?php echo $key; ?>" id="<?php echo $key; ?>" cols="37" rows="5"><?php echo $value; ?></textarea>
-                <?php } else { ?>
-                  <input type="text" size="50" name="<?php echo $key; ?>" id="<?php echo $key; ?>" value="<?php echo $value; ?>" onblur="addImageToLibrary('<?php echo $key; ?>');">
-                <?php } ?>
-              </td>
-            </tr>
-            <?php } ?>
-            <tr>
-              <td align="right" colspan="2">
-                <input type="hidden" name="templateName" value="<?php echo $template; ?>">
-                <?php if($template =='br_sweeps.php' || $template =='r4l_sweeps.php' || $template =='br_sweeps_marquee.php' || $template =='r4l_sweeps_marquee.php'){?>
-                <input type="submit" name="initSubmit" id="initSubmit" value="Get Sweeps">&nbsp;&nbsp;&nbsp;&nbsp;
-                <?php }?>
-                <input type="submit" name="submit" id="submit" value="Generate">
-                <br><br><br>
-                <a href="push_contents.php?iId=<?php echo $iId; ?>" onclick="javascript:void window.open('push_contents.php?iId=<?php echo $iId; ?>','edit_<?php echo $iId; ?>','width=500,height=400,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;">Push to Maropost</a>
-                <br><p>Make sure to click Generate button before you click Push to Campaigner link...</p>
-              </td>
-            </tr>
-          </form>
-          <p>Supported file formats are: JPEG, JPG, GIF, and PNG</p>
-        </table>
-      </td>
-      <!-- end form fields -->
-
-      <td valign="top">
-        <a href="arcamax_preview.php?iId=<?php echo $iId; ?>" target="_blank">Arcamax Preview</a><br>
-        <iframe src="campaigner_preview.php?iId=<?php echo $iId; ?>" id="iframe1" frameborder="0" scrolling="auto" width="800" height="1500"></iframe>
-      </td>
-    </tr>
-  </table>
-</body>
-</html>
+include_once("partials/create.html");
