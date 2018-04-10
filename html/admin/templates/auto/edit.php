@@ -72,4 +72,4 @@ if (isset($initSubmit) && $initSubmit == 'Get Sweeps') {
   }
 }
 
-include_once("partials/create.html");
+include_once("partials/edit.html");

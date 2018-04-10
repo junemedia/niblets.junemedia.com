@@ -60,7 +60,7 @@
     <tr class="item">
       <td style="font-weight: bold";><?php echo $oRow->id; ?></td>
       <td>
-        <a href="create.php?iId=<?php echo $oRow->id; ?>&subject=<?php echo urlencode($oRow->subject); ?>" target=_blank><?php echo $oRow->subject; ?></a>
+        <a href="edit.php?iId=<?php echo $oRow->id; ?>&subject=<?php echo urlencode($oRow->subject); ?>" target=_blank><?php echo $oRow->subject; ?></a>
       </td>
       <td><?php echo $oRow->template; ?></td>
       <td><?php echo $oRow->mailing_date; ?></td>

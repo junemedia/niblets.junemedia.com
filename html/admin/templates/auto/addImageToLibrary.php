@@ -3,7 +3,7 @@
 include_once("../../../includes/paths.php");
 include_once("$sGblSubctrPath/functions.php");
 
-// duplicates generateImgUrl function in create.php
+// duplicates generateImgUrl function in edit.php
 $imageurl = $_GET['imageurl'];
 
 if (!strstr($imageurl,'maropost.s3.amazonaws.com') && !strstr($imageurl, 'cdn.maropost.com')) {
