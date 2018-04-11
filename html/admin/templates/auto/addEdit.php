@@ -5,7 +5,6 @@
  */
 
 include_once("../../../includes/paths.php");
-mysql_select_db( $templatesDB );
 
 // default values
 $refresh = '';

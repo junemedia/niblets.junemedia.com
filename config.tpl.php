@@ -20,8 +20,6 @@ $pass = "password" ;
 mysql_pconnect ($host, $user, $pass);
 mysql_select_db ($dbase);
 
-$templatesDB = 'maropost_templates';
-
 $sGblWebRoot = '/path/to/web/root';
 $sGblAdminWebRoot = "$sGblWebRoot/admin";
 
