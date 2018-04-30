@@ -34,3 +34,6 @@ $sGblAdminSiteRoot = 'http://niblets.junemedia.com/admin';
 
 // path to subctr folder
 $sGblSubctrPath = '/path/to/subctr';
+
+// location of media library
+define('MEDIALIBRARY', 'suite24.emarsys.net/custloads/785861579');

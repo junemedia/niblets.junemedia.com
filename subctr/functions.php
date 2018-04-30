@@ -1,4 +1,7 @@
 <?php
+require("$sGblWebRoot/libs/EmarsysApi.php");
+
+
 /**
  * check whether content exists in Maropost's system
  *
@@ -122,44 +125,80 @@ function pushNewsletterContent($contentsArray) {
   return json_decode($response);
 }
 
+/**
+ * Given an image url, upload it to media library
+ *
+ * returns an object containing the API response
+ */
 function addImageToLibrary($imgURL) {
+
   $payload = array(
-    "content_image" => array(
-      "image_url" => $imgURL
-    )
+    "filename" => getFileNameFromUrl($imgURL),
+    "file" => retrieveImageFromUrl($imgURL),
+    "folder" => 744
   );
   $payload = json_encode($payload);
 
-  $api_key = 'c300eeefb54ee6e746260585befa15a10a947a86';
-  $api_root = 'http://api.maropost.com/accounts/694';
-  $api_endpoint = 'content_images/upload.json';
-  $api_headers = array(
-    'Accept: application/json',
-    'Content-Type: application/json'
-  );
+  $emarsys = new EmarsysApi('June_Media001', 'QT7gl8vVef165syjLO4r');
+  $response = $emarsys->post('file', $payload);
 
-  $ch = curl_init("$api_root/$api_endpoint?auth_token=$api_key");
-  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-  curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-  curl_setopt($ch, CURLOPT_HTTPHEADER, $api_headers);
-  $response = curl_exec($ch);
-  curl_close($ch);
+  /* sample response from Emarsys on success:
+  {
+    "replyCode": 0,
+    "replyText": "OK",
+    "data": {
+      "id": "9385",
+      "folder": "744",
+      "filename": "md_9385.jpg",
+      "size": "40560",
+      "original_name": "featured_8c8f960a578044de5e60f51a0f2d2ba7_pulled pork with apple cider bbq sauce dreamstimesmall_88523593.jpg",
+      "url": "https:\/\/suite24.emarsys.net\/custloads\/785861579\/md_9385.jpg"
+    }
+  }
+  */
 
   return json_decode($response);
+
+}
+
+/**
+ * good enough for now
+ */
+function getFileNameFromUrl($url) {
+  return basename(parse_url($url)['path']);
+}
+
+/**
+ * retrieve an image file from a url and base64 encode it
+ */
+function retrieveImageFromUrl($url) {
+  // some of our images include spaces in their names
+  $url = str_replace(' ', '%20', $url);
+
+  $ch = curl_init ($url);
+  curl_setopt($ch, CURLOPT_HEADER, false);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($ch, CURLOPT_BINARYTRANSFER, true);
+  curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
+
+  $raw = curl_exec($ch);
+  curl_close ($ch);
+
+  return base64_encode($raw);
+
 }
 
 // upload an image to Campaigner library
 // duplicates templates/auto/addImageToLibrary.php
 function generateImgUrl($imageurl) {
-  if (!strstr($imageurl,'maropost.s3.amazonaws.com') && !strstr($imageurl, 'cdn.maropost.com')) {
+  if (!strstr($imageurl, MEDIALIBRARY)) {
 
     // expecting to get back an object here
     $response = addImageToLibrary($imageurl);
 
     // if image_url is in response then it was successful
-    if (true || isset($response->{'image_url'})) {
-      return $response->{'image_url'};
+    if (isset($response->data->url)) {
+      return $response->data->url;    // a string
     }
     else {
       mail('johns@junemedia.com','MOVE upload image error', json_encode($response));

@@ -33,32 +33,32 @@ class EmarsysApi {
 
   public function post($endPoint, $requestBody = '') {
     $requestUri = $this->_apiUrl . $endPoint;
-    curl_setopt($ch, CURLOPT_URL, $requestUri);
+    curl_setopt($this->_ch, CURLOPT_URL, $requestUri);
 
     curl_setopt($this->_ch, CURLOPT_POST, 1);
     curl_setopt($this->_ch, CURLOPT_POSTFIELDS, $requestBody);
 
-    return $this->_sendRequest;
+    return $this->_sendRequest();
   }
 
   public function put($endPoint, $requestBody = '') {
     $requestUri = $this->_apiUrl . $endPoint;
-    curl_setopt($ch, CURLOPT_URL, $requestUri);
+    curl_setopt($this->_ch, CURLOPT_URL, $requestUri);
 
-    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $requestBody);
+    curl_setopt($this->_ch, CURLOPT_CUSTOMREQUEST, "PUT");
+    curl_setopt($this->_ch, CURLOPT_POSTFIELDS, $requestBody);
 
-    return $this->_sendRequest;
+    return $this->_sendRequest();
   }
 
   public function delete($endPoint, $requestBody = '') {
     $requestUri = $this->_apiUrl . $endPoint;
-    curl_setopt($ch, CURLOPT_URL, $requestUri);
+    curl_setopt($this->_ch, CURLOPT_URL, $requestUri);
 
-    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $requestBody);
+    curl_setopt($this->_ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+    curl_setopt($this->_ch, CURLOPT_POSTFIELDS, $requestBody);
 
-    return $this->_sendRequest;
+    return $this->_sendRequest();
   }
 
   private function _sendRequest() {

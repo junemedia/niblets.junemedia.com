@@ -1,15 +1,18 @@
+var Niblets = Niblets || {};
+Niblets.mediaLibrary = 'suite24.emarsys.net/custloads/785861579';
+
 /**
- * upload image to Maropost media library and update form field
+ * upload image to media library and update form field
  * with returned asset url
  *
  */
 function addImageToLibrary(key) {
   var imgURL = document.getElementById(key).value;
-  console.log(imgURL);
+  console.log(key, ':', imgURL);
 
   if (imgURL != '') {
     // if it's already a library image, we're done
-    if (imgURL.indexOf('maropost.s3.amazonaws.com') != -1 || imgURL.indexOf('cdn.maropost.com') != -1) {
+    if (imgURL.indexOf(Niblets.mediaLibrary) != -1) {
       console.log('[addImageToLibrary] already in library');
       return true;
     }
@@ -20,13 +23,11 @@ function addImageToLibrary(key) {
           imgURL.toLowerCase().indexOf(".gif") != -1 ||
           imgURL.toLowerCase().indexOf(".png") != -1) {
 
-
-
         // expecting back a string here
         response=nibletsAjax.send('addImageToLibrary.php?imageurl=' + imgURL, '');
         console.info('response:', response);
 
-        if (response.indexOf('maropost.s3.amazonaws.com') != -1 || response.indexOf('cdn.maropost.com') != -1) {
+        if (response.indexOf(Niblets.mediaLibrary) != -1) {
           document.getElementById(key).value = response.trim();
           return true;
         }
@@ -35,7 +36,8 @@ function addImageToLibrary(key) {
           return true;
         }
 
-      } else {
+      }
+      else {
         console.log("[addImageToLibrary] doesn't appear to be an image");
         return true;
       }

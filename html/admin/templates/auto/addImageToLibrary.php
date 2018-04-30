@@ -6,14 +6,15 @@ include_once("$sGblSubctrPath/functions.php");
 // duplicates generateImgUrl function in edit.php
 $imageurl = $_GET['imageurl'];
 
-if (!strstr($imageurl,'maropost.s3.amazonaws.com') && !strstr($imageurl, 'cdn.maropost.com')) {
+// don't bother if image is already in the media library
+if (!strstr($imageurl, MEDIALIBRARY)) {
 
   // expecting to get back an object here
   $response = addImageToLibrary($imageurl);
 
   // if image_url is in response then it was successful
-  if (true || isset($response->{'image_url'})) {
-    echo $response->{'image_url'};
+  if (isset($response->data->url)) {
+    echo $response->data->url;    // a string
   }
   else {
     mail('johns@junemedia.com','MOVE upload image error', json_encode($response));
