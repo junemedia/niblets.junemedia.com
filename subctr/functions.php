@@ -125,6 +125,43 @@ function pushNewsletterContent($contentsArray) {
   return json_decode($response);
 }
 
+
+/**
+ * a campaign_id of 0 means it's new, else it's already up there
+ */
+function pushEmarsysCampaign($campaign_id, $payload) {
+  /* example payload data:
+   *   [subject] => This is a test: BR daily 01
+   *   [name] => TEST: BR daily 01
+   *   [html_source] => <doctype html><html><head><title>test foo</title></head><body><h1>Hello, emarsys!</h1></body></html>
+   */
+
+  // set other required parameters
+  $payload['language']       = 'en';
+  $payload['fromemail']      = 'johns@junemedia.com';
+  $payload['fromname']       = 'John';
+  $payload['email_category'] = '0';
+  $payload['text_source']    = '';
+  $payload['administrator']  = 1108;      // JShearer user id
+  $payload['filter']         = 15979;     // Emarsys segment id, this is my JS test list, hard coded for now
+
+  $payload = json_encode($payload);
+
+
+  // Go time...
+  $emarsys = new EmarsysApi('June_Media001', 'QT7gl8vVef165syjLO4r');
+
+  // if it's new content, then POST the data
+  if ($campaign_id == 0) {
+    $response = $emarsys->post('email', $payload);
+  }
+  else {
+    $response = $emarsys->post("email/$campaign_id/patch", $payload);
+  }
+
+  return json_decode($response);
+}
+
 /**
  * Given an image url, upload it to media library
  *
@@ -188,8 +225,7 @@ function retrieveImageFromUrl($url) {
 
 }
 
-// upload an image to Campaigner library
-// duplicates templates/auto/addImageToLibrary.php
+// upload an image to media library
 function generateImgUrl($imageurl) {
   if (!strstr($imageurl, MEDIALIBRARY)) {
 

@@ -1,5 +1,5 @@
 var Niblets = Niblets || {};
-Niblets.mediaLibrary = 'suite24.emarsys.net/custloads/785861579';
+Niblets.mediaLibrary = 'link.recipe4living.com/custloads/785861579';
 
 /**
  * upload image to media library and update form field
@@ -33,6 +33,7 @@ function addImageToLibrary(key) {
         }
         // leave the element as-is
         else {
+          console.log('debug:', response.indexOf(Niblets.mediaLibrary));
           return true;
         }
 
