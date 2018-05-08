@@ -5,7 +5,7 @@ include_once("$sGblSubctrPath/functions.php");
 
 require_once("template_class.php");
 
-$html_code = buildPreview($iId);
+$html_code = buildEmarsysTemplate($iId);
 
 // get newsletter instance data from `automated` and create array with db info
 $get_data_result = mysql_query("SELECT * FROM automated WHERE id = \"$iId\"");

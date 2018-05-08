@@ -74,13 +74,53 @@ function buildPreview($automatedId) {
     }
     // getting a string of html
     $html_code = $preview->output();
-    $html_code = str_replace("{datetime(job.issuedate,'','%Y%m%d')}", date('Ymd'), $html_code);
-    $html_code = str_replace('{to}', '{{contact.email}}', $html_code);
-    $html_code = str_replace('{job.jobid}', $campaignId, $html_code);
+    // translate Emarsys variable to Maropost variables for now
+    $html_code = str_replace('$cid$', '{{campaign.id}}', $html_code);
+    $html_code = str_replace('{{contact.3}}', '{{contact.email}}', $html_code);
   }
   else {
     $html_code = 'ID missing';
 
+  }
+
+  return $html_code;
+}
+
+
+/**
+ * build html from template and db data
+ *
+ * @param number $automatedId newsletter it in `maropost`.`automated`
+ *
+ * @return string newsletter html
+ */
+function buildEmarsysTemplate($automatedId) {
+
+  if ($automatedId != '' && ctype_digit($automatedId)) {
+    // find out which template to use
+    $query = "SELECT * FROM automated WHERE id = '$automatedId'";
+    $rSelectResult = mysql_query($query);
+    // there should only be a single result...
+    while ($oRow = mysql_fetch_object($rSelectResult)) {
+      $template = $oRow->template;
+    }
+    $preview  = new Template("templates/$template");
+
+    // populate template with values from database
+    $query = "SELECT * FROM automated_map WHERE automated_id = '$automatedId'";
+    $rSelectResult = mysql_query($query);
+    while ($oRow = mysql_fetch_object($rSelectResult)) {
+      $tag_key = $oRow->tag_key;
+      // if we have a value, stick it in the template
+      if ($oRow->tag_value != '') {
+        $preview->set($tag_key, $oRow->tag_value);
+      }
+    }
+    // getting a string of html
+    $html_code = $preview->output();
+  }
+  else {
+    $html_code = 'ID missing';
   }
 
   return $html_code;
