@@ -53,7 +53,7 @@
         <tr>
           <td colspan="2" align="center">
             <a href="http://www.fitandfabliving.com/?utm_source=FFDailyInsider&utm_medium=newsletter&utm_campaign=Fit%26Fab%2BDaily%2BInsider&utm_content=image" target="_blank">
-              <img alt="Fit and fab living Insider" src="https://cdn.maropost.com/pro/uploads/account_694/70116/78835638dff9485b8c1e5db052ba209d.jpeg?rand=b55e3338-0851-43d9-bf92-02803e6e525a" width="600" />
+              <img src="http://img.fitandfabliving.com/custloads/785861579/Brand_assets/FitAndFabLiving/ff.banner.daily_insider.jpg" alt="Fit and Fab Living Insider" width="600" />
             </a>
           </td>
         </tr>

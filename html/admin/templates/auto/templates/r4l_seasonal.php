@@ -219,7 +219,7 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://hypster.com">
-                                <img src="https://cdn.maropost.com/pro/uploads/account_694/210503/r4l.banner.spring.jpg"
+                                <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.spring.jpg"
                                     class="logo"
                                     width="600"
                                     alt="Spring Recipes by Recipe4Living"
@@ -1029,7 +1029,7 @@
                                     <td width="40">
                                       <a href="https://www.facebook.com/Recipe4Living/"
                                         target="_blank">
-                                        <img src="https://cdn.maropost.com/pro/uploads/account_694/139976/hypster_fb_72x72.png"
+                                        <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.button.facebook.png"
                                             width="33"
                                             height="33"
                                             border="0"
@@ -1045,7 +1045,7 @@
                                     <td width="40">
                                       <a href="https://twitter.com/recipe4living"
                                         target="_blank">
-                                        <img src="https://cdn.maropost.com/pro/uploads/account_694/139980/hypster_twitter_72x72.png"
+                                        <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.button.twitter.png"
                                             width="33" height="33"
                                             border="0"
                                             alt="Twitter"
@@ -1060,7 +1060,7 @@
                                     <td width="40">
                                       <a href="https://www.pinterest.com/recipe4living/"
                                         target="_blank">
-                                        <img src="https://cdn.maropost.com/pro/uploads/account_694/189882/pinterest_72x72.png"
+                                        <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.button.pinterest.png"
                                             width="33" height="33"
                                             border="0"
                                             alt="Pinterest"

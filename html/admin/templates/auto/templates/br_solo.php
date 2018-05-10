@@ -7,7 +7,7 @@
   <table border="0" align="center" cellpadding="0" cellspacing="0" style="width:100%; max-width:640px; min-width:360px;">
     <tr>
       <td align="center">
-        <img src="https://cdn.maropost.com/pro/uploads/account_694/70071/90ee2br_special.jpeg" alt="" width="90%"/>
+        <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.special_offers.jpg" alt="Special Offers by BetterRecipes" width="90%"/>
       </td>
     </tr>
 

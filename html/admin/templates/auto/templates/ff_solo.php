@@ -7,7 +7,7 @@
   <table border="0" align="center" cellpadding="0" cellspacing="0" width="640">
     <tr>
       <td align="center">
-        <img src="https://cdn.maropost.com/pro/uploads/account_694/70069/d690d87e61114a34abe27f5104bee325.jpeg"  />
+        <img src="http://img.fitandfabliving.com/custloads/785861579/Brand_assets/FitAndFabLiving/ff.banner.special_offers.jpg" alt="Special Offer from FitAndFabLiving"/>
       </td>
     </tr>
 

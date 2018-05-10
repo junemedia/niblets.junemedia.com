@@ -7,7 +7,7 @@
   <table border="0" align="center" cellpadding="0" cellspacing="0" style="width:100%; max-width:640px; min-width:360px;">
     <tr>
       <td align="center">
-        <img src="https://cdn.maropost.com/pro/uploads/account_694/70065/68ca060a5fc64c1489bfb08c26bb16ca.jpeg" alt="" width="100%"/>
+        <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.special_offers.jpg" alt="Special Offers by Recipe4Living" width="100%"/>
       </td>
     </tr>
 

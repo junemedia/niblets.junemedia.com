@@ -7,7 +7,7 @@
   <table border="0" align="center" cellpadding="0" cellspacing="0" width="640">
     <tr>
       <td align="center">
-        <img src="https://cdn.maropost.com/pro/uploads/account_694/70073/7d4856762d8045c48e7d2caa093b5128.jpeg" />
+        <img src="http://link.workitmom.com/custloads/785861579/Brand_assets/WorkItMom/wim.banner.special_offers.jpg" />
       </td>
     </tr>
 

@@ -36,7 +36,8 @@
 
 							<td width="39" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
-							<td width="211" height="50" style="font-size: 0; line-height: 0;"><a href="http://www.recipe4living.com/?utm_source=singleserving&utm_medium=newsletter&utm_content=logo_image&utm_campaign=Seasonal"><img src="https://cdn.maropost.com/pro/uploads/account_694/70104/d6b99r4l_ss_logo_new.png?rand=50350420-c4f8-475a-97a8-9d60438833b3" alt="ad" width="78" height="50"  style="display: block;"></a></td>
+              <td width="211" height="50" style="font-size: 0; line-height: 0;"><a href="http://www.recipe4living.com/?utm_source=singleserving&utm_medium=newsletter&utm_content=logo_image&utm_campaign=Seasonal">
+                <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.ss_logo_new.png" alt="ad" width="78" height="50"  style="display: block;"></a></td>
 
 							<td width="223" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
@@ -84,7 +85,8 @@
 								{{/FEATURE_TEXT/}}
 								<br />
 								<br />
-								<a href="{{/FEATURE_LINK/}}?utm_source=singleserving&utm_medium=newsletter&utm_content=feature_cta&utm_campaign=Seasonal"><img src="https://cdn.maropost.com/pro/uploads/account_694/178590/r4l.read_more_button_black_a.png" alt="ad" width="150" height="39"  style="display: block;"></a>
+                <a href="{{/FEATURE_LINK/}}?utm_source=singleserving&utm_medium=newsletter&utm_content=feature_cta&utm_campaign=Seasonal">
+                  <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.button.read_more_black.png" alt="ad" width="150" height="39"  style="display: block;"></a>
 								</span>
 								</span>
 							</td>

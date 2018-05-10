@@ -58,7 +58,7 @@
         <tr>
           <td colspan="2" align="center">
             <a href="http://www.workitmom.com/?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=image" target="_blank">
-              <img src="https://cdn.maropost.com/pro/uploads/account_694/70070/a998225a83ac4e3bba491ea96811ec49.jpeg?rand=95787ef9-bb1f-48f7-9850-1fc51d1eceb7" alt="WorkItMom">
+              <img src="http://link.workitmom.com/custloads/785861579/Brand_assets/WorkItMom/wim.banner.making_it_work.jpg" alt="WorkItMom">
             </a>
           </td>
         </tr>
@@ -84,7 +84,7 @@
         <tr>
           <td colspan="2" style="color:black;font-family:verdana;font-size:12px;padding:0px 20px;">
             <p>
-            {{/FEATURED_TEXT/}} 
+            {{/FEATURED_TEXT/}}
             <a href="{{/FEATURED_URL/}}?utm_source=WIMnewsletter&utm_medium=newsletter&utm_campaign=WIM%2BNewsletter&utm_content=text_link" target="_blank">{{/FEATURED_READ_MORE_TITLE/}}</a>
             </p>
             <br />

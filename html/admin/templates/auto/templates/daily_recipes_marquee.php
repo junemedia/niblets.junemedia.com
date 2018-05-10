@@ -30,7 +30,7 @@
 	<tr>
 		<td colspan="2" align="center">
 			<a href="http://www.recipe4living.com/" title="Recipe4Living" target="_blank" style="word-wrap: break-word !important;">
-				<img width="564" alt="Daily Recipes" src="https://cdn.maropost.com/pro/uploads/account_694/70066/6efc0874fe834c0f87b5e3be60a613cc.png?rand=eb2848de-fad4-4de7-808d-cc0735de81a6" style="max-width: 730px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;line-height: 100%;outline: none;text-decoration: none;height: auto !important;" align="middle" />
+				<img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.daily.png" width="564" alt="Daily Recipes" style="max-width: 730px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;line-height: 100%;outline: none;text-decoration: none;height: auto !important;" align="middle" />
 			</a>
 		</td>
 	</tr>

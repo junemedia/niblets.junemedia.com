@@ -58,7 +58,7 @@
         <tr>
           <td colspan="2" align="center">
             <a href="http://www.recipe4living.com/" title="Recipe4Living" target="_blank" style="word-wrap: break-word !important;">
-              <img width="564" alt="Daily Recipes" src="https://cdn.maropost.com/pro/uploads/account_694/70068/1ef0679ff5904a9b93d93a3b9c5eceb6.jpeg?rand=935728ba-04da-4001-872a-dc21f0318b14" style="max-width: 730px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;line-height: 100%;outline: none;text-decoration: none;height: auto !important;" align="middle" />
+              <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.copycat_classics.jpg" width="564" alt="Copycat Classics by Recipe4Living" style="max-width: 730px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;line-height: 100%;outline: none;text-decoration: none;height: auto !important;" align="middle" />
             </a>
           </td>
         </tr>

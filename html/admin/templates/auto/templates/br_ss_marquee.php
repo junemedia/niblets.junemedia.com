@@ -55,7 +55,9 @@
 
                 <td width="39" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
-                <td width="211" height="50" style="font-size: 0; line-height: 0;"><a href="http://www.betterrecipes.com/"><img src="https://cdn.maropost.com/pro/uploads/account_694/70050/9d14fbr_logo.png?rand=94a4ac36-f6df-4162-98e7-71aab0b62512" alt="ad"  style="display: block;"></a></td>
+                <td width="211" height="50" style="font-size: 0; line-height: 0;">
+                  <a href="http://www.betterrecipes.com/">
+                    <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.logo.png" alt="BetterRecipes" style="display: block;"></a></td>
 
                 <td width="200" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
@@ -97,7 +99,8 @@
                   {{/FEATURE_TEXT/}}
                   <br />
                   <br />
-                  <a href="{{/FEATURE_LINK/}}?utm_source=br_singleserving&utm_medium=newsletter&utm_content=feature_cta&utm_campaign=Seasonal"><img src="https://cdn.maropost.com/pro/uploads/account_694/178752/br.read_more_button_black_a.png" alt="ad" width="150" height="39"  style="display: block;"></a>
+                  <a href="{{/FEATURE_LINK/}}?utm_source=br_singleserving&utm_medium=newsletter&utm_content=feature_cta&utm_campaign=Seasonal">
+                    <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.button.read_more_black.png" alt="Read More" width="150" height="39"  style="display: block;"></a>
                   </span>
                   </span>
                 </td>
