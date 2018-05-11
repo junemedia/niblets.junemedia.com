@@ -313,13 +313,8 @@
         <!-- end white space -->
 
         <tr align="center">
-          <td>
-            <div style="float:left;font-family:Arial, Helvetica, sans-serif; font-size:9px;">
-              <em>Copyright &copy; {{/CURRENT_YEAR/}} June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
-            </div>
-            <div style="float:right;font-family:Arial, Helvetica, sans-serif; font-size:10px;">
-              <a href="http://unsubscribe.betterrecipes.com/?c=unsub&jid=$cid$&lid=506" target="_blank" name="UnsubBetterRecipes">Unsubscribe From This List</a>
-            </div>
+          <td style="font-family:Arial, Helvetica, sans-serif; font-size:9px;">
+            <em>Copyright &copy; {{/CURRENT_YEAR/}} June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
           </td>
         </tr>
 
