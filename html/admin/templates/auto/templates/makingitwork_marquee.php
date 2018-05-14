@@ -279,9 +279,8 @@
 </tr></tbody></table>
 <!--safeRTB-->
 
-<!-- Return Path engagement and device pixels -->
+<!-- Return Path engagement pixel -->
 <img src="https://pixel.app.returnpath.net/pixel.gif?r=b2b8144a183fd8075a9b6895c37532d28941d712&c=wim.making_it" width="1" height="1" />
-<img src="https://pixel.monitor1.returnpath.net/pixel.gif?r=b2b8144a183fd8075a9b6895c37532d28941d712" width="1" height="1" />
 
 </body>
 </html>
