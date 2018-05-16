@@ -124,7 +124,7 @@
             <td width="100%"
                 valign="top"
                 bgcolor="#ffffff"
-                style="padding-top: 0px width: 100%; background: #ffffff;">
+                style="padding-top: 0px; width: 100%; background: #ffffff;">
 
               <!-- ==================  container  ================== -->
               <table id="container"
