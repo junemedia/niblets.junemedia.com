@@ -29,7 +29,7 @@
 
         <p>Privacy Policy: <a href="http://savvyfork.com/privacy-policy/" target="_blank">http://savvyfork.com/privacy-policy/</a>.
 
-        <p>Copyright &copy; {{/CURRENT_YEAR/}} June Media, Inc. All rights reserved.</p>
+        <p>Copyright &copy; #L_YEAR# June Media, Inc. All rights reserved.</p>
       </td>
     </tr>
   </table>

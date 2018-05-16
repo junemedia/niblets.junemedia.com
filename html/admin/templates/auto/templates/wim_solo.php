@@ -29,7 +29,7 @@
 
         <p>Privacy Policy: <a href="http://workitmom.com/privacy/" target="_blank">http://workitmom.com/privacy/</a>.</p>
 
-        <p>Copyright &copy; {{/CURRENT_YEAR/}} June Media, Inc. All rights reserved.</p>
+        <p>Copyright &copy; #L_YEAR# June Media, Inc. All rights reserved.</p>
       </td>
     </tr>
   </table>

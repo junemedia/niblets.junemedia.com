@@ -223,7 +223,7 @@
         <tr><td>&nbsp;</td></tr>
         <tr align="center">
           <td style="font-family:Arial, Helvetica, sans-serif; font-size:9px;">
-            <em>Copyright &copy; {{/CURRENT_YEAR/}} June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
+            <em>Copyright &copy; #L_YEAR# June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
           </td>
         </tr>
       </table>

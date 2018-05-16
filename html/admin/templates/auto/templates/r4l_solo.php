@@ -29,7 +29,7 @@
 
         <p>Privacy Policy: <a href="http://www.recipe4living.com/privacy" target="_blank">http://www.recipe4living.com/privacy</a></p>
 
-        <p>Copyright &copy; {{/CURRENT_YEAR/}} June Media, Inc. All rights reserved.</p>
+        <p>Copyright &copy; #L_YEAR# June Media, Inc. All rights reserved.</p>
       </td>
     </tr>
   </table>

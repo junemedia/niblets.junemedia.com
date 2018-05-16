@@ -1162,7 +1162,7 @@
                                 style="padding-top: 14px;
                                       font-size: 12px;
                                       font-family: sans-serif;">
-                              &copy;{{ 'now' | date: '%Y' }} June Media 276 Fifth Avenue, New York, NY 10001 All rights reserved.
+                              &copy; #L_YEAR# June Media 276 Fifth Avenue, New York, NY 10001 All rights reserved.
                             </td>
                           </tr>
                         </tbody>
