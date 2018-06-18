@@ -218,10 +218,10 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://hypster.com">
-                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.spring.jpg"
+                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.summer.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Spring Recipes by BetterRecipes"
+                                    alt="Summer Recipes by BetterRecipes"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>

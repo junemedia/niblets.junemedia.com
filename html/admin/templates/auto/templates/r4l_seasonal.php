@@ -219,10 +219,10 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://hypster.com">
-                                <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.spring.jpg"
+                                <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.summer.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Spring Recipes by Recipe4Living"
+                                    alt="Summer Recipes by Recipe4Living"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>
