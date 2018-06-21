@@ -28,8 +28,22 @@
         <p>The preceding is a paid message from a Better Recipes advertiser and does not reflect the views of Better Recipes. Any questions or concerns regarding this offer should be directed to the advertiser.</p>
 
         <p>Privacy Policy: <a href="http://betterrecipes.com/privacy-policy/" target="_blank">http://betterrecipes.com/privacy-policy/</a>.</p>
+      </td>
+    </tr>
 
-        <p>Copyright &copy; #L_YEAR# June Media, Inc. All rights reserved.</p>
+    <tr align="center">
+      <td style="font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+        This email was sent to {{contact.3}} by #REPLY_MAIL#
+      </td>
+    </tr>
+    <tr align="center">
+      <td style="font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+        <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Edit Profile</a> | <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Manage Subscriptions</a> | <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Unsubscribe</a>
+      </td>
+    </tr>
+    <tr align="center">
+      <td style="font-family:Arial, Helvetica, sans-serif; font-size:10px;padding-top: .75em">
+        <em>Copyright &copy; #L_YEAR# June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
       </td>
     </tr>
   </table>

@@ -167,14 +167,26 @@
 			<!-- ADS_BLOCK_4 -->
 		</td>
 	</tr>
-	<tr>
-		<td>
-			<div style="font-family:Arial, Helvetica, sans-serif; font-size:9px;">
-				<em>Copyright &copy; #L_YEAR# June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
-			</div>
-		</td>
-	</tr>
 </table>
+
+<table align="center" border="0" style="padding-top:1.5em;width: 100%;">
+  <tr align="center">
+    <td style="font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+      This email was sent to {{contact.3}} by #REPLY_MAIL#
+    </td>
+  </tr>
+  <tr align="center">
+    <td style="font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+      <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Edit Profile</a> | <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Manage Subscriptions</a> | <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Unsubscribe</a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td style="font-family:Arial, Helvetica, sans-serif; font-size:10px;padding-top: .75em">
+      <em>Copyright &copy; #L_YEAR# June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
+    </td>
+  </tr>
+</table>
+
 <!-- takeover --></td>		<td align="left" valign="top" width="48%">			<table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a href="http://liveintent.recipe4living-recipes.com/click?s=133277&layout=right&li=687&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=133277&layout=right&li=687&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr><tr style="display:block; height:1px; line-height:1px;"><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=133278&sz=1x1&li=687&e={{contact.3}}&p=$cid$" height="1" width="10" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=133279&sz=1x1&li=687&e={{contact.3}}&p=$cid$" height="1" width="10" /></td></tr><tr><td align="left"><a href="http://liveintent.recipe4living-recipes.com/click?s=133281&sz=116x15&li=687&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=133281&sz=116x15&li=687&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a href="http://liveintent.recipe4living-recipes.com/click?s=133280&sz=19x15&li=687&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=133280&sz=19x15&li=687&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>		</td>	</tr>	</tbody></table><!-- takeover -->
 <!-- safeRTB -->
 <table cellpadding="0" cellspacing="0" border="0" width="40" height="6"><tbody><tr>

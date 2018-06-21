@@ -273,24 +273,29 @@
 			<!-- end cannot read email -->
 
 			<!-- white space -->
-			<tr>
-				<td>
-					<table border="0" cellpadding="0" cellspacing="0">
-						<tr>
-							<td width="728" height="25" style="font-size: 0; line-height: 0;">&nbsp;</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
+      <tr>
+        <td width="728" height="25" style="font-size: 0; line-height: 0;">&nbsp;</td>
+      </tr>
 			<!-- end white space -->
+      </table>
 
-			<tr align="center">
-				<td style="font-family:Arial, Helvetica, sans-serif; font-size:9px;">
-          <em>Copyright &copy; #L_YEAR# June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
-				</td>
-			</tr>
-
-		</table>
+      <table align="center" border="0" style="padding-top:1.5em;width: 100%;">
+        <tr align="center">
+          <td style="font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+            This email was sent to {{contact.3}} by #REPLY_MAIL#
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+            <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Edit Profile</a> | <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Manage Subscriptions</a> | <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Unsubscribe</a>
+          </td>
+        </tr>
+        <tr align="center">
+          <td style="font-family:Arial, Helvetica, sans-serif; font-size:10px;padding-top: .75em">
+            <em>Copyright &copy; #L_YEAR# June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
+          </td>
+        </tr>
+      </table>
 
 
 <table cellpadding="0" cellspacing="0" border="0" width="40" height="6"><tbody><tr><td>

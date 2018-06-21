@@ -1150,20 +1150,26 @@
                       <table class="deviceWidth"
                             width="600"
                             border="0"
-                            cellpadding="0"
+                            cellpadding="2"
                             cellspacing="0"
                             align="center"
                             bgcolor="#ffffff"
-                            color="#000000">
+                            color="#000000"
+                            style="margin-top: 1.5em">
                         <tbody>
-                          <tr>
-                            <td class="center"
-                                valign="top"
-                                align="center"
-                                style="padding-top: 14px;
-                                      font-size: 12px;
-                                      font-family: sans-serif;">
-                              &copy; #L_YEAR# June Media 276 Fifth Avenue, New York, NY 10001 All rights reserved.
+                          <tr align="center">
+                            <td style="font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+                              This email was sent to {{contact.3}} by #REPLY_MAIL#
+                            </td>
+                          </tr>
+                          <tr align="center">
+                            <td style="font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+                              <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Edit Profile</a> | <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Manage Subscriptions</a> | <a href="http://preferences.junemedia.com/preference/index.html?uid=$userid$&cid=$cid$&llid=$llid$">Unsubscribe</a>
+                            </td>
+                          </tr>
+                          <tr align="center">
+                            <td style="font-family:Arial, Helvetica, sans-serif; font-size:10px;padding-top: .75em">
+                              <em>Copyright &copy; #L_YEAR# June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>
                             </td>
                           </tr>
                         </tbody>
