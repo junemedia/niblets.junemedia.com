@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>BetterRecipes Holiday Recipes</title>
+  <title>BetterRecipes Seasonal Recipes</title>
 
   <style type="text/css">
     body   {
@@ -218,10 +218,10 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://hypster.com">
-                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.summer.jpg"
+                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.fall.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Summer Recipes by BetterRecipes"
+                                    alt="Fall Recipes by BetterRecipes"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>
