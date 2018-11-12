@@ -6,28 +6,18 @@
 <table cellpadding="0" cellspacing="0" width="100%">
   <tbody>
   <tr>
-    <td align="right" valign="top" width="49%">
-      <a href="http://liveintent.recipe4living-recipes.com/click?s=138919&layout=left&li=615&e={{contact.3}}&p=$cid$" rel="nofollow">
-        <img src="http://liveintent.recipe4living-recipes.com/imp?s=138919&layout=left&li=615&e={{contact.3}}&p=$cid$" border="0"/>
-      </a>
-    </td>
+    <td align="right" valign="top" width="49%"> </td>
 
     <td valign="top" width="2%">
       <table width="728"  border="0" style="border-collapse: collapse; font-family:Arial, Helvetica, sans-serif" cellpadding="0" cellspacing="0">
 
-        <!-- 728x90 ad at top -->
         <tr>
           <td>
-            <table border="0" cellpadding="0" cellspacing="0">
-              <tr>
-                <td width="728" height="90" style="font-size: 0; line-height: 0;">
-                  <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a style="display: block; width: 728px; height: 90px;" href="http://liveintent.recipe4living-recipes.com/click?s=138925&sz=728x90&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=138925&sz=728x90&li=615&e={{contact.3}}&p=$cid$" border="0" width="728" height="90"/></a></td></tr><tr style="display:block; height:1px; line-height:1px;"><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=138926&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=138927&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td></tr><tr><td align="left"><a href="http://liveintent.recipe4living-recipes.com/click?s=20228&sz=116x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=20228&sz=116x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a href="http://liveintent.recipe4living-recipes.com/click?s=96306&sz=69x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=96306&sz=69x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>
-                </td>
-              </tr>
-            </table>
+            <!-- Dynamic tag 1 -->
+            <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a href="http://liveintent.recipe4living-recipes.com/click?s=689587&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689587&li=615&e={{contact.3}}&p=$cid$" border="0" width="740" style="width: 100%; max-width: 740px !important;"/></a></td></tr><tr><td align="left"><a style="display: block; max-width: 116px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689588&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689588&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a style="display: block; max-width: 19px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689590&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689590&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>
+            <!-- end Dynamic tag 1 -->
           </td>
         </tr>
-        <!-- end 728x90 ad at top -->
 
         <!-- white space -->
         <tr>
@@ -166,43 +156,13 @@
         </tr>
         <!-- end white space -->
 
-        <!-- LiveIntent marquee -->
         <tr>
           <td>
-            <!-- code from LiveIntent -->
-            <table border="0" cellpadding="0" cellspacing="0"  align="center" style="margin-left:auto; margin-right:auto;">
-              <tr>
-                <td colspan="2">
-                  <a href="http://liveintent.recipe4living-recipes.com/click?s=182556&layout=marquee&li=615&e={{contact.3}}&p=$cid$" rel="nofollow">
-                    <img src="http://liveintent.recipe4living-recipes.com/imp?s=182556&layout=marquee&li=615&e={{contact.3}}&p=$cid$" border="0" style="display: block; width:100%; height:auto;" width="728" />
-                  </a>
-                </td>
-              </tr>
-              <tr style="display:block; height:1px; line-height:1px;">
-                <td>
-                  <img src="http://liveintent.recipe4living-recipes.com/imp?s=182557&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" />
-                </td>
-                <td>
-                  <img src="http://liveintent.recipe4living-recipes.com/imp?s=182558&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" />
-                </td>
-              </tr>
-              <tr>
-                <td align="left">
-                  <a href="http://liveintent.recipe4living-recipes.com/click?s=182559&sz=116x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow">
-                    <img src="http://liveintent.recipe4living-recipes.com/imp?s=182559&sz=116x15&li=615&e={{contact.3}}&p=$cid$" border="0"/>
-                  </a>
-                </td>
-                <td align="right">
-                  <a href="http://liveintent.recipe4living-recipes.com/click?s=182560&sz=69x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow">
-                    <img src="http://liveintent.recipe4living-recipes.com/imp?s=182560&sz=69x15&li=615&e={{contact.3}}&p=$cid$" border="0"/>
-                  </a>
-                </td>
-              </tr>
-            </table>
-            <!-- /code from LiveIntent -->
+            <!-- Dynamic tag 2 -->
+           <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a href="http://liveintent.recipe4living-recipes.com/click?s=689591&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689591&li=615&e={{contact.3}}&p=$cid$" border="0" width="740" style="width: 100%; max-width: 740px !important;"/></a></td></tr><tr><td align="left"><a style="display: block; max-width: 116px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689592&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689592&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a style="display: block; max-width: 19px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689594&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689594&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>
+            <!-- end Dynamic tag 2 -->
           </td>
         </tr>
-        <!-- end LiveIntent marquee -->
 
         <!-- white space -->
         <tr>
@@ -219,13 +179,17 @@
                 <td width="39" height="250" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
                 <td width="300" height="250" style="font-size: 0; line-height: 0;">
-                  <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a style="display: block; width: 300px; height: 250px;" href="http://liveintent.recipe4living-recipes.com/click?s=139141&sz=300x250&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=139141&sz=300x250&li=615&e={{contact.3}}&p=$cid$" border="0" width="300" height="250"/></a></td></tr><tr style="display:block; height:1px; line-height:1px;"><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=139142&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=139143&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td></tr><tr><td align="left"><a href="http://liveintent.recipe4living-recipes.com/click?s=20228&sz=116x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=20228&sz=116x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a href="http://liveintent.recipe4living-recipes.com/click?s=96306&sz=69x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=96306&sz=69x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>
+                  <!-- Static 300x250 1 -->
+                  <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a href="http://liveintent.recipe4living-recipes.com/click?s=689599&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689599&li=615&e={{contact.3}}&p=$cid$" border="0" width="300" style="width: 100%; max-width: 300px !important;"/></a></td></tr><tr><td align="left"><a style="display: block; max-width: 116px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689600&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689600&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a style="display: block; max-width: 19px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689602&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689602&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>
+                  <!-- Static 300x250 1 -->
                 </td>
 
                 <td width="50" height="250" style="font-size: 0; line-height: 0;">&nbsp;</td>
 
                 <td width="300" height="250" style="font-size: 0; line-height: 0;">
-                  <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a style="display: block; width: 300px; height: 250px;" href="http://liveintent.recipe4living-recipes.com/click?s=139144&sz=300x250&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=139144&sz=300x250&li=615&e={{contact.3}}&p=$cid$" border="0" width="300" height="250"/></a></td></tr><tr style="display:block; height:1px; line-height:1px;"><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=139145&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=139146&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td></tr><tr><td align="left"><a href="http://liveintent.recipe4living-recipes.com/click?s=20228&sz=116x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=20228&sz=116x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a href="http://liveintent.recipe4living-recipes.com/click?s=96306&sz=69x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=96306&sz=69x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>
+                  <!-- Static 300x250 2 -->
+                  <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a href="http://liveintent.recipe4living-recipes.com/click?s=689603&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689603&li=615&e={{contact.3}}&p=$cid$" border="0" width="300" style="width: 100%; max-width: 300px !important;"/></a></td></tr><tr><td align="left"><a style="display: block; max-width: 116px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689604&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689604&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a style="display: block; max-width: 19px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689606&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689606&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>
+                  <!-- Static 300x250 2 -->
                 </td>
 
                 <td width="39" height="250" style="font-size: 0; line-height: 0;">&nbsp;</td>
@@ -270,8 +234,10 @@
           <td>
             <table border="0" cellpadding="0" cellspacing="0">
               <tr>
-                <td width="728" height="90" style="font-size: 0; line-height: 0;">
-                  <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a style="display: block; width: 728px; height: 90px;" href="http://liveintent.recipe4living-recipes.com/click?s=138928&sz=728x90&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=138928&sz=728x90&li=615&e={{contact.3}}&p=$cid$" border="0" width="728" height="90"/></a></td></tr><tr style="display:block; height:1px; line-height:1px;"><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=138929&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=138930&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td></tr><tr><td align="left"><a href="http://liveintent.recipe4living-recipes.com/click?s=20228&sz=116x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=20228&sz=116x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a href="http://liveintent.recipe4living-recipes.com/click?s=96306&sz=69x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=96306&sz=69x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>
+                <td style="font-size: 0; line-height: 0;">
+                  <!-- Dynamic tag 3 -->
+                 <table border="0" cellpadding="0" cellspacing="0" ><tr><td colspan="2"><a href="http://liveintent.recipe4living-recipes.com/click?s=689595&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689595&li=615&e={{contact.3}}&p=$cid$" border="0" width="740" style="width: 100%; max-width: 740px !important;"/></a></td></tr><tr><td align="left"><a style="display: block; max-width: 116px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689596&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689596&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td><td align="right"><a style="display: block; max-width: 19px;  max-height: 15px;" href="http://liveintent.recipe4living-recipes.com/click?s=689598&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=689598&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td></tr></table>
+                  <!-- end Dynamic tag 3 -->
                 </td>
               </tr>
             </table>
@@ -329,53 +295,12 @@
         </tr>
       </table>
 
-      <table cellpadding="0" cellspacing="0" border="0" width="40" height="6">
-        <tbody>
-        <tr>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898500&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898501&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898502&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898503&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898504&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898505&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898506&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898507&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898508&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898509&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898510&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898511&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898512&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898513&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898514&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898515&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898516&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898517&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898518&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=123898519&sz=2x1&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td>
-        </tr>
-        </tbody>
-      </table>
+      <!-- SafeRTB -->
+      <table cellpadding="0" cellspacing="0" border="0" width="40" height="6"><tbody><tr><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607300&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607301&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607302&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607303&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607304&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607305&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607306&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607307&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607308&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607309&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607310&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607311&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607312&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607313&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607314&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607315&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607316&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607317&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607318&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=125607319&li=615&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td></tr></tbody></table>
+      <!-- end SafeRTB -->
     </td>
 
-    <td align="left" valign="top" width="48%">
-      <table border="0" cellpadding="0" cellspacing="0" >
-        <tr>
-          <td colspan="2">
-            <a href="http://liveintent.recipe4living-recipes.com/click?s=138920&layout=right&li=615&e={{contact.3}}&p=$cid$" rel="nofollow">
-              <img src="http://liveintent.recipe4living-recipes.com/imp?s=138920&layout=right&li=615&e={{contact.3}}&p=$cid$" border="0"/>
-            </a>
-          </td>
-        </tr>
-        <tr style="display:block; height:1px; line-height:1px;">
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=138921&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td>
-          <td><img src="http://liveintent.recipe4living-recipes.com/imp?s=138922&sz=1x1&li=615&e={{contact.3}}&p=$cid$" height="1" width="10" /></td>
-        </tr>
-        <tr>
-          <td align="left"><a href="http://liveintent.recipe4living-recipes.com/click?s=138924&sz=116x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=138924&sz=116x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td>
-          <td align="right"><a href="http://liveintent.recipe4living-recipes.com/click?s=138923&sz=19x15&li=615&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=138923&sz=19x15&li=615&e={{contact.3}}&p=$cid$" border="0"/></a></td>
-        </tr>
-      </table>
-    </td>
+    <td align="left" valign="top" width="48%"> </td>
   </tr>
   </tbody>
 </table>
