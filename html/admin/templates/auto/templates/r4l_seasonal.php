@@ -105,9 +105,12 @@
     style="font-family: Helvetica,sans-serif;">
 
 
-<!-- ==========================  Start Takeover  ========================== -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td align="right" valign="top" width="49%"> <a href="http://liveintent.recipe4living-recipes.com/click?s=274504&layout=left&li=07003&e={{contact.3}}&p=$cid$" rel="nofollow"> <img src="http://liveintent.recipe4living-recipes.com/imp?s=274504&layout=left&li=07003&e={{contact.3}}&p=$cid$" border="0"/> </a> </td> <td valign="top" width="2%">
-<!-- ========================  end Start Takeover  ======================== -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <td align="right" valign="top" width="49%"></td>
+
+    <td valign="top" width="2%">
 
       <!-- ==================  wrapper  ================== -->
       <table
@@ -1201,10 +1204,12 @@
         </tbody>
       </table>
       <!-- end wrapper -->
+    </td>
 
-<!-- =========================  Finish Takeover  ========================== -->
-    </td> <td align="left" valign="top" width="48%"> <table border="0" cellpadding="0" cellspacing="0" > <tr> <td colspan="2"> <a href="http://liveintent.recipe4living-recipes.com/click?s=274505&layout=right&li=07003&e={{contact.3}}&p=$cid$" rel="nofollow"> <img src="http://liveintent.recipe4living-recipes.com/imp?s=274505&layout=right&li=07003&e={{contact.3}}&p=$cid$" border="0"/> </a> </td> </tr> <tr style="display:block; height:1px; line-height:1px;"> <td> <img src="http://liveintent.recipe4living-recipes.com/imp?s=274506&sz=1x1&li=07003&e={{contact.3}}&p=$cid$" height="1" width="10" /> </td> <td> <img src="http://liveintent.recipe4living-recipes.com/imp?s=274507&sz=1x1&li=07003&e={{contact.3}}&p=$cid$" height="1" width="10" /> </td> </tr> <tr> <td align="left"> <a href="http://liveintent.recipe4living-recipes.com/click?s=274509&sz=116x15&li=07003&e={{contact.3}}&p=$cid$" rel="nofollow"> <img src="http://liveintent.recipe4living-recipes.com/imp?s=274509&sz=116x15&li=07003&e={{contact.3}}&p=$cid$" border="0"/> </a> </td> <td align="right"> <a href="http://liveintent.recipe4living-recipes.com/click?s=274508&sz=19x15&li=07003&e={{contact.3}}&p=$cid$" rel="nofollow"> <img src="http://liveintent.recipe4living-recipes.com/imp?s=274508&sz=19x15&li=07003&e={{contact.3}}&p=$cid$" border="0"/> </a> </td> </tr> </table> </td> </tr> </tbody> </table>
-<!-- =======================  end Finish Takeover  ======================== -->
+    <td align="left" valign="top" width="49%"></td>
+  </tr>
+  </tbody>
+</table>
 
 <!-- ================  liveintent safe rtb  ================ -->
 <table cellpadding="0" cellspacing="0" border="0" width="40" height="6"><tbody><tr><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989400&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989401&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989402&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989403&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989404&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989405&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989406&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989407&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989408&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989409&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989410&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989411&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989412&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989413&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989414&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989415&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989416&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989417&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989418&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td><td><img src="http://liveintent.recipe4living-recipes.com/imp?s=124989419&sz=2x1&li=07003&e={{contact.3}}&p=$cid$" width="2" height="6" border="0" /></td></tr></tbody></table>
