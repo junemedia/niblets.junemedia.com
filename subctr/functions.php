@@ -126,46 +126,6 @@ function buildEmarsysTemplate($automatedId) {
   return $html_code;
 }
 
-function pushNewsletterContent($contentsArray) {
-  $apiKey = 'c300eeefb54ee6e746260585befa15a10a947a86';
-  $apiRoot = 'http://api.maropost.com/accounts/694';
-  $apiEndpoint = 'contents';
-  $apiHeaders = array(
-    'Accept: application/json',
-    'Content-Type: application/json'
-  );
-
-  $payload = array(
-    'content' => array(
-      'name' => $contentsArray['campaign_name'],
-      'html_part' => $contentsArray['html_code'],
-      'full_email' => false, // open content in Maropost's WYSIWYG editor
-    )
-  );
-  $payload = json_encode($payload);
-
-  // if it's new content, then POST the data
-  if ($contentsArray['content_id'] == 0) {
-    $apiEndpoint .= '.json';
-    $apiMethod = 'POST';
-  }
-  else {
-    $apiEndpoint .= "/{$contentsArray['content_id']}.json";
-    $apiMethod = 'PUT';
-  }
-
-  $ch = curl_init("$apiRoot/$apiEndpoint?auth_token=$apiKey");
-  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $apiMethod);
-  curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-  curl_setopt($ch, CURLOPT_HTTPHEADER, $apiHeaders);
-  $response = curl_exec($ch);
-  curl_close($ch);
-
-  return json_decode($response);
-}
-
-
 /**
  * a campaign_id of 0 means it's new, else it's already up there
  */
