@@ -220,11 +220,11 @@
                                 height="74"
                                 valign="bottom"
                                 align="left">
-                              <a href="http://hypster.com">
-                                <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.fall.jpg"
+                              <a href="http://www.recipe4living.com">
+                                <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.holiday.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Fall Recipes by Recipe4Living"
+                                    alt="Holiday Recipes by Recipe4Living"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>

@@ -220,11 +220,11 @@
                                 height="74"
                                 valign="bottom"
                                 align="left">
-                              <a href="http://hypster.com">
-                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.fall.jpg"
+                              <a href="http://www.betterrecipes.com">
+                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.holiday.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Fall Recipes by BetterRecipes"
+                                    alt="Holiday Recipes by BetterRecipes"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>
