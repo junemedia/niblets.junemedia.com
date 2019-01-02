@@ -221,10 +221,10 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://www.betterrecipes.com">
-                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.holiday.jpg"
+                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.winter.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Holiday Recipes by BetterRecipes"
+                                    alt="Winter Recipes by BetterRecipes"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>
