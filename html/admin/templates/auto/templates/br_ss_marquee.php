@@ -110,28 +110,55 @@
         </tr>
         <!-- end white space -->
 
+        <!-- more we love -->
         <tr>
-          <td>
-            <table border="0" cellspacing="0" cellpadding="0">
-              <tbody> <tr>
-                <td width="64" height="185" style="font-size: 0; line-height: 0;">&nbsp;</td>
-                <td valign="top">
-                  <!-- ==========  LiveIntent content recommendations  =========== -->
-                  <style type="text/css"> <!-- @media only screen and (max-width: 599px) { table[id=li-container]{ width: 100% !important; } div[class=fullw]{ width: 50% !important; } img[class=orgw]{ width: 95% !important; } td[class=adcontent]{ padding: 5px 0 5px 10px !important; } td[class=adchoices]{ padding: 0 10px 5px 0 !important; } } //--> </style> <table align="center" border="0" cellpadding="0" cellspacing="0" id="li-container" style="width:600px; margin:0 auto; font-size:0; line-height:0; border-collapse: collapse; background-color:#FFFFFF;"> <tr> <td class="adcontent" style="overflow:hidden; width:50%; padding:5px;"> <img src="https://s3-eu-west-1.amazonaws.com/avari-production-content-blocks-images/sponsored_content.png" width="217" height="22" border="0" style="display:inline-block;"> </td> <td class="adchoices" style="overflow:hidden; width:50%; vertical-align:bottom; text-align:right; padding-bottom:5px; padding-right:5px;"> <a href="http://liveintent.recipe4living-recipes.com/click?s=96306&sz=69x15&li=213&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=96306&sz=69x15&li=213&e={{contact.3}}&p=$cid$" border="0"/></a> </td> </tr> <tr> <td colspan="2" align="center" width="100%" style="width:100%; text-align:center; font-size:0; line-height:0; vertical-align: top;"> <!--[if (gte mso 9)|(IE)]> <table width="600" align="center" cellpadding="0" cellspacing="0" border="0"> <tr> <td> <![endif]--> <!--[if (gte mso 9)|(IE)]> <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"> <tr><td width="150" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241035&layout=native&li=213&e={{contact.3}}&p=$cid$" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241035&layout=native&li=213&e={{contact.3}}&p=$cid$" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241036&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241037&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td><td width="150" align="center" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241038&layout=native&li=213&e={{contact.3}}&p=$cid$" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241038&layout=native&li=213&e={{contact.3}}&p=$cid$" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241039&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241040&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td><td width="150" align="center" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241041&layout=native&li=213&e={{contact.3}}&p=$cid$" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241041&layout=native&li=213&e={{contact.3}}&p=$cid$" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241042&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241043&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td><td width="150" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241044&layout=native&li=213&e={{contact.3}}&p=$cid$" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241044&layout=native&li=213&e={{contact.3}}&p=$cid$" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241045&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241046&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td></tr> </table> <![endif]--> <!--[if (gte mso 9)|(IE)]> </td> </tr> </table> <![endif]--> </td> </tr> </table>
-                  <!-- ==========  LiveIntent content recommendations  =========== -->
+          <td colspan="2" style="border-top:1px solid #383838;padding:9px 18px;color:#383838;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;line-height:100%;text-align:center;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;" valign="top">
+            More We Love
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center" valign="top">
+            <table width="100%" border="0" style="padding:0px 5px;">
+              <tr>
+                <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
+                  <a href="{{/MORE_1_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="{{/MORE_1_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                    <img alt="{{/MORE_1_TITLE/}}" src="{{/MORE_1_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
+                  </a>
+                  <p style="max-width:160px;float:left;"><a href="{{/MORE_1_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_1_TITLE/}}</a></p>
                 </td>
-                <td width="64" height="185" style="font-size: 0; line-height: 0;">&nbsp;</td>
+
+                <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
+                  <a href="{{/MORE_2_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="{{/MORE_2_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                    <img alt="{{/MORE_2_TITLE/}}" src="{{/MORE_2_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
+                  </a>
+                  <p style="max-width:160px;float:left;"><a href="{{/MORE_2_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_2_TITLE/}}</a></p>
+                </td>
+
+                <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
+                  <a href="{{/MORE_3_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="{{/MORE_3_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                    <img alt="{{/MORE_3_TITLE/}}" src="{{/MORE_3_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
+                  </a>
+                  <p style="max-width:160px;float:left;"><a href="{{/MORE_3_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_3_TITLE/}}</a></p>
+                </td>
+
+                <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
+                  <a href="{{/MORE_4_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="{{/MORE_4_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                    <img alt="{{/MORE_4_TITLE/}}" src="{{/MORE_4_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
+                  </a>
+                  <p style="max-width:160px;float:left;"><a href="{{/MORE_4_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_4_TITLE/}}</a></p>
+                </td>
               </tr>
-              </tbody>
             </table>
           </td>
         </tr>
+        <!-- end more we love -->
 
         <!-- white space -->
         <tr>
           <td width="728" height="10" style="font-size: 0; line-height: 0;">&nbsp;</td>
         </tr>
         <!-- end white space -->
+
 
         <!-- ads-->
         <tr>
@@ -162,6 +189,29 @@
           </td>
         </tr>
         <!-- end ads -->
+
+        <!-- white space -->
+        <tr>
+          <td width="728" height="10" style="font-size: 0; line-height: 0;">&nbsp;</td>
+        </tr>
+        <!-- end white space -->
+
+        <tr>
+          <td>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tbody> <tr>
+                <td width="64" height="185" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                <td valign="top">
+                  <!-- ==========  LiveIntent content recommendations  =========== -->
+                  <style type="text/css"> <!-- @media only screen and (max-width: 599px) { table[id=li-container]{ width: 100% !important; } div[class=fullw]{ width: 50% !important; } img[class=orgw]{ width: 95% !important; } td[class=adcontent]{ padding: 5px 0 5px 10px !important; } td[class=adchoices]{ padding: 0 10px 5px 0 !important; } } //--> </style> <table align="center" border="0" cellpadding="0" cellspacing="0" id="li-container" style="width:600px; margin:0 auto; font-size:0; line-height:0; border-collapse: collapse; background-color:#FFFFFF;"> <tr> <td class="adcontent" style="overflow:hidden; width:50%; padding:5px;"> <img src="https://s3-eu-west-1.amazonaws.com/avari-production-content-blocks-images/sponsored_content.png" width="217" height="22" border="0" style="display:inline-block;"> </td> <td class="adchoices" style="overflow:hidden; width:50%; vertical-align:bottom; text-align:right; padding-bottom:5px; padding-right:5px;"> <a href="http://liveintent.recipe4living-recipes.com/click?s=96306&sz=69x15&li=213&e={{contact.3}}&p=$cid$" rel="nofollow"><img src="http://liveintent.recipe4living-recipes.com/imp?s=96306&sz=69x15&li=213&e={{contact.3}}&p=$cid$" border="0"/></a> </td> </tr> <tr> <td colspan="2" align="center" width="100%" style="width:100%; text-align:center; font-size:0; line-height:0; vertical-align: top;"> <!--[if (gte mso 9)|(IE)]> <table width="600" align="center" cellpadding="0" cellspacing="0" border="0"> <tr> <td> <![endif]--> <!--[if (gte mso 9)|(IE)]> <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"> <tr><td width="150" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241035&layout=native&li=213&e={{contact.3}}&p=$cid$" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241035&layout=native&li=213&e={{contact.3}}&p=$cid$" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241036&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241037&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td><td width="150" align="center" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241038&layout=native&li=213&e={{contact.3}}&p=$cid$" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241038&layout=native&li=213&e={{contact.3}}&p=$cid$" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241039&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241040&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td><td width="150" align="center" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241041&layout=native&li=213&e={{contact.3}}&p=$cid$" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241041&layout=native&li=213&e={{contact.3}}&p=$cid$" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241042&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241043&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td><td width="150" valign="top"> <![endif]--> <div style="width:149px; display:inline-block; text-align:center; border:0; vertical-align:top; margin-bottom: 10px;" class="fullw"> <a href="http://liveintent.recipe4living-recipes.com/click?s=241044&layout=native&li=213&e={{contact.3}}&p=$cid$" target="_blank"><img src="http://liveintent.recipe4living-recipes.com/imp?s=241044&layout=native&li=213&e={{contact.3}}&p=$cid$" width="142" class="orgw"></a> <img src="http://liveintent.recipe4living-recipes.com/imp?s=241045&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /><img src="http://liveintent.recipe4living-recipes.com/imp?s=241046&layout=tracking&sz=1x1&li=213&e={{contact.3}}&p=$cid$" height="1" width="10" /> </div> <!--[if (gte mso 9)|(IE)]> </td></tr> </table> <![endif]--> <!--[if (gte mso 9)|(IE)]> </td> </tr> </table> <![endif]--> </td> </tr> </table>
+                  <!-- ==========  LiveIntent content recommendations  =========== -->
+                </td>
+                <td width="64" height="185" style="font-size: 0; line-height: 0;">&nbsp;</td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
 
         <!-- white space -->
         <tr>
