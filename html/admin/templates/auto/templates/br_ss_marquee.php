@@ -121,31 +121,31 @@
             <table width="100%" border="0" style="padding:0px 5px;">
               <tr>
                 <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
-                  <a href="{{/MORE_1_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="{{/MORE_1_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/MORE_1_URL/}}?utm_source=br_singleserving&utm_medium=Newsletter&utm_campaign=Seasonal" title="{{/MORE_1_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/MORE_1_TITLE/}}" src="{{/MORE_1_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
                   </a>
-                  <p style="max-width:160px;float:left;"><a href="{{/MORE_1_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_1_TITLE/}}</a></p>
+                  <p style="max-width:160px;float:left;"><a href="{{/MORE_1_URL/}}?utm_source=br_singleserving&utm_medium=Newsletter&utm_campaign=Seasonal" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_1_TITLE/}}</a></p>
                 </td>
 
                 <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
-                  <a href="{{/MORE_2_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="{{/MORE_2_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/MORE_2_URL/}}?utm_source=br_singleserving&utm_medium=Newsletter&utm_campaign=Seasonal" title="{{/MORE_2_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/MORE_2_TITLE/}}" src="{{/MORE_2_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
                   </a>
-                  <p style="max-width:160px;float:left;"><a href="{{/MORE_2_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_2_TITLE/}}</a></p>
+                  <p style="max-width:160px;float:left;"><a href="{{/MORE_2_URL/}}?utm_source=br_singleserving&utm_medium=Newsletter&utm_campaign=Seasonal" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_2_TITLE/}}</a></p>
                 </td>
 
                 <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
-                  <a href="{{/MORE_3_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="{{/MORE_3_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/MORE_3_URL/}}?utm_source=br_singleserving&utm_medium=Newsletter&utm_campaign=Seasonal" title="{{/MORE_3_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/MORE_3_TITLE/}}" src="{{/MORE_3_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
                   </a>
-                  <p style="max-width:160px;float:left;"><a href="{{/MORE_3_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_3_TITLE/}}</a></p>
+                  <p style="max-width:160px;float:left;"><a href="{{/MORE_3_URL/}}?utm_source=br_singleserving&utm_medium=Newsletter&utm_campaign=Seasonal" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_3_TITLE/}}</a></p>
                 </td>
 
                 <td width="160" valign="top" style="font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;font-size: 10px">
-                  <a href="{{/MORE_4_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" title="{{/MORE_4_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
+                  <a href="{{/MORE_4_URL/}}?utm_source=br_singleserving&utm_medium=Newsletter&utm_campaign=Seasonal" title="{{/MORE_4_TITLE/}}" target="_blank" style="word-wrap:break-word !important;">
                     <img alt="{{/MORE_4_TITLE/}}" src="{{/MORE_4_IMAGE/}}" style="max-width:160px;border:0;line-height:100%;outline:none;text-decoration:none;vertical-align:bottom;height:auto !important;" width="160" height="150" />
                   </a>
-                  <p style="max-width:160px;float:left;"><a href="{{/MORE_4_URL/}}?utm_source=betterrecipes&utm_medium=Newsletter&utm_campaign=BRDailyRecipes" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_4_TITLE/}}</a></p>
+                  <p style="max-width:160px;float:left;"><a href="{{/MORE_4_URL/}}?utm_source=br_singleserving&utm_medium=Newsletter&utm_campaign=Seasonal" target="_blank" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;line-height:150%;font-weight:normal;text-decoration:underline;word-wrap:break-word !important;">{{/MORE_4_TITLE/}}</a></p>
                 </td>
               </tr>
             </table>
