@@ -221,10 +221,10 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://www.betterrecipes.com">
-                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.winter.jpg"
+                                <img src="http://img.betterrecipes.com/custloads/785861579/Brand_assets/BetterRecipes/br.banner.spring.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Winter Recipes by BetterRecipes"
+                                    alt="Spring Recipes by BetterRecipes"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>
@@ -252,7 +252,7 @@
                       <!-- End headline 1 -->
 
 
-                      <!-- ==================  Holiday recipes  ================== -->
+                      <!-- ==================  Seasonal recipes  ================== -->
                       <table class="deviceWidth main-stories-wrap"
                             width="600"
                             border="0"

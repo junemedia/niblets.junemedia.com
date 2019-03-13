@@ -221,10 +221,10 @@
                                 valign="bottom"
                                 align="left">
                               <a href="http://www.recipe4living.com">
-                                <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.winter.jpg"
+                                <img src="http://img.recipe4living.com/custloads/785861579/Brand_assets/R4L/r4l.banner.spring.jpg"
                                     class="logo"
                                     width="600"
-                                    alt="Winter Recipes by Recipe4Living"
+                                    alt="Spring Recipes by Recipe4Living"
                                     border="0"
                                     style="display:block; border: 0;">
                               </a>
@@ -252,7 +252,7 @@
                       <!-- End headline 1 -->
 
 
-                      <!-- ==================  Holiday recipes  ================== -->
+                      <!-- ==================  Seasonal recipes  ================== -->
                       <table class="deviceWidth main-stories-wrap"
                             width="600"
                             border="0"
