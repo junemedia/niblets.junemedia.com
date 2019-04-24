@@ -19,11 +19,30 @@
         <!-- white space -->
         <table border="0" cellpadding="0" cellspacing="0">
           <tr>
-            <td width="728" height="50" style="font-size: 0; line-height: 0;">&nbsp;</td>
+            <td width="728" height="30" style="font-size: 0; line-height: 0;">&nbsp;</td>
           </tr>
         </table>
         <!-- end white space -->
 
+        <!-- logo -->
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="728" height="50" style="font-size: 0; line-height: 0;">
+              <a href="http://www.betterrecipes.com/?utm_source=betterrecipes&utm_medium=newsletter&utm_campaign=SimpleRecipes&utm_content=logo_image">
+                <img src="http://suite24.emarsys.net/custloads/785861579/Brand_assets/BetterRecipes/br.banner.simple_recipes.jpg" alt="Simple Recipes From BetterRecipes.com" style="display: block; width: 100%">
+              </a>
+            </td>
+          </tr>
+        </table>
+        <!-- end logo -->
+
+        <!-- white space -->
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="728" height="10" style="font-size: 0; line-height: 0;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- end white space -->
 
         <!-- featured item -->
         <table border="0" cellpadding="0" cellspacing="0" style="width:668px; border: solid 1px #ddd; border-radius: 12px;">
@@ -34,13 +53,6 @@
             <td style="width: 5%">&nbsp;</td>
             <td style="width:90%">
               <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                <tr>
-                  <td colspan="3" style="font-size: 0; line-height: 0;">
-                    <a href="http://www.betterrecipes.com/?utm_source=betterrecipes&utm_medium=newsletter&utm_campaign=SimpleRecipes&utm_content=logo_image">
-                      <img src="http://suite24.emarsys.net/custloads/785861579/Brand_assets/BetterRecipes/br.logo.png" alt="Simple Recipes From BetterRecipes.com" style="display: block; width: 100%">
-                    </a>
-                  </td>
-                </tr>
                 <tr>
                   <td valign="top" style="font-size: 0; line-height:0;">
                     <a href="{{/FEATURE_LINK/}}?utm_source=betterrecipes&utm_medium=newsletter&utm_campaign=SimpleRecipes&utm_content=feature_image">
