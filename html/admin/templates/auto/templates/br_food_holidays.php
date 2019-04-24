@@ -28,8 +28,8 @@
         <table border="0" cellpadding="0" cellspacing="0">
           <tr>
             <td width="728" height="50" style="font-size: 0; line-height: 0;">
-              <a href="http://www.betterrecipes.com/?utm_source=betterrecipes&utm_medium=newsletter&utm_campaign=SimpleRecipes&utm_content=logo_image">
-                <img src="http://suite24.emarsys.net/custloads/785861579/Brand_assets/BetterRecipes/br.banner.food_holidays.jpg" alt="Simple Recipes From BetterRecipes.com" style="display: block; width: 100%">
+              <a href="http://www.betterrecipes.com/?utm_source=betterrecipes&utm_medium=newsletter&utm_campaign=FoodHolidays&utm_content=logo_image">
+                <img src="http://suite24.emarsys.net/custloads/785861579/Brand_assets/BetterRecipes/br.banner.food_holidays.jpg" alt="Food Holidays From BetterRecipes.com" style="display: block; width: 100%; max-width:640px;margin: auto;">
               </a>
             </td>
           </tr>
